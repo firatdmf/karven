@@ -396,6 +396,12 @@ git branch -M main
 git remote add origin https://github.com/firatdmf/karven.git
 git push -u origin main
 
+----
+to pull from github
+-> entire thing (new)
+git clone https://github.com/firatdmf/karven.git
 
-
-frontend/src/assets/karvenFooter.mp4
+-> just the changes 
+git fetch origin
+git checkout main
+git merge origin/main
