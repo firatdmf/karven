@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+.about {
+  color: #151948;
+}
+/* .about h1, .about h2, .about h3{
+    font-weight: normal;
+} */
+.about h1,
+.about h2,
+.about h3 {
+  font-family: "Tenor Sans", sans-serif;
+  /* margin-bottom:5%; */
+  font-weight: normal;
+}
+.about .video {
+  position: relative;
+  height: 60vh;
+  margin: 2% 0;
+}
+.about .videoItself {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.about .separatorHeadline {
+  text-align: center;
+  font-weight: normal;
+}
+
+.about .headText {
+  /* position: absolute; */
+  /* height: 80%; */
+  background-color: white;
+  /* width: 25%;
+  bottom: 3%;
+  right: 5%;
+  padding: 1.8%; */
+  line-height: 1.4rem;
+  font-size: 1.2rem;
+  text-align: center;
+  padding:2% 5%;
+  margin:2% 5%;
+  border: 2px dashed rgba(0,0,0,0.3);
+}
+
+.about .gridContainer {
+  display: grid;
+  /* max-width: 960px; */
+  margin: 5% 9%;
+  /* padding: 0.1%; */
+  gap: 2vh;
+  /* grid-template-columns: repeat(auto-fit,minmax(100px,1fr)); */
+  /* grid-template-columns: 1fr 0.4fr 1fr; */
+  grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+  overflow: hidden;
+  font-size: large;
+  font-weight: lighter;
+}
+
+.about .gridContainer > div {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px dashed black; */
+  padding: 1%;
+  justify-content: center;
+}
+
+.about .textCenter {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.about .gridContainer .span2 {
+  grid-column: span 2;
+}
+
+
+.about .area3 .images {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+
+  height: 40vh;
+  overflow: hidden;
+}
+
+.about .area3 img {
+  position: absolute;
+  height: auto;
+}
+.about .area3 .image1 {
+  width: 50%;
+  z-index: 1;
+  top: 10%;
+  left: 10%;
+}
+.about .area3 .image2 {
+  z-index: 0;
+  width: 50%;
+  right: 0;
+}
+.about .area4 {
+  text-align: end;
+}
+.gridContainer img {
+  width: 100%;
+  height: auto;
+}
+.about .area8{
+    text-align: end;
+}
+.about .area12{
+  text-align: end;
+}
+.about .area13{
+  grid-column: span 3;
+  text-align: center;
+  grid-row:6;
+}
+
+.about .video2 {
+  position: relative;
+  height: 60vh;
+  background-color: grey;
+  margin: 2% 0;
+}
+
+.about .video2 .text {
+  position: absolute;
+  width: 25%;
+  top: 3%;
+  right: 5%;
+  background-color: white;
+  padding: 1.8%;
+  line-height: 1.4rem;
+  font-size: 1.1rem;
+}
+

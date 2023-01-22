@@ -1,0 +1,42 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+// import FabricUpload from "./pages/FabricUpload";
+import FabricDisplay from "./pages/FabricsDisplay";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Contact from "./pages/Contact";
+import About from "./pages/About"
+import Trial from "./Trial";
+import Fabrics from "./pages/Fabrics";
+
+function App() {
+  return (
+    <>
+      <Router>
+        <div className="container">
+          <Header />
+          {/* You cannot have anything within the Routes tag except the Routes */}
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/login" element= {<Login />} />
+            <Route path="/register" element={<Register />} />
+            {/* <Route path="/fabricUpload" element={<FabricUpload />} /> */}
+            <Route path="/fabricdisplay" element={<FabricDisplay />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/trial" element={<Trial />} />
+            <Route path="/fabrics" element={<Fabrics />} />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
+      <ToastContainer />
+    </>
+  );
+}
+
+export default App;

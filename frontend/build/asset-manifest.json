@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.35504a4d.css",
+    "main.js": "/static/js/main.9cfcbd99.js",
+    "static/media/karven.mp4": "/static/media/karven.92394ea14cafac3f35fa.mp4",
+    "static/media/fabric4.jpg": "/static/media/fabric4.418c81c574831d1ee44b.jpg",
+    "static/media/asdasd.jpg": "/static/media/asdasd.aedd6906a32c938419c1.jpg",
+    "static/media/first.jpg": "/static/media/first.aedd6906a32c938419c1.jpg",
+    "static/media/fabric2.jpg": "/static/media/fabric2.78f9362f8aefd4dbf132.jpg",
+    "static/media/fabric10.jpg": "/static/media/fabric10.db82b9aa3bfea35b7392.jpg",
+    "static/media/fabric6.jpg": "/static/media/fabric6.7e7773251f59e24634b2.jpg",
+    "static/media/fabric7.jpg": "/static/media/fabric7.c0c380f8e108bc54da43.jpg",
+    "static/media/fabric5.jpg": "/static/media/fabric5.e56f04c3f37b6afcf34f.jpg",
+    "static/media/fabric9.jpg": "/static/media/fabric9.943cc39654ec2271169d.jpg",
+    "static/media/fabric8.jpg": "/static/media/fabric8.9824293c25f44b78f3a3.jpg",
+    "static/media/fabric3.jpg": "/static/media/fabric3.b1af1faa7cef13f29c5b.jpg",
+    "static/media/embroideryCover.jpg": "/static/media/embroideryCover.748e8b48ca476564aa44.jpg",
+    "static/media/karvenLogo.png": "/static/media/karvenLogo.b6be8f78742d2addbeda.png",
+    "static/media/storeFrontPic.jpg": "/static/media/storeFrontPic.94ac320e794a71008917.jpg",
+    "index.html": "/index.html",
+    "static/media/desktop.ini": "/static/media/desktop.5dc0e571b1ff71bbacf1.ini",
+    "main.35504a4d.css.map": "/static/css/main.35504a4d.css.map",
+    "main.9cfcbd99.js.map": "/static/js/main.9cfcbd99.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35504a4d.css",
+    "static/js/main.9cfcbd99.js"
+  ]
+}

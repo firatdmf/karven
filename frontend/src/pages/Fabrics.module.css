@@ -1,0 +1,39 @@
+.productCategories {
+  display: flex;
+  justify-content: center;
+}
+
+.productCategories .image {
+  height: 300px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.productCategories .title {
+  background-color: #0a1629;
+  color: white;
+  text-align: center;
+  color: #d09d34;
+}
+.productCategories .a:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.productCategories > *{
+    margin:20px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 5%;
+  margin: 2% 20%;
+  border-radius: 5px;
+  background: black;
+  color: #d09d34;
+  font-size: 1.3rem;
+}

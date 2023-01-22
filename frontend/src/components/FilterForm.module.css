@@ -1,0 +1,11 @@
+.filterCategories{
+    margin-top:10px;
+    display:flex;
+    row-gap:6px;
+    flex-flow: column wrap;
+  
+  }
+
+button:active{
+  color:red;
+}
