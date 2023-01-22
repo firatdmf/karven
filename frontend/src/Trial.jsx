@@ -1,6 +1,7 @@
 import React from 'react'
 // import classes from './Trial.module.css'
 import "./Trial.css"
+import FabricDisplay from './components/FabricDisplay'
 
 function Trial() {
 
@@ -71,7 +72,9 @@ function Trial() {
     // ]
     
   return (
-    <div>asdsads</div>
+    <>
+    <FabricDisplay/>
+    </>
   )
 }
 

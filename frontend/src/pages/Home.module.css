@@ -48,11 +48,11 @@
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 2%;
-} */
+}
 
-/* --------------------- */
-/* The below is karven.ru good display of grid */
-/* .dynamicContainer {
+
+The below is karven.ru good display of grid
+.dynamicContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 3% 13%;
@@ -127,11 +127,10 @@
 .catalogButton:hover {
   cursor: pointer;
   border: 1px dashed black;
-} */
+}
 
-/* ---------------------------- */
-/* The below is for trying the image and circles around part from karven.ru */
-/* .goodPart {
+The below is for trying the image and circles around part from karven.ru
+.goodPart {
   position: relative;
   border: 3px solid black;
 }
@@ -206,8 +205,8 @@
   position: absolute;
   top:80%;
   right:30%;
-} */
-/* .dashboardImages{
+}
+.dashboardImages{
   margin-top:2%;
 }
 
@@ -239,32 +238,33 @@
   position: absolute;
   bottom:5%;
 
-} */
+}
 
-/* .slider{
+.slider{
   margin-top:2%;
-} */
+}
 
-/* .video {
+.video {
   padding: 0;
   margin: 0;
   margin-top: 1rem;
 } */
 
-.set1 {
+.grid1 {
   padding: 5vh 10vw;
   display: grid;
   grid-template-areas:
-    "newArrivals sheers"
-    "newArrivals blackout";
+    "newArrivals upholstery"
+    "newArrivals drapery";
   grid-template-columns: 4fr 2fr;
   grid-template-rows: 200px 200px;
   gap: 2vw;
 }
-.set1 > * {
+
+
+.grid1>* {
   position: relative;
   display: flex;
-  /* padding:2%; */
   overflow: hidden;
 }
 
@@ -274,61 +274,232 @@
   padding: 2%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
 .grid1 .button {
   padding: 5px 30px;
   background-color: #d09d34;
+  text-align: center;
 }
+
 .grid1 .button:hover {
   cursor: pointer;
 }
+
 .grid1 {
   color: white;
 }
+
 .grid1 h1 {
   color: #d09d34;
 }
 
 .newArrivals {
-  background: grey;
   grid-area: newArrivals;
 }
-.sheers {
-  background: red;
-  grid-area: sheers;
-  /* align-items: flex-end; */
+
+.drapery {
+  grid-area: drapery;
 }
 
-/* .sheers .image{
-  position: relative;
-} */
-.sheers {
-  background: url("../../public/images/fabrics/sheer-curtain-fabric-rolled-cover-image-model-3022.jpg")
-    no-repeat;
+.drapery {
+  background: url("../../public/images/fabrics/sheer-curtain-fabric-rolled-cover-image-model-3022.jpg") no-repeat;
   background-position: top;
   background-size: 130%;
 }
 
 .newArrivals {
-  background: url("../../public/images/cover/blackout-drapery-fabric2.jpg")
-    no-repeat;
+  background: url("../../public/images/cover/blackout-drapery-fabric2.jpg") no-repeat;
   background-size: cover;
   background-position: top;
-  font-weight: bold;
 }
 
-.blackout {
-  background: url("../../public/images/cover/blackout-drapery-fabric.jpg") no-repeat;
+.upholstery {
+  background: url("../../public/images/cover/zeugma.jpg") no-repeat;
+  background-size: 309%;
+  background-position: top;
+  grid-area: upholstery;
+}
+
+
+
+.grid2 {
+  padding: 5vh 10vw;
+
+}
+
+.grid2 .haliflex{
+  display:flex;
+  height:200px;
+  gap:2vw;
+}
+
+.grid2 .haliflex .printed, .grid2 .haliflex .woven{
+  border:1px solid black;
+  width: 50%;
+}
+
+.grid2 .haliflex >*{
+  position: relative;
+}
+
+.grid2 .content {
+  color:white;
+  position: absolute;
+  bottom: 0;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.grid2 .button {
+  padding: 5px 30px;
+  background-color: #d09d34;
+  text-align: center;
+}
+
+.grid2 .button:hover {
+  cursor: pointer;
+}
+
+
+.grid2 .woven {
+  background: url("https://images.pexels.com/photos/7314471/pexels-photo-7314471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
+  background-size: cover;
+  background-position: center;
+  grid-area: upholstery;
+}
+
+.grid2 .printed {
+  background: url("https://furnishmyplace.com/wp-content/uploads/2021/09/516-Dark-Grey-1-scaled.jpg") no-repeat;
+  background-size: 120%;
+  background-position: center;
+  grid-area: upholstery;
+}
+
+.grid3{
+  padding: 5vh 10vw;
+}
+
+.bedding {
+  height:200px;
+  border: 1px solid black;
+  position: relative;
+  background: url("https://images.pexels.com/photos/6207825/pexels-photo-6207825.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
   background-size: cover;
   background-position: bottom;
-  grid-area: blackout;
+}
+.bedding .content{
+  color:white;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  padding: 0.5%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.productView {
+
+
+.rutgersIE {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 5vh 10vw;
+  column-gap: 10%;
+  row-gap: 5vh;
+}
+
+.rutgersIE .icon {
+  width: 10;
+  height: auto;
+  opacity: 0.8;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-right: 10%;
+  margin-right: 6%;
+}
+
+.rutgersIE .icon:hover {
+  opacity: 1;
+}
+
+.rutgersIE .icon1 {
+  background-image: url("https://secureservercdn.net/198.71.190.114/f4w.9ab.myftpupload.com/wp-content/uploads/2019/06/design.png?time=1663734095");
+}
+
+.rutgersIE .icon2 {
+  background-image: url("https://secureservercdn.net/198.71.190.114/f4w.9ab.myftpupload.com/wp-content/uploads/2019/06/6sigma-dmaic.png?time=1663734095");
+}
+
+.rutgersIE .icon3 {
+  background-image: url("https://secureservercdn.net/198.71.190.114/f4w.9ab.myftpupload.com/wp-content/uploads/2019/06/supply-chain-management-icon-png-3-200x200.png?time=1663734095");
+}
+
+.rutgersIE .icon4 {
+  background-image: url("https://secureservercdn.net/198.71.190.114/f4w.9ab.myftpupload.com/wp-content/uploads/2019/06/connect.png?time=1663734095");
+}
+
+.rutgersIE .icon5 {
+  background-image: url("https://secureservercdn.net/198.71.190.114/f4w.9ab.myftpupload.com/wp-content/uploads/2019/06/store.png?time=1663734095");
+}
+
+.rutgersIE .icon6 {
+  background-image: url("https://secureservercdn.net/198.71.190.114/f4w.9ab.myftpupload.com/wp-content/uploads/2019/06/support-icon.png?time=1663734095");
+}
+
+.descriptionItem {
+  display: flex;
+}
+
+.rutgersIE .descriptionItem h2 {
+  margin-bottom: 3%;
+}
+
+.rutgersIE .descriptionItem {
+  line-height: 1.9rem;
+}
+
+/* .queries {
+  display: grid;
+  column-gap: 20vh;
+  row-gap: 2vh;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  background: black;
+  color: white;
+  align-items: center;
+  padding: 2%;
+  text-align: center;
+}
+
+.queries .number {
+  color: black;
+  padding: 5% 0;
+  background-color: #d19e25;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: center;
+  white-space: nowrap;
+  font-size: calc(15px + 0.390625vw);
+  font-weight: 900;
+  letter-spacing: 0.4rem;
+}
+
+.queries .number:hover {
+  font-size: 1rem;
+} */
+
+.certifications {
+  display: flex;
+  background-color: #d19e25;
+  justify-content: center;
+  padding: 0.5% 0;
+}
+
+/* .productView {
   padding: 0 2%;
   margin-top: 5%;
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  grid-template-columns: repeat(auto-fit,minmax(max(195px,44vw),2fr)); */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
@@ -378,88 +549,4 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.grid2 {
-  display: grid;
-  /* grid-template-columns: 1fr 1fr 1fr; */
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  padding: 5% 10%;
-  column-gap: 10%;
-  row-gap: 5vh;
-}
-
-.grid2 .icon {
-  width: 10;
-  height: auto;
-  opacity: 0.8;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-right: 10%;
-  margin-right: 6%;
-}
-.grid2 .icon:hover {
-  opacity: 1;
-}
-
-.grid2 .icon1 {
-  background-image: url("https://secureservercdn.net/198.71.190.114/f4w.9ab.myftpupload.com/wp-content/uploads/2019/06/design.png?time=1663734095");
-}
-
-.grid2 .icon2 {
-  background-image: url("https://secureservercdn.net/198.71.190.114/f4w.9ab.myftpupload.com/wp-content/uploads/2019/06/6sigma-dmaic.png?time=1663734095");
-}
-.grid2 .icon3 {
-  background-image: url("https://secureservercdn.net/198.71.190.114/f4w.9ab.myftpupload.com/wp-content/uploads/2019/06/supply-chain-management-icon-png-3-200x200.png?time=1663734095");
-}
-.grid2 .icon4 {
-  background-image: url("https://secureservercdn.net/198.71.190.114/f4w.9ab.myftpupload.com/wp-content/uploads/2019/06/connect.png?time=1663734095");
-}
-.grid2 .icon5 {
-  background-image: url("https://secureservercdn.net/198.71.190.114/f4w.9ab.myftpupload.com/wp-content/uploads/2019/06/store.png?time=1663734095");
-}
-.grid2 .icon6 {
-  background-image: url("https://secureservercdn.net/198.71.190.114/f4w.9ab.myftpupload.com/wp-content/uploads/2019/06/support-icon.png?time=1663734095");
-}
-
-.descriptionItem {
-  display: flex;
-}
-
-.grid2 .descriptionItem h2 {
-  margin-bottom: 3%;
-}
-
-.grid2 .descriptionItem {
-  line-height: 1.9rem;
-}
-
-.queries {
-  display: grid;
-  column-gap: 20vh;
-  row-gap: 2vh;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  background: black;
-  color: white;
-  align-items: center;
-  padding: 2%;
-  text-align: center;
-}
-
-.queries .number {
-  color: black;
-  padding: 5% 0;
-  background-color: #d19e25;
-  border-radius: 2rem;
-  align-items: center;
-  justify-content: flex-end;
-  text-align: center;
-  white-space: nowrap;
-  font-size: calc(15px + 0.390625vw);
-  font-weight: 900;
-  letter-spacing: 0.4rem;
-}
-
-.queries .number:hover {
-  font-size: 1rem;
-}
+} */

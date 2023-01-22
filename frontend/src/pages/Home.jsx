@@ -117,7 +117,7 @@ function Home() {
       {/* <div className={classes.dashboardImages}>
         <div className={classes.image1}>
           <div className={classes.text}>
-            <h3>Solid Sheers</h3>
+            <h3>Solid drapery</h3>
             <p>Quickship Feature in just 4 weeks</p>
             <p>--------------------</p>
             <p>SHOP NOW</p>
@@ -126,7 +126,7 @@ function Home() {
         <div className={classes.image2}>
 
           <div className={classes.text}>
-            <h3>Embroidered Sheers</h3>
+            <h3>Embroidered drapery</h3>
             <p>Quickship Feature in just 4 weeks</p>
             <p>--------------------</p>
             <p>SHOP NOW</p>
@@ -159,32 +159,56 @@ function Home() {
       </div> */}
 
       <div className={classes.grid1}>
-        <div className={classes.set1}>
-          <div className={classes.newArrivals}>
-            <div className={classes.content}>
-              <h1>New Arrivals</h1>
-              <p>
-                Explore the newest and most modern fabrics that have been
-                included in our meticulously curated collection.
-              </p>
-            </div>
+        <div className={classes.newArrivals}>
+          <div className={classes.content}>
+            <h1>New Arrivals</h1>
+            <p>
+              Explore the newest and most modern fabrics that have been
+              included in our meticulously curated collection.
+            </p>
+            <div className={classes.button}>View Now</div>
           </div>
-          <div className={classes.sheers}>
-            <div className={classes.content}>
-              <h1>Sheers</h1>
-              <div className={classes.button}>View Now</div>
-            </div>
+        </div>
+        <div className={classes.upholstery}>
+          <div className={classes.content}>
+            <h1>Upholstery</h1>
+            <div className={classes.button}>View Now</div>
           </div>
-          <div className={classes.blackout}>
-            <div className={classes.content}>
-              <h1>Blackout</h1>
-              <div className={classes.button}>View Now</div>
-            </div>
+        </div>
+        <div className={classes.drapery}>
+          <div className={classes.content}>
+            <h1>Drapery</h1>
+            <div className={classes.button}>View Now</div>
           </div>
         </div>
       </div>
 
+
       <div className={classes.grid2}>
+        <h1>New! Turkish Rugs</h1>
+        <p>We are proud to announce that we now carry rugs and carpets.</p>
+        <div className={classes.haliflex}>
+          <div className={classes.woven}>
+            <div className={classes.content}><h1>Woven</h1>
+              <div className={classes.button}>View Now</div></div>
+          </div>
+          <div className={classes.printed}>
+            <div className={classes.content}><h1>Printed</h1>
+              <div className={classes.button}>View Now</div></div>
+          </div>
+        </div>
+      </div>
+
+      <div className={classes.grid3}><div className={classes.bedding}>
+        <div className={classes.content}>
+          <h1>Bedding</h1>
+          <div className={classes.button}>View Now</div>
+        </div>
+      </div></div>
+
+
+
+      <div className={classes.rutgersIE}>
         <div className={`${classes.design} ${classes.descriptionItem}`}>
           <div className={`${classes.icon1} ${classes.icon}`}></div>
           <div className={classes.content}>
@@ -234,6 +258,10 @@ function Home() {
             We provide 24/7 customer support line.
           </div>
         </div>
+      </div>
+
+      <div className={classes.certifications}>
+        <p>Global Recycled Standard | NPFA 701 | GOTS | OEKO TEX</p>
       </div>
 
       {/* <div className={classes.queries}>

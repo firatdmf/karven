@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    margin: 5vh 10vw;
+    /* border:4px dashed rgba(0,0,0,0.4); */
+    height:50vh;
+}
+
+.container .image, .container .info{
+    /* border:3px dashed rgba(0,0,0,0.4); */
+    width: 50%;
+    margin: 1vw;
+    padding:1vw;
+}
+
+/* .separator{
+    border:1px solid rgba(0,0,0,0.4);
+    margin: 1% 0;
+} */
+
+.info ul{
+    list-style: none;
+    margin-top:5%;
+}
+
+.info ul li {
+    padding:1.5%;
+}
