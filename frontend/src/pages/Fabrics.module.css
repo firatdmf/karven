@@ -37,3 +37,7 @@ img {
   color: #d09d34;
   font-size: 1.3rem;
 }
+
+.title h2:hover{
+  cursor: pointer;
+}
