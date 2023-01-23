@@ -1,54 +1,101 @@
-// import { Link, useNavigate } from "react-router-dom";
-import { useState } from "react";
+import FabricItem from "../components/FabricItem";
+import { getFabrics } from "../features/fabrics/fabricSlice";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
+import { reset } from "../features/auth/authSlice";
+import Spinner from "../components/Spinner";
 import classes from "./Fabrics.module.css";
-import ClassicSheers from "../components/ClassicSheers";
+import FilterForm from "../components/FilterForm";
+// import { motion, AnimatePresence } from "framer-motion";
+
 function Fabrics() {
-  const whatKind = (e) => {
-    let fabricType = e.target.getAttribute("value");
-    console.log(fabricType);
-    setWhatKindClicked(fabricType)
-  };
-  const [whatKindClicked, setWhatKindClicked] = useState("");
+  const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const { user } = useSelector((state) => state.auth);
+  const { fabrics, isLoading, isError, message } = useSelector(
+    (state) => state.fabrics
+  );
+
+  // const [filtered, setFiltered] = useState([])
+  // const [activeGenre, setActiveGenre] = useState("")
+  const [selectedOrigin, setSelectedOrigin] = useState({
+    "United States": false,
+    Italy: false,
+  });
+  const [selectedEndUse, setSelectedEndUse] = useState({
+    drapery: false,
+    upholstery: false,
+    multipurpose: false,
+  });
+  const [allStates, setAllStates] = useState({
+    selectedEndUse,
+    selectedOrigin,
+  });
+  const [filteredFabrics, setFilteredFabrics] = useState({});
+  // const [draperyChecked, setDraperyChecked] = useState(false);
+  // const [upholsteryChecked, setUpholsteryChecked] = useState(false);
+  // const [multipurposeChecked, setMultipurposeChecked] = useState(false);
+
+  useEffect(() => {
+    if (isError) {
+      console.log(message);
+    }
+    if (!user) {
+      navigate("/login");
+    }
+    dispatch(getFabrics());
+    //that will fetch the goals from the backend and put it in the const variable goals that we created at the top so we have access to it
+
+    //now when we leave the dashboard we want the goals to clear so..
+    return () => {
+      dispatch(reset());
+    };
+  }, [user, navigate, isError, message, dispatch]);
+
+  if (isLoading) {
+    return <Spinner />;
+  }
+
   return (
     <>
-      <div className={classes.description}>
-        <p>All our fabrics are 300 cm wide, and made in Turkey. </p>
-        <p>We can provide any color combination on any embroidery design</p>
+      <div className={classes.bread}>
+        Home <span style={{ fontSize: "10px" }}>{">"}</span> Fabrics
       </div>
-
-      <div className={classes.productCategories}>
-        <div className={classes.embroidery}>
-          <div className={classes.image}>
-            <img
-              src="https://i.etsystatic.com/29145365/r/il/7a8d95/3434121151/il_570xN.3434121151_gp0v.jpg"
-              alt=""
-            />
-          </div>
-          <div className={classes.title}>
-            <h2 onClick={whatKind} value="classic">
-              Embroidery Sheers
-            </h2>
-          </div>
+      <section className={classes.container}>
+        <div className={classes.cover}>
+          <div className={classes.headlineBox}>Fabric</div>
+        </div>
+        <div className={classes.filter}>
+          <FilterForm
+            fabrics={fabrics}
+            selectedOrigin={selectedOrigin}
+            setSelectedOrigin={setSelectedOrigin}
+            // draperyChecked={draperyChecked}
+            // setDraperyChecked={setDraperyChecked}
+            // upholsteryChecked={upholsteryChecked}
+            // setUpholsteryChecked={setUpholsteryChecked}
+            // multipurposeChecked={multipurposeChecked}
+            // setMultipurposeChecked={setMultipurposeChecked}
+            selectedEndUse={selectedEndUse}
+            setSelectedEndUse={setSelectedEndUse}
+            setFilteredFabrics={setFilteredFabrics}
+            allStates={allStates}
+            setAllStates={setAllStates}
+          />
         </div>
 
-        <div className={classes.solid}>
-          <div className={classes.image}>
-            <img
-              src="https://cdn.shopify.com/s/files/1/0558/3725/products/SV570950-White-SheerVoile-A2-224-1X1_1000x.jpg?v=1655237926"
-              alt=""
-            />
+        {/* Now on the product display section */}
+        {filteredFabrics.length > 0 ? (
+          <div className={classes.fabrics}>
+            {filteredFabrics.map((fabric) => (
+                <FabricItem key={fabric._id} fabric={fabric} />
+            ))}
           </div>
-          <div className={classes.title}>
-            <h2 onClick={whatKind} value="solid">
-              Solid Sheers
-            </h2>
-          </div>
-        </div>
-      </div>
-
-
-
-      <div>{whatKindClicked ? <ClassicSheers whatKindClicked={whatKindClicked} /> : ""}</div>
+        ) : (
+          <h3>You have not set any fabric</h3>
+        )}
+      </section>
     </>
   );
 }

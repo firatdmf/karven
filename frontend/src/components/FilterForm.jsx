@@ -83,75 +83,75 @@ function FilterForm({
 
   return (
     <>
-      <div className={classes.filter}>
-        <h3>FILTER BY</h3>
-        <div className={classes.filterCategories}>
-          <div className={classes.endUse}>
-            END USE
-            <button name="selectedEndUse" value="reset" onClick={checkHandle}>
-              x Clear Filter
-            </button>
-            <br />
-            <label htmlFor="drapery">Drapery</label>
-            <input
-              name="selectedEndUse"
-              value="drapery"
-              type="checkbox"
-              checked={allStates.selectedEndUse.drapery}
-              onChange={checkHandle}
-            />
-            <label htmlFor="upholstery">Upholstery</label>
-            <input
-              name="selectedEndUse"
-              value="upholstery"
-              type="checkbox"
-              checked={allStates.selectedEndUse.upholstery}
-              onChange={checkHandle}
-            />
-            <label htmlFor="multipurpose">Multipurpose</label>
-            <input
-              name="selectedEndUse"
-              value="multipurpose"
-              type="checkbox"
-              checked={allStates.selectedEndUse.multipurpose}
-              onChange={checkHandle}
-            />
-          </div>
-          <div className={classes.type}>TYPE</div>
-          <div className={classes.durability}>DURABILITY RANGE</div>
-
-          <div className={classes.collection}>COLLECTION</div>
-          <div className={classes.origin}>
-            Origin
-            <button name="selectedOrigin" value="reset" onClick={checkHandle}>
-              x Clear Filter
-            </button>
-            <label htmlFor="United States">United States</label>
-            <input
-              name="selectedOrigin"
-              value="United States"
-              type="checkbox"
-              checked={allStates.selectedOrigin["United States"]}
-              onChange={checkHandle}
-            />
-            <label htmlFor="Italy">Italy</label>
-            <input
-              name="selectedOrigin"
-              value="Italy"
-              type="checkbox"
-              checked={allStates.selectedOrigin["Italy"]}
-              onChange={checkHandle}
-            />
-          </div>
-
-          <div className={classes.additional}>ADDITIONAL OPTIONS</div>
-          <div className={classes.productStatus}>PRODUCT STATUS</div>
-          <div className={classes.care}>CARE</div>
-          <div className={classes.flammability}>FLAMMABILITY</div>
-          <div className={classes.performance}>PERFORMANCE</div>
-          <div className={classes.properties}>PROPERTIES</div>
-          <div className={classes.sustainability}>SUSTAINABILITY</div>
+      <h3>FILTER BY</h3>
+      <div className={classes.filterCategories}>
+        <button name="selectedEndUse" value="reset" onClick={checkHandle}>
+          x Clear Filter
+        </button>
+        <div className={classes.endUse}>
+          END USE
+          <br />
+          <label htmlFor="drapery">Drapery</label>
+          <input
+            name="selectedEndUse"
+            id="drapery"
+            value="drapery"
+            type="checkbox"
+            checked={allStates.selectedEndUse.drapery}
+            onChange={checkHandle}
+          />
+          <label htmlFor="upholstery">Upholstery</label>
+          <input
+            name="selectedEndUse"
+            value="upholstery"
+            type="checkbox"
+            checked={allStates.selectedEndUse.upholstery}
+            onChange={checkHandle}
+          />
+          <label htmlFor="multipurpose">Multipurpose</label>
+          <input
+            name="selectedEndUse"
+            value="multipurpose"
+            type="checkbox"
+            checked={allStates.selectedEndUse.multipurpose}
+            onChange={checkHandle}
+          />
         </div>
+        <div className={classes.type}>TYPE</div>
+        <div className={classes.durability}>DURABILITY RANGE</div>
+
+        <div className={classes.collection}>COLLECTION</div>
+
+        <div className={classes.origin}>
+          Origin{" "}
+          <button name="selectedOrigin" value="reset" onClick={checkHandle}>
+            x Clear Filter
+          </button>
+          <label htmlFor="United States">United States</label>
+          <input
+            name="selectedOrigin"
+            value="United States"
+            type="checkbox"
+            checked={allStates.selectedOrigin["United States"]}
+            onChange={checkHandle}
+          />
+          <label htmlFor="Italy">Italy</label>
+          <input
+            name="selectedOrigin"
+            value="Italy"
+            type="checkbox"
+            checked={allStates.selectedOrigin["Italy"]}
+            onChange={checkHandle}
+          />
+        </div>
+
+        <div className={classes.additional}>ADDITIONAL OPTIONS</div>
+        <div className={classes.productStatus}>PRODUCT STATUS</div>
+        <div className={classes.care}>CARE</div>
+        <div className={classes.flammability}>FLAMMABILITY</div>
+        <div className={classes.performance}>PERFORMANCE</div>
+        <div className={classes.properties}>PROPERTIES</div>
+        <div className={classes.sustainability}>SUSTAINABILITY</div>
       </div>
     </>
   );

@@ -75,12 +75,12 @@
   background-color: beige;
   height:20vh;
 } */
-input:not(.contactWay input) {
+.contact input:not(.contactWay input) {
   width: 100%;
   height: 3%;
 }
 
-.col2 input {
+.contact .col2 input {
   padding: 15px 10px;
   line-height: 20%;
   margin-bottom: 20px;

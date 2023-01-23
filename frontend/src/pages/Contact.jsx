@@ -2,7 +2,7 @@ import classes from "./Contact.module.css";
 
 function Contact() {
   return (
-    <>
+    <div className={classes.contact}>
       <div className={classes.firstPart}>
         <div className={`${classes.map} ${classes.item}`}>
           <h2>Contact Us</h2>
@@ -57,7 +57,7 @@ function Contact() {
           <div className={classes.image}></div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

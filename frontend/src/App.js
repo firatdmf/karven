@@ -5,7 +5,6 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 // import FabricUpload from "./pages/FabricUpload";
-import FabricDisplay from "./pages/FabricsDisplay";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
@@ -25,11 +24,10 @@ function App() {
             <Route path="/login" element= {<Login />} />
             <Route path="/register" element={<Register />} />
             {/* <Route path="/fabricUpload" element={<FabricUpload />} /> */}
-            <Route path="/fabricdisplay" element={<FabricDisplay />} />
+            <Route path="/fabrics" element={<Fabrics />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/trial" element={<Trial />} />
-            <Route path="/fabrics" element={<Fabrics />} />
           </Routes>
           <Footer />
         </div>
