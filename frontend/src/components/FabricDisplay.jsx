@@ -1,4 +1,5 @@
 import classes from "./FabricDisplay.module.css";
+import { useLocation } from "react-router-dom";
 function FabricDisplay() {
   function imageZoom(imgID, resultID) {
     var img, lens, result, cx, cy;
@@ -66,15 +67,19 @@ function FabricDisplay() {
       return { x: x, y: y };
     }
   }
-  let imgUrl = "images/fabrics/1002.jpg";
+  const location = useLocation();
+  const {from} = location.state;
+  // console.log(from);
+  let sku = from.sku;
+  const imgUrl = require(`../assets/fabricImages/${from.img}`);
   let width = 120;
   let application = "Drapery";
   let unit = "inches";
   let origin = "Turkey";
   let type = "Sheer";
   let theme ='Classic';
-  let SKU = 'K12471';
-  let Name = SKU;
+  let SKU = sku;
+  let name = from.name;
   return (
     <>
       <div className={classes.container}>
@@ -83,7 +88,7 @@ function FabricDisplay() {
         </div>
         <div className={classes.separator}></div>
         <div className={classes.info}>
-          <h1>{SKU}</h1>
+          <h1>{name}</h1>
           <ul>
             <li>
               <b>SKU: </b>

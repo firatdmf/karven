@@ -2,6 +2,7 @@ import React from 'react'
 // import classes from './Trial.module.css'
 import "./Trial.css"
 import ClassicSheers from "./components/ClassicSheers"
+import FabricDisplay from './components/FabricDisplay'
 
 function Trial() {
 
@@ -73,7 +74,8 @@ function Trial() {
     
   return (
     <>
-    <ClassicSheers/>
+    {/* <ClassicSheers/> */}
+    <FabricDisplay/>
     </>
   )
 }
