@@ -15,7 +15,15 @@ function FabricItem({ fabric }) {
   return (
     <>
       <div className={classes.card}>
-        <Link to="/trial" state={{from:{sku:fabric.sku,name:fabric.name,img:fabric.imageFileName}}}>
+        {/* <Link to="/trial" state={{from:{sku:fabric.sku,name:fabric.name,img:fabric.imageFileName}}}> */}
+        <Link
+          to="/trial"
+          state={{
+            from: {
+              fabric:fabric,
+            },
+          }}
+        >
           <div className={classes.picture}>
             <img className={classes.avatar} src={imageDir} alt="" />
           </div>

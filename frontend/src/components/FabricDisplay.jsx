@@ -67,63 +67,76 @@ function FabricDisplay() {
       return { x: x, y: y };
     }
   }
+
+  function capitalize(s) {
+    return s && s[0].toUpperCase() + s.slice(1);
+  }
   const location = useLocation();
-  const {from} = location.state;
-  // console.log(from);
-  let sku = from.sku;
-  const imgUrl = require(`../assets/fabricImages/${from.img}`);
-  let width = 120;
-  let application = "Drapery";
+  const { from } = location.state;
+  let fabric = from.fabric;
+  const imgUrl = require(`../assets/fabricImages/${fabric.imageFileName}`);
   let unit = "inches";
-  let origin = "Turkey";
   let type = "Sheer";
-  let theme ='Classic';
-  let SKU = sku;
-  let name = from.name;
+  let theme = "Classic";
   return (
     <>
       <div className={classes.container}>
         <div className={classes.image}>
           <img src={imgUrl} alt="" />
         </div>
-        <div className={classes.separator}></div>
         <div className={classes.info}>
-          <h1>{name}</h1>
+          <h1>{fabric.name}</h1>
           <ul>
             <li>
               <b>SKU: </b>
-              {SKU}
+              {fabric.sku}
             </li>
 
             <li className={classes.application}>
               <b>Application: </b>
-              {application}
+              {capitalize(fabric.endUse)}
             </li>
-            {application !== "Drapery" && (
+            {fabric.abrasionTest && (
               <li>
                 <b>Double Rubs: </b>
-                {"50,000"}
+                {fabric.abrasionTest.toLocaleString("en-US")}
               </li>
             )}
+
+            {fabric.type && (
+              <li>
+                <b>Type: </b>
+                {fabric.type}
+              </li>
+            )}
+
             <li>
-              <b>Type: </b>
-              {type}
+              <b>Theme: </b>
+              {theme}
             </li>
-            <li><b>Theme: </b>{theme}</li>
             <li>
               <b>Content: </b>
-              {"Polypropylene"}
+              {fabric.composition}
             </li>
             <li>
               <b>Width: </b>
-              {width + " " + unit}
+              {fabric.width +
+                " inches" +
+                " (" +
+                Math.round(fabric.width * 2.54) +
+                " cm)"}
             </li>
             <li>
               <b>Origin: </b>
-              {origin}
+              {fabric.origin}
             </li>
           </ul>
         </div>
+      </div>
+      <div className={classes.sampleRequest}>
+        <h1>Want a sample?</h1>
+        {/* <div className={classes.button}>Click here</div> */}
+        <p>Send an email to info@karvenhome.com with the SKU number above.</p>
       </div>
     </>
   );

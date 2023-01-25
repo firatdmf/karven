@@ -8,7 +8,7 @@ import { useEffect, useState } from "react";
 function ClassicSheers() {
  
   return (
-    <div className={classes.Products}>
+    <div className={classes.classicSheers}>
       <h1 className={classes.productCategory}>Fabrics</h1>
       <div className={classes.bigFlex}>
         {/* below is the filter code for later */}

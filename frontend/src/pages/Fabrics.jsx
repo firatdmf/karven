@@ -58,7 +58,7 @@ function Fabrics() {
   }
 
   return (
-    <>
+    <div className={classes.fabricsJSX}>
       <div className={classes.bread}>
         Home <span style={{ fontSize: "10px" }}>{">"}</span> Fabrics
       </div>
@@ -96,7 +96,7 @@ function Fabrics() {
           <h3>You have not set any fabric</h3>
         )}
       </section>
-    </>
+    </div>
   );
 }
 
