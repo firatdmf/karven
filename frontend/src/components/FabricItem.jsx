@@ -29,7 +29,11 @@ function FabricItem({ fabric }) {
           className={classes.link}
         >
           <div className={classes.picture}>
-            <img className={classes.avatar} src={imageDir} alt={"Image of the fabric: "+fabric.name} />
+            <img
+              className={classes.avatar}
+              src={imageDir}
+              alt={"Image of the fabric: " + fabric.name}
+            />
             {fabric.collectionName ? (
               <div className={classes.collectionName}>
                 <b>{fabric.collectionName}</b>

@@ -1,16 +1,24 @@
 .FabricItem .card {
-  /* border: black 1px dashed; */
-  margin: 10% 2%;
+  border: black 1px dashed;
+  /* margin: 10% 2%; */
+  overflow: hidden;
+  height: 90%;
+}
+
+.FabricItem .link{
+  height:100%;
 }
 
 .FabricItem .picture {
   position: relative;
   overflow: hidden;
-  /* background-color: black; */
+  height:75%;
+  width: 100%;
 }
 
 .FabricItem .picture img {
   object-fit: cover;
+  object-position: bottom;
   min-height: 100%;
   max-width: 100%;
 }
