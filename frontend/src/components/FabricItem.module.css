@@ -2,11 +2,12 @@
   border: black 1px dashed;
   /* margin: 10% 2%; */
   overflow: hidden;
-  height: 90%;
+  height: 100%;
 }
 
-.FabricItem .link{
-  height:100%;
+.FabricItem .card .link {
+  display: flex;
+  flex-direction: column;
 }
 
 .FabricItem .picture {

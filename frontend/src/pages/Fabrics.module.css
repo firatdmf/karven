@@ -62,9 +62,10 @@
   /* margin: 1vh; */
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  /* setting all the rows the same height */
   grid-auto-rows: 1fr;
   justify-items: center;
-  gap:0 1vw;
+  gap:3vh 3vw;
   /* background: #f1f1f1; */
   /* border: 1px dashed black; */
 }
