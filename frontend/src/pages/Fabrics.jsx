@@ -53,9 +53,9 @@ function Fabrics() {
     };
   }, [user, navigate, isError, message, dispatch]);
 
-  if (isLoading) {
-    return <Spinner />;
-  }
+  // if (isLoading) {
+  //   return <Spinner />;
+  // }
 
   return (
     <div className={classes.fabricsJSX}>
@@ -66,6 +66,7 @@ function Fabrics() {
         <div className={classes.cover}>
           <div className={classes.headlineBox}>Fabric</div>
         </div>
+        <div className={classes.headlineBox2}>Fabric</div>
         <div className={classes.filter}>
           <FilterForm
             fabrics={fabrics}
@@ -84,6 +85,7 @@ function Fabrics() {
             setAllStates={setAllStates}
           />
         </div>
+        <div className={classes.filter2}>asd</div>
 
         {/* Now on the product display section */}
         {filteredFabrics.length > 0 ? (

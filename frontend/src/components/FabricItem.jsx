@@ -2,7 +2,7 @@
 // import { motion } from "framer-motion";
 import { BsSuitHeart, BsSuitHeartFill } from "react-icons/bs";
 import classes from "./FabricItem.module.css";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 function FabricItem({ fabric }) {
   let heartIcon;
   const imageDir = require(`../assets/fabricImages/${fabric.imageFileName}`);
@@ -13,29 +13,37 @@ function FabricItem({ fabric }) {
     heartIcon = <BsSuitHeartFill title="Remove from favorites" />;
   }
   return (
-    <>
+    <div className={classes.FabricItem}>
       <div className={classes.card}>
         {/* <Link to="/trial" state={{from:{sku:fabric.sku,name:fabric.name,img:fabric.imageFileName}}}> */}
         <Link
-          to="/trial"
+          to="/fabricDisplay"
           state={{
             from: {
-              fabric:fabric,
+              fabric: fabric,
             },
           }}
+          onClick={() => {
+            window.scroll(0, 0);
+          }}
+          className={classes.link}
         >
           <div className={classes.picture}>
-            <img className={classes.avatar} src={imageDir} alt="" />
-          </div>
-          <div className={classes.collectionName}>
-            <b>{fabric.collectionName}</b>
+            <img className={classes.avatar} src={imageDir} alt={"Image of the fabric: "+fabric.name} />
+            {fabric.collectionName ? (
+              <div className={classes.collectionName}>
+                <b>{fabric.collectionName}</b>
+              </div>
+            ) : (
+              ""
+            )}
           </div>
           <div className={classes.productName}>{fabric.name}</div>
           <div className={classes.SKU}>{fabric.sku}</div>
           {heartIcon}
         </Link>
       </div>
-    </>
+    </div>
   );
 }
 

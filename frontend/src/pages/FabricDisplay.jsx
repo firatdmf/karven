@@ -1,5 +1,7 @@
 import classes from "./FabricDisplay.module.css";
 import { useLocation } from "react-router-dom";
+import Spinner from "../components/Spinner";
+import PageDoesNotExist from "../pages/PageDoesNotExist";
 function FabricDisplay() {
   function imageZoom(imgID, resultID) {
     var img, lens, result, cx, cy;
@@ -72,7 +74,11 @@ function FabricDisplay() {
     return s && s[0].toUpperCase() + s.slice(1);
   }
   const location = useLocation();
+  if (location.state == null) {
+    return <PageDoesNotExist/>
+  }
   const { from } = location.state;
+
   let fabric = from.fabric;
   const imgUrl = require(`../assets/fabricImages/${fabric.imageFileName}`);
   let unit = "inches";

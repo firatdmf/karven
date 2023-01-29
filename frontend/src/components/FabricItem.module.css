@@ -1,31 +1,33 @@
-.card {
-  border: black 1px dashed;
+.FabricItem .card {
+  /* border: black 1px dashed; */
   margin: 10% 2%;
 }
 
-.picture {
+.FabricItem .picture {
+  position: relative;
   overflow: hidden;
-  height: 282px;
-  width: auto;
-  background-color: black;
+  /* background-color: black; */
 }
 
-.picture img {
+.FabricItem .picture img {
+  object-fit: cover;
+  min-height: 100%;
   max-width: 100%;
-  max-height: auto;
-  object-fit: contain;
 }
 
-.collectionName {
+.FabricItem .collectionName {
+  position: absolute;
+  bottom:0;
+  width:100%;
   display: flex;
   background-color: black;
   color: white;
   align-items: center;
   justify-content: flex-end;
-  font-size: 0.8em;
+  font-size: 0.FabricItem .8em;
 }
 
-.link{
+.FabricItem .link{
   text-decoration: none;
   color:black;
 }

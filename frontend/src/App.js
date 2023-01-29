@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About"
 import Trial from "./Trial";
 import Fabrics from "./pages/Fabrics";
+import FabricDisplay from "./pages/FabricDisplay";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
             <Route path="/fabrics" element={<Fabrics />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/fabricDisplay" element={<FabricDisplay/>}/>
             <Route path="/trial" element={<Trial />} />
           </Routes>
           <Footer />
