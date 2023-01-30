@@ -1,0 +1,42 @@
+.FabricItem .card {
+    border: black 1px dashed;
+    /* margin: 10% 2%; */
+    overflow: hidden;
+    height: 90%;
+  }
+  
+  .FabricItem .link{
+    height:100%;
+  }
+  
+  .FabricItem .picture {
+    position: relative;
+    overflow: hidden;
+    height:75%;
+    width: 100%;
+  }
+  
+  .FabricItem .picture img {
+    object-fit: cover;
+    object-position: bottom;
+    min-height: 100%;
+    max-width: 100%;
+  }
+  
+  .FabricItem .collectionName {
+    position: absolute;
+    bottom:0;
+    width:100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0.FabricItem .8em;
+  }
+  
+  .FabricItem .link{
+    text-decoration: none;
+    color:black;
+  }
+  
