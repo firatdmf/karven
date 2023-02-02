@@ -91,7 +91,13 @@ function Fabrics() {
         {filteredFabrics.length > 0 ? (
           <div className={classes.fabrics}>
             {filteredFabrics.map((fabric) => (
-                <FabricItem key={fabric._id} fabric={fabric} />
+              <div className={classes.fabricItem}>
+                <FabricItem
+                  key={fabric._id}
+                  fabric={fabric}
+                  className={classes.fabricItem}
+                />
+              </div>
             ))}
           </div>
         ) : (

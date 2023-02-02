@@ -1,7 +1,7 @@
 // import classes from "./Trial.module.css";
 // import { motion } from "framer-motion";
 import { BsSuitHeart, BsSuitHeartFill } from "react-icons/bs";
-import classes from "./FabricItem.module.css";
+import classes from "./FabricItem-backup.module.css";
 import { Link } from "react-router-dom";
 function FabricItem({ fabric }) {
   let heartIcon;
@@ -14,39 +14,36 @@ function FabricItem({ fabric }) {
   }
   return (
     <div className={classes.FabricItem}>
-      <div className={classes.card}>
-        {/* <Link to="/trial" state={{from:{sku:fabric.sku,name:fabric.name,img:fabric.imageFileName}}}> */}
-        <Link
-          to="/fabricDisplay"
-          state={{
-            from: {
-              fabric: fabric,
-            },
-          }}
-          onClick={() => {
-            window.scroll(0, 0);
-          }}
-          className={classes.link}
-        >
-          <div className={classes.picture}>
-            <img
-              className={classes.avatar}
-              src={imageDir}
-              alt={"Image of the fabric: " + fabric.name}
-            />
-            {fabric.collectionName ? (
-              <div className={classes.collectionName}>
-                <b>{fabric.collectionName}</b>
-              </div>
-            ) : (
-              ""
-            )}
+      {/* <Link to="/trial" state={{from:{sku:fabric.sku,name:fabric.name,img:fabric.imageFileName}}}> */}
+      <Link
+        to="/fabricDisplay"
+        state={{
+          from: {
+            fabric: fabric,
+          },
+        }}
+        onClick={() => {
+          window.scroll(0, 0);
+        }}
+        className={classes.link}
+      >
+        <div className={classes.card}>
+          <div className={classes.image}>
+            <img src={imageDir} alt={"Image of the fabric: " + fabric.name} />
           </div>
+          {fabric.collectionName ? (
+            <div className={classes.collectionName}>
+              <b>{fabric.collectionName}</b>
+            </div>
+          ) : (
+            ""
+          )}
           <div className={classes.productName}>{fabric.name}</div>
           <div className={classes.SKU}>{fabric.sku}</div>
           {heartIcon}
-        </Link>
-      </div>
+          {/* <div className={classes.favorites}>Add to Favorites</div> */}
+        </div>
+      </Link>
     </div>
   );
 }
