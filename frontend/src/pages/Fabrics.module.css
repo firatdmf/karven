@@ -2,11 +2,11 @@
   display: grid;
   grid-template-areas:
     "cover cover"
-    "filter fabrics";
+    "filter fabricSection";
   grid-template-columns: 2fr 5fr;
   grid-template-rows: 300px 1fr;
-  gap:1vh 1vw;
-  margin:0 20px;
+  gap: 1vh 1vw;
+  margin: 0 20px;
 }
 
 .fabricsJSX .bread {
@@ -18,7 +18,8 @@
   position: relative;
   grid-area: cover;
   /* border:2px solid black; */
-  background: url("https://images.pexels.com/photos/1460890/pexels-photo-1460890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2") no-repeat;
+  background: url("https://images.pexels.com/photos/1460890/pexels-photo-1460890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+    no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 0 0 10px 10px;
@@ -28,14 +29,14 @@
   max-height: 100%;
   object-fit: cover;
 }
-.fabricsJSX .headlineBox{
+.fabricsJSX .headlineBox {
   display: flex;
   opacity: 0.95;
   position: absolute;
   height: 120px;
   width: 21%;
   background: #959aa4;
-  color:white;
+  color: white;
   bottom: -10%;
   left: 2%;
   align-items: center;
@@ -44,13 +45,9 @@
   border: 4px white solid;
 }
 
-.fabricsJSX .headlineBox2{
+.fabricsJSX .headlineBox2 {
   display: none;
-  grid-area:cover2;
-}
-
-.fabricsJSX .filter2{
-  display: none;
+  grid-area: cover2;
 }
 
 .fabricsJSX .filter {
@@ -58,80 +55,156 @@
   /* border: 1px dashed black; */
   /* background-color: #f1f1f1; */
 }
+.fabricsJSX .fabricSection {
+  grid-area: fabricSection;
+}
+
+.fabricsJSX .fabricSection p {
+  margin-bottom: 5vh;
+  background-color: #ebedee;
+  padding: 20px;
+}
+
+.fabricsJSX .fabricSection p .floatRight {
+  float: right;
+}
 .fabricsJSX .fabrics {
-  grid-area: fabrics;
+  /* grid-area: fabrics; */
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   /* setting all the rows the same height */
   grid-auto-rows: 1fr;
   /* justify-items: center; */
   /* justify-content: space-between; */
-  gap:20px;
+  gap: 20px;
 }
 /* .fabricsJSX .fabrics .fabricItem{
   border:3.5px dashed rgba(21,25,72,0.15);
 } */
 
-
 .fabricsJSX .durabilitySelect {
   display: none;
 }
 
-@media screen and (max-width: 768px){
-  .fabricsJSX .container{
+.cardSwitch {
+
+  padding:15px;
+  margin:5vh 0 2vh 0;
+  background-color: #ebedee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.cardSwitch .pageNumbers {
+  display: flex;
+}
+
+.cardSwitch .pageNumbers .numbers {
+  padding: 0 10px;
+}
+.fabricsJSX .cardSwitch .pageArrowButton {
+  font-size: 2rem;
+}
+
+/* Removing default button styling */
+.cardSwitch button,
+.fabricsJSX .fabricSection p button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  outline: inherit;
+  margin: 0 5px;
+}
+
+.fabricsJSX .fabricSection .floatRight button {
+  padding: 5px;
+}
+
+.fabricsJSX .cardSwitch button:hover {
+  color: #d09d34;
+  background-color: black;
+  cursor: pointer;
+}
+
+.fabricsJSX .fabricSection .floatRight button:hover {
+  border-bottom: 1px dashed black;
+  cursor: pointer;
+}
+
+.fabricsJSX .cardSwitch .selectedPage,
+.fabricsJSX .cardSwitch .selectedPage:hover {
+  color: #d09d34;
+  background-color: black;
+  cursor: default;
+  border-radius: 20px;
+}
+
+.fabricsJSX .cardSwitch .pageArrowButton:hover {
+  color: #d09d34;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .fabricsJSX .container {
     grid-template-areas:
-    "cover cover"
-    "cover2 cover2"
-    "filter filter"
-    "fabrics fabrics";
+      "cover cover"
+      "cover2 cover2"
+      "filter filter"
+      "fabrics fabrics";
     grid-template-columns: auto;
     grid-template-rows: auto;
   }
 
-  .fabricsJSX .filter > *{
-    display: none;
-
-  }
-
-  .fabricsJSX .headlineBox{
+  .fabricsJSX .filter > * {
     display: none;
   }
-  .fabricsJSX .filter:after{
-    content:"Filter By";
+
+  .fabricsJSX .headlineBox {
+    display: none;
+  }
+  .fabricsJSX .filter:after {
+    content: "Filter By";
     cursor: pointer;
   }
 
-  .fabricsJSX .headlineBox2{
+  .fabricsJSX .headlineBox2 {
     display: flex;
     opacity: 0.95;
     height: 12vh;
     width: 100%;
     background: #959aa4;
-    color:white;
+    color: white;
     align-items: center;
     justify-content: center;
     font-size: 3rem;
     border: 4px white solid;
   }
 
-  .fabricsJSX .filter{
+  .fabricsJSX .filter {
     display: flex;
     opacity: 0.95;
     height: 12vh;
     width: 100%;
-    color:#d19e25;
+    color: #d19e25;
     align-items: center;
     justify-content: center;
     font-size: 2rem;
     border: 4px #d19e25 solid;
   }
 
-  .fabricsJSX .cover{
+  .fabricsJSX .cover {
     height: 20vh;
-    padding:0;
+    padding: 0;
     margin: 0;
   }
-
 }
 /* 
 @media screen and (max-width:551px) {

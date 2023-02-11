@@ -1,7 +1,7 @@
 // import classes from "./Trial.module.css";
 // import { motion } from "framer-motion";
 import { BsSuitHeart, BsSuitHeartFill } from "react-icons/bs";
-import classes from "./FabricItem-backup.module.css";
+import classes from "./FabricItem.module.css";
 import { Link } from "react-router-dom";
 function FabricItem({ fabric }) {
   let heartIcon;

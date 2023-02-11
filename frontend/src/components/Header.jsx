@@ -23,7 +23,6 @@ function Header() {
   return (
     <header className={classes.header}>
       <div className={classes.topBar2}>
-        <p>
           {/* 18021 Sky Park Circle Suite K, Irvine CA 92614 */}
           <span className={classes.span2}>
             {user ? (
@@ -52,7 +51,6 @@ function Header() {
               </div>
             )}
           </span>
-        </p>
       </div>
 
       {/* <div className={classes.topBar}>
