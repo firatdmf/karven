@@ -2,7 +2,7 @@ first I did npm init in  mern-tutorial folder (i typed server.js instead of inde
 then npm i express dotenv mongoose colors
 
 //constantly watches the server.js file so we don't have to keep restarting it
-npm i- D nodemon
+npm i -D nodemon
 
 for packages.json 
 
@@ -405,7 +405,3 @@ git clone https://github.com/firatdmf/karven.git
 git fetch origin
 git checkout main
 git merge origin/main
-
-
-object iteration
-https://stackoverflow.com/questions/30803168/data-map-is-not-a-function
