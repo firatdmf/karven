@@ -51,6 +51,7 @@ const registerUser = asyncHandler(async (req, res) => {
       _id: user._id,
       name: user.name,
       email: user.email,
+      // accType:user.accType,
       //now lets create a jwt token for the user
       token: generateToken(user._id), // we could have just had token and that would have been fine too
     });
@@ -77,6 +78,7 @@ const loginUser = asyncHandler(async (req, res) => {
       _id: user._id,
       name: user.name,
       email: user.email,
+      // accType:user.accType,
       //give a new jwt token to the user
       token: generateToken(user._id),
     });

@@ -49,10 +49,14 @@ export const register = createAsyncThunk(
 //Login user
 //below auth/login string doesn't matter what it is, just for display purposes at redux toolkit
 //so logging in eventually will look like auth/login/pending
+//the below user input comes from the register.jsx component as dispatch(register(userData)) where userData is an object (not json)
+//it contains user information: _id, name, email, and token.
 export const login = createAsyncThunk("auth/login", async (user, thunkAPI) => {
   try {
+    //send a post request to the server and save it in localStorage with this user information via authService.js
     return await authService.login(user);
   } catch (error) {
+    //if we get an error, display whichever error is thrown, and reject it via redux
     const message =
       (error.response && error.response.data && error.response.data.message) ||
       error.message ||

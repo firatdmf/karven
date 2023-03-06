@@ -4,14 +4,18 @@ const mongoose = require("mongoose");
 //it is the thing that model wraps around
 const fabricSchema = mongoose.Schema(
   {
-    //with every goal you need to know which user created that goal
-    user: {
-      //set's the type to be ObjectId (a special mongodb datatype to help identify documents)
-      type: mongoose.Schema.Types.ObjectId, 
-      required: true,
-       //name of the model for object id to reference to
-      reference: "User",
-    },
+
+    //-----
+    //I will use below later when I allow users to have favorited fabrics
+    // //with every fabric you need to know which user created that fabric
+    // user: {
+    //   //set's the type to be ObjectId (a special mongodb datatype to help identify documents)
+    //   type: mongoose.Schema.Types.ObjectId, 
+    //   required: true,
+    //    //name of the model for object id to reference to
+    //   reference: "User",
+    // },
+    // ------------------------
     name: {
       type: String,
       required: [true, "Please add a name"],

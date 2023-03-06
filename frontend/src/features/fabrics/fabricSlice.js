@@ -35,8 +35,9 @@ export const getFabrics = createAsyncThunk(
   "fabrics/getAll",
   async (_, thunkAPI) => {
     try {
-      const token = thunkAPI.getState().auth.user.token; // thunkAPI can get anything you want, this gets the user token
-      return await fabricService.getFabrics(token); // just pass in token itself for this
+      // const token = thunkAPI.getState().auth.user.token; // thunkAPI can get anything you want, this gets the user token
+      // return await fabricService.getFabrics(token); // just pass in token itself for this
+      return await fabricService.getFabrics(); // just pass in token itself for this
     } catch (error) {
       const message =
         (error.response &&

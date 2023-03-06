@@ -8,7 +8,12 @@ const Fabric = require("../models/fabricModel"); // this will have bunch of mong
 //now we are adding sync because mongoose gives a promise to interact with database
 //asyncHandler used so we do not have to do try catch for each async function
 const getFabrics = asyncHandler(async (req, res) => {
-  const fabrics = await Fabric.find({ user: req.user.id }); //we do await bc this is async (you can pass in an object in find )
+  //not below anymore
+  // const fabrics = await Fabric.find({ user: req.user.id });
+
+  //we know wanna make the fabrics the commong property
+  //we do await bc this is async (you can pass in an object in find )
+  const fabrics = await Fabric.find();
   // now we have user field on the fabrics, and now we can access it bc of the protect middleware
 
   res.status(200).json(fabrics);
@@ -42,7 +47,7 @@ const setFabric = asyncHandler(async (req, res) => {
 
   const fabric = await Fabric.create({
     // idk how we could do fabric.create out of nowhere
-    user: req.user.id,
+    // user: req.user.id,
     name: req.body.name,
     brand: req.body.brand,
     sku: req.body.sku,
@@ -77,14 +82,18 @@ const updateFabric = asyncHandler(async (req, res) => {
     throw new Error("fabric not found");
   }
 
-  //check if user exists
-  if (!req.user) {
-    res.status(401);
-    throw new Error("user is not found");
-  }
+  // //check if user exists
+  // if (!req.user) {
+  //   res.status(401);
+  //   throw new Error("user is not found");
+  // }
 
-  //Make sure the logged in user mathces the fabric user
-  if (fabric.user.toString() !== req.user.id) {
+  // //Make sure the logged in user mathces the fabric user
+  // if (fabric.user.toString() !== req.user.id) {
+  //   res.status(401);
+  //   throw new Error("You are not authorized to do this");
+  // }
+  if (req.user.accType !== "admin") {
     res.status(401);
     throw new Error("You are not authorized to do this");
   }
@@ -94,6 +103,7 @@ const updateFabric = asyncHandler(async (req, res) => {
   const updatedFabric = await Fabric.findByIdAndUpdate(
     req.params.id,
     req.body,
+    //when below is set true, this functions returns the fabric as value to the updatedFabric, otherwise no
     {
       new: true,
     }
@@ -119,19 +129,25 @@ const deleteFabric = asyncHandler(async (req, res) => {
   // const user = await User.findById(req.user.id);
 
   //check if user exists
-  if (!req.user) {
-    res.status(401);
-    throw new Error("user is not found");
-  }
+  // if (!req.user) {
+  //   res.status(401);
+  //   throw new Error("user is not found");
+  // }
 
-  //Make sure the logged in user mathces the fabric user
-  if (fabric.user.toString() !== req.user.id) {
+  // //Make sure the logged in user mathces the fabric user
+  // if (fabric.user.toString() !== req.user.id) {
+  //   res.status(401);
+  //   throw new Error("You are not authorized to do this");
+  // }
+
+  //Make sure the logged in user is the admin to perform this
+  if (req.user.accType !== "admin") {
     res.status(401);
     throw new Error("You are not authorized to do this");
   }
 
   //This is how he did it:
-  await fabric.remove(); // idk why g is not capitalized here
+  await fabric.remove(); // idk why f is not capitalized here
   res.status(200).json({ id: req.params.id }); // we do this just for the front end for later bc we will need the ID
 });
 

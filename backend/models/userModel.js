@@ -14,6 +14,11 @@ const userSchema = mongoose.Schema({
         type:String,
         required:[true,'Please add a password']
     },
+    accType:{
+        type:String,
+        default:"user",
+        required:[true,'Please speficy the account type'],
+    } 
 
 },{
     timestamps:true,

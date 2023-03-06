@@ -121,7 +121,7 @@ function Fabrics() {
   // const [multipurposeChecked, setMultipurposeChecked] = useState(false);
   const [filteredFabrics, setFilteredFabrics] = useState({});
   const [page, setPage] = useState(0);
-  const [displayAmount, setdisplayAmount] = useState(4);
+  const [displayAmount, setdisplayAmount] = useState(60);
   let pages = pageNumberCalculator(filteredFabrics, displayAmount);
   // const [pages, setpages] = useState(()=>(pageNumberCalculator(filteredFabrics,displayAmount)));
   const [range, setRange] = useState(
@@ -132,9 +132,9 @@ function Fabrics() {
     if (isError) {
       console.log(message);
     }
-    if (!user) {
-      navigate("/login");
-    }
+    // if (!user) {
+    //   navigate("/login");
+    // }
     dispatch(getFabrics());
     //that will fetch the goals from the backend and put it in the const variable goals that we created at the top so we have access to it
 
@@ -191,11 +191,11 @@ function Fabrics() {
             </span>
             <span className={classes.floatRight}>
               View:{" "}
-              <button value={1} onClick={displayAmountButton}>
-                1
+              <button value={60} onClick={displayAmountButton}>
+                60
               </button>{" "}
-              <button value={3} onClick={displayAmountButton}>
-                3
+              <button value={120} onClick={displayAmountButton}>
+                120
               </button>{" "}
               <button value={"all"} onClick={displayAmountButton}>
                 All

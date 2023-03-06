@@ -19,14 +19,14 @@ const createFabric = async (fabricData, token) => {
 //Get user fabrics
 const getFabrics = async (token) => {
   //now config will be an object
-  const config = {
-    headers: {
-      //Authorization will be our token
-      Authorization: `Bearer ${token}`, // we want to convert token to bearer
-    },
-  }
+  // const config = {
+  //   headers: {
+  //     //Authorization will be our token
+  //     Authorization: `Bearer ${token}`, // we want to convert token to bearer
+  //   },
+  // }
   //now we'll send our request
-  const response = await axios.get(API_URL, config); // a post request to the api_url, we want to send our fabricdata and pass our config bc it includes headers with authorization ie the token. If we don't do that we won't be able to access that route
+  const response = await axios.get(API_URL); // a post request to the api_url, we want to send our fabricdata and pass our config bc it includes headers with authorization ie the token. If we don't do that we won't be able to access that route
 
   return response.data;
 }
