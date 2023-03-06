@@ -1,11 +1,16 @@
+//bring mongoose to create a mongodb Schema
 const mongoose = require("mongoose");
-
+//a Schema defines the structure of the documents we want to store inside its collection
+//it is the thing that model wraps around
 const fabricSchema = mongoose.Schema(
   {
+    //with every goal you need to know which user created that goal
     user: {
-      type: mongoose.Schema.Types.ObjectId,
+      //set's the type to be ObjectId (a special mongodb datatype to help identify documents)
+      type: mongoose.Schema.Types.ObjectId, 
       required: true,
-      reference: "User", //name of the model for object id to reference to
+       //name of the model for object id to reference to
+      reference: "User",
     },
     name: {
       type: String,
@@ -39,45 +44,45 @@ const fabricSchema = mongoose.Schema(
       type: String,
       required: false,
     },
-    type:{
-      type:String,
-      required:false,
-    },
-    origin:{
+    type: {
       type: String,
-      required:false,
+      required: false,
     },
-    finish:{
-      type:String,
-      required:false,
+    origin: {
+      type: String,
+      required: false,
     },
-    railRoaded:{
+    finish: {
+      type: String,
+      required: false,
+    },
+    railRoaded: {
       type: Boolean,
-      required:false,
+      required: false,
     },
-    generalDelivery:{
+    generalDelivery: {
       type: String,
-      required:false,
+      required: false,
     },
-    composition:{
+    composition: {
       type: String,
-      required:false,
+      required: false,
     },
-    abrasionTest:{
+    abrasionTest: {
       type: Number,
-      required:false
+      required: false,
     },
-    pattern:{
-      type:String,
-      required:false,
+    pattern: {
+      type: String,
+      required: false,
     },
-    endUse:{
-      type:String,
-      required:false,
+    endUse: {
+      type: String,
+      required: false,
     },
-    cleaningCode:{
-      type:String,
-      required:false,
+    cleaningCode: {
+      type: String,
+      required: false,
     },
     imageFileName: {
       required: false,
@@ -85,8 +90,11 @@ const fabricSchema = mongoose.Schema(
     },
   },
   {
-    timestamps: true,
+    //this is optional but a good practice//this automatically generate time stamp properties for us such as createdAt and updatedAt properties //so everytime in the future we update or create this records it
+    timestamps: true, 
   }
 );
 
+//PS: model name should be singular of the collection name except first letter capitilized
+//mongodb later looks at the database, and finds the collection that is the plural of this name
 module.exports = mongoose.model("Fabric", fabricSchema);

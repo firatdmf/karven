@@ -7,7 +7,7 @@ const {
   deleteFabric,
 } = require("../controllers/fabricController"); // this is a function
 
-const {protect} = require('..//middleware/authMiddleware')
+const {protect} = require('../middleware/authMiddleware')
 
 router.route('/').get(protect, getFabrics).post(protect, setFabric)
 

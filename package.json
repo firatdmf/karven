@@ -1,7 +1,7 @@
 {
   "name": "mern-tutorial",
   "version": "1.0.0",
-  "description": "Goalsetter app for youtube tutorial",
+  "description": "Karven Home",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
@@ -12,12 +12,12 @@
     "railway-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend",
     "railway-postbuild2": "cd frontend && npm install && npm run build && cd .. && npm i"
   },
-  "author": "Muhammed",
+  "author": "Firat",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "browserslist": "^4.21.4",
-    "caniuse-lite": "^1.0.30001445",
+    "caniuse-lite": "^1.0.30001460",
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",

@@ -1,6 +1,6 @@
 const asyncHandler = require("express-async-handler");
 const Fabric = require("../models/fabricModel"); // this will have bunch of mongoose methods that we can use to create or read in our database
-const User = require("../models/userModel"); // this will have bunch of mongoose methods that we can use to create or read in our database
+// const User = require("../models/userModel"); // this will have bunch of mongoose methods that we can use to create or read in our database
 
 // @desc   Get fabrics
 // @route GET /api/fabrics

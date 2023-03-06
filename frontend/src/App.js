@@ -1,6 +1,11 @@
+//Bringing the router to assign a url route to each component from React
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+//Toast container helps us display errors in a fancy way with style
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+//bringing the components as pages and assigning them to an url path route
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Register from "./pages/Register";

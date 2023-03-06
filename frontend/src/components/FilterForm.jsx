@@ -14,20 +14,6 @@ function FilterForm({
     return Object.values(selectedObject).every((value) => !value);
   };
 
-  // just went a little nuts below.
-  // const filterBy = (filteredData,selectedObject) =>{
-  //   if(allFalseObject(selectedObject)){
-  //     return filteredData;
-  //   }else{
-  //     let arr = [];
-  //     for(let property in selectedObject){
-  //       if(selectedObject[property]===true){
-  //         arr.push(filteredData.filter((fabric)=>fabric))
-  //       }
-  //     }
-  //   }
-  // }
-
   const filterByEndUse = (filteredData) => {
     //below checks if all the key values are false in the selectedPattern object.
     // const allFalse = Object.values(selectedEndUse).every((value) => !value);

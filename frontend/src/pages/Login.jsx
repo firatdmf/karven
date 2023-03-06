@@ -21,6 +21,7 @@ function Login() {
     (state) => state.auth
   );
 
+  //everytime this page is rendered, or the variables in the below array changes, the below function fires
   useEffect(() => {
     if (isError) {
       toast.error(message);
@@ -28,9 +29,9 @@ function Login() {
 
     if (isSuccess || user) {
       navigate("/");
-    } // user means the user is already logged in
-
-    dispatch(reset); //reset is also in authSlice.js file under the export const authSlice
+    } // user means the user is already logged in so get them out of here
+    //reset is also in authSlice.js file under the export const authSlice. We reset everytime the page is refreshed
+    dispatch(reset);
   }, [user, isError, isSuccess, message, navigate, dispatch]);
 
   const onChange = (e) => {
