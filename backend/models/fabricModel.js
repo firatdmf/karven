@@ -4,37 +4,84 @@ const mongoose = require("mongoose");
 //it is the thing that model wraps around
 const fabricSchema = mongoose.Schema(
   {
-
-    //-----
-    //I will use below later when I allow users to have favorited fabrics
-    // //with every fabric you need to know which user created that fabric
-    // user: {
-    //   //set's the type to be ObjectId (a special mongodb datatype to help identify documents)
-    //   type: mongoose.Schema.Types.ObjectId, 
-    //   required: true,
-    //    //name of the model for object id to reference to
-    //   reference: "User",
-    // },
-    // ------------------------
-    name: {
-      type: String,
-      required: [true, "Please add a name"],
-    },
-    brand: {
-      type: String,
-      required: [false, "Please add the brand"],
-    },
     sku: {
       type: String,
-      required: [false, "Please add the SKU"],
-    },
-    price: {
-      type: Number,
-      required: [false, "Please specify width"],
+      required: [true, "Please add the SKU"],
     },
     width: {
       type: Number,
-      required: [false, "Please specify content"],
+      required: false,
+      // default:300,
+    },
+    content: {
+      type: Object,
+      required: false,
+      // default: { "Polyester": 100 },
+    },
+    price: {
+      type: Number,
+      required: false,
+    },
+    name: {
+      type: String,
+      required: [false, "Please add a name"],
+    },
+    brand: {
+      type: String,
+      required: false,
+      // default: "Karven",
+    },
+    style: {
+      type: Array,
+      required: false,
+    },
+    pattern: {
+      type: String,
+      required: false,
+    },
+    patternType: {
+      type: String,
+      required: false,
+    },
+    theme: {
+      type: String,
+      required: false,
+    },
+    origin: {
+      type: String,
+      required: false,
+    },
+    abrasion: {
+      type: Number,
+      required: false,
+    },
+    use: {
+      type: String,
+      required: false,
+    },
+    image: {
+      type: String,
+      required: false,
+    },
+    certifications: {
+      type: Array,
+      required: false,
+    },
+    colors: {
+      type: Array,
+      required: false,
+    },
+    leadTime: {
+      type: Number,
+      required: false,
+    },
+    moq: {
+      type: Number,
+      required: false,
+    },
+    railRoaded: {
+      type: Number,
+      required: false,
     },
     verticalRepeat: {
       type: Number,
@@ -44,43 +91,7 @@ const fabricSchema = mongoose.Schema(
       type: Number,
       required: false,
     },
-    collectionName: {
-      type: String,
-      required: false,
-    },
-    type: {
-      type: String,
-      required: false,
-    },
-    origin: {
-      type: String,
-      required: false,
-    },
     finish: {
-      type: String,
-      required: false,
-    },
-    railRoaded: {
-      type: Boolean,
-      required: false,
-    },
-    generalDelivery: {
-      type: String,
-      required: false,
-    },
-    composition: {
-      type: String,
-      required: false,
-    },
-    abrasionTest: {
-      type: Number,
-      required: false,
-    },
-    pattern: {
-      type: String,
-      required: false,
-    },
-    endUse: {
       type: String,
       required: false,
     },
@@ -88,14 +99,10 @@ const fabricSchema = mongoose.Schema(
       type: String,
       required: false,
     },
-    imageFileName: {
-      required: false,
-      type: String,
-    },
   },
   {
     //this is optional but a good practice//this automatically generate time stamp properties for us such as createdAt and updatedAt properties //so everytime in the future we update or create this records it
-    timestamps: true, 
+    timestamps: true,
   }
 );
 

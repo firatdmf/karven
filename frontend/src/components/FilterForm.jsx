@@ -23,7 +23,7 @@ function FilterForm({
     let arr = [];
     for (let property in selectedEndUse) {
       if (selectedEndUse[property] === true) {
-        arr.push(filteredData.filter((fabric) => fabric.endUse === property));
+        arr.push(filteredData.filter((fabric) => fabric.use === property));
       }
     }
     return Array.prototype.concat.apply([], arr);

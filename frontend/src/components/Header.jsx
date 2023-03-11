@@ -23,34 +23,34 @@ function Header() {
   return (
     <header className={classes.header}>
       <div className={classes.topBar2}>
-          {/* 18021 Sky Park Circle Suite K, Irvine CA 92614 */}
-          <span className={classes.span2}>
-            {user ? (
-              <div className={classes.span2flex}>
-                <p>Welcome back, {user && capitilize(user.name)}!</p>
-                <div className={classes.logoutButton} onClick={onLogout}>
-                  <FaSignOutAlt />
-                  <p>Logout</p>
-                </div>
+        <span className={classes.span2}>
+          {user ? (
+            <div className={classes.span2flex}>
+
+              <p>Welcome back, {user && capitilize(user.name)}!</p>
+              <div className={classes.logoutButton} onClick={onLogout}>
+                <FaSignOutAlt />
+                <p>Logout</p>
               </div>
-            ) : (
-              <div className={classes.span2flex2}>
-                <span>
-                  <Link to="/login" className={classes.loginButton}>
-                    <FaSignInAlt />
-                    <p>Login</p>
-                  </Link>
-                </span>
-                <span>|</span>
-                <span>
-                  <Link to="/register" className={classes.registerButton}>
-                    <FaUser />
-                    <p>Register</p>
-                  </Link>
-                </span>
-              </div>
-            )}
-          </span>
+            </div>
+          ) : (
+            <div className={classes.span2flex2}>
+              <span>
+                <Link to="/login" className={classes.loginButton}>
+                  <FaSignInAlt />
+                  <p>Login</p>
+                </Link>
+              </span>
+              <span>|</span>
+              <span>
+                <Link to="/register" className={classes.registerButton}>
+                  <FaUser />
+                  <p>Register</p>
+                </Link>
+              </span>
+            </div>
+          )}
+        </span>
       </div>
 
       {/* <div className={classes.topBar}>

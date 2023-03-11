@@ -5,7 +5,8 @@ import classes from "./FabricItem.module.css";
 import { Link } from "react-router-dom";
 function FabricItem({ fabric }) {
   let heartIcon;
-  const imageDir = require(`../assets/fabricImages/${fabric.imageFileName}`);
+  // const imageDir = require(`../assets/fabricImages/${fabric.imageFileName}`);
+  const imageDir = fabric.image;
   //.card.card-${$}*3
   if (5 > 3) {
     heartIcon = <BsSuitHeart title="Add to favorites" />;
@@ -31,9 +32,9 @@ function FabricItem({ fabric }) {
           <div className={classes.image}>
             <img src={imageDir} alt={"Image of the fabric: " + fabric.name} />
           </div>
-          {fabric.collectionName ? (
-            <div className={classes.collectionName}>
-              <b>{fabric.collectionName}</b>
+          {fabric.theme ? (
+            <div className={classes.theme}>
+              <b>{fabric.theme}</b>
             </div>
           ) : (
             ""

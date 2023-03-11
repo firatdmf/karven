@@ -75,23 +75,21 @@ function FabricDisplay() {
   }
   const location = useLocation();
   if (location.state == null) {
-    return <PageDoesNotExist/>
+    return <PageDoesNotExist />;
   }
   const { from } = location.state;
 
   let fabric = from.fabric;
-  const imgUrl = require(`../assets/fabricImages/${fabric.imageFileName}`);
-  let unit = "inches";
-  let type = "Sheer";
-  let theme = "Classic";
+  // const imgUrl = require(`../assets/fabricImages/${fabric.imageFileName}`);
+  const imgUrl = fabric.image;
   return (
-    <>
+    <div className={classes.FabricDisplay}>
       <div className={classes.container}>
         <div className={classes.image}>
-          <img src={imgUrl} alt="" />
+          <a href={imgUrl} target="_blank"><img src={imgUrl} alt="" /></a>
         </div>
         <div className={classes.info}>
-          <h1>{fabric.name}</h1>
+          <h1 className={classes.fabricName}>{fabric.name}</h1>
           <ul>
             <li>
               <b>SKU: </b>
@@ -100,37 +98,44 @@ function FabricDisplay() {
 
             <li className={classes.application}>
               <b>Application: </b>
-              {capitalize(fabric.endUse)}
+              {capitalize(fabric.use)}
             </li>
-            {fabric.abrasionTest && (
+            {fabric.abrasion ? (
               <li>
                 <b>Double Rubs: </b>
                 {fabric.abrasionTest.toLocaleString("en-US")}
               </li>
+            ) : (
+              ""
             )}
 
-            {fabric.type && (
+            {fabric.style && (
               <li>
                 <b>Type: </b>
-                {fabric.type}
+                {(fabric.style).map((each)=>{return capitalize(each)}).join(', ')}
+                {/* {capitalize(fabric.style[0])} */}
               </li>
             )}
 
             <li>
               <b>Theme: </b>
-              {theme}
+              {fabric.theme}
             </li>
             <li>
               <b>Content: </b>
-              {fabric.composition}
+              {/* {Object.entries(fabric.content)(key,i)=>( key + i
+              ))} */}
+             { Object.keys(fabric.content).map(((keyName,keyIndex)=>capitalize(keyName) +': '+fabric.content[keyName]+'%')).join(', ')}
+              
+              {/* {JSON.stringify(fabric.content,null,4)} */}
             </li>
             <li>
               <b>Width: </b>
               {fabric.width +
-                " inches" +
+                " cm" +
                 " (" +
-                Math.round(fabric.width * 2.54) +
-                " cm)"}
+                Math.round(fabric.width / 2.54) +
+                " inches)"}
             </li>
             <li>
               <b>Origin: </b>
@@ -144,7 +149,7 @@ function FabricDisplay() {
         {/* <div className={classes.button}>Click here</div> */}
         <p>Send an email to info@karvenhome.com with the SKU number above.</p>
       </div>
-    </>
+    </div>
   );
 }
 

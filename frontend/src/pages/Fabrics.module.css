@@ -18,9 +18,11 @@
   position: relative;
   grid-area: cover;
   /* border:2px solid black; */
-  background: url("https://images.pexels.com/photos/1460890/pexels-photo-1460890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+  /* background: url("https://images.pexels.com/photos/1460890/pexels-photo-1460890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+    no-repeat; */
+  background: url("https://i.ibb.co/2WnzfKW/karven-linkedin-banner.png")
     no-repeat;
-  background-size: cover;
+  background-size: 90%;
   background-position: center;
   border-radius: 0 0 10px 10px;
   margin: 0 20px;
@@ -36,7 +38,8 @@
   height: 120px;
   width: 21%;
   background: #959aa4;
-  color: white;
+  background: rgba(0,0,0,0.8);
+  color: #d19e25;
   bottom: -10%;
   left: 2%;
   align-items: center;
