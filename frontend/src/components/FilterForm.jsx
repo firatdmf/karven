@@ -68,14 +68,14 @@ function FilterForm({
   }, [selectedEndUse, selectedOrigin, allStates]);
 
   return (
-    <>
+    <div className={classes.FilterForm}>
       <h3>FILTER BY</h3>
       <div className={classes.filterCategories}>
-        <button name="selectedEndUse" value="reset" onClick={checkHandle}>
-          x Clear Filter
+        <button className={classes.resetAllFiltersButton} name="selectedEndUse" value="reset" onClick={checkHandle}>
+          Reset Filters
         </button>
         <div className={classes.endUse}>
-          END USE
+          <p>END USE</p>
           <br />
           <label htmlFor="drapery">Drapery</label>
           <input
@@ -139,7 +139,7 @@ function FilterForm({
         <div className={classes.properties}>PROPERTIES</div>
         <div className={classes.sustainability}>SUSTAINABILITY</div>
       </div>
-    </>
+    </div>
   );
 }
 

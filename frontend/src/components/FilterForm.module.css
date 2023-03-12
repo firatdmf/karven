@@ -1,3 +1,21 @@
-.filter{
-  padding:1vw;
+
+.FilterForm {
+  border: 3px dashed rgba(0,0,0,0.4);
+  padding:10px;
+}
+
+.FilterForm > *{
+  margin:10px 0;
+}
+
+.FilterForm .filterCategories > *{
+  margin:10px 0;
+}
+
+.resetAllFiltersButton{
+  border:none;
+  background-color: transparent;
+  font-size:1.2rem;
+  cursor: pointer;
+  color:#d19e25;
 }

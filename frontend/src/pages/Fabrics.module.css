@@ -156,7 +156,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .fabricsJSX .container {
+  /* .fabricsJSX .container {
     grid-template-areas:
       "cover cover"
       "cover2 cover2"
@@ -164,21 +164,21 @@
       "fabrics fabrics";
     grid-template-columns: auto;
     grid-template-rows: auto;
-  }
+  } */
 
-  .fabricsJSX .filter > * {
+  /* .fabricsJSX .filter > * {
     display: none;
-  }
+  } */
 
-  .fabricsJSX .headlineBox {
+  /* .fabricsJSX .headlineBox {
     display: none;
-  }
-  .fabricsJSX .filter:after {
+  } */
+  /* .fabricsJSX .filter:after {
     content: "Filter By";
     cursor: pointer;
-  }
+  } */
 
-  .fabricsJSX .headlineBox2 {
+  /* .fabricsJSX .headlineBox2 {
     display: flex;
     opacity: 0.95;
     height: 12vh;
@@ -189,9 +189,9 @@
     justify-content: center;
     font-size: 3rem;
     border: 4px white solid;
-  }
+  } */
 
-  .fabricsJSX .filter {
+  /* .fabricsJSX .filter {
     display: flex;
     opacity: 0.95;
     height: 12vh;
@@ -201,7 +201,7 @@
     justify-content: center;
     font-size: 2rem;
     border: 4px #d19e25 solid;
-  }
+  } */
 
   .fabricsJSX .cover {
     height: 20vh;

@@ -6,7 +6,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { reset } from "../features/auth/authSlice";
 import Spinner from "../components/Spinner";
 import classes from "./Fabrics.module.css";
-import FilterForm from "../components/FilterForm";
+import FilterForm from "../components/FilterForm2";
 import { IoArrowBackCircle, IoArrowForwardCircle } from "react-icons/io5";
 
 // import { motion, AnimatePresence } from "framer-motion";
@@ -108,7 +108,7 @@ function Fabrics() {
     Italy: false,
   });
   const [selectedEndUse, setSelectedEndUse] = useState({
-    drapery: false,
+    curtain: false,
     upholstery: false,
     multipurpose: false,
   });

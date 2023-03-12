@@ -416,3 +416,6 @@ const {something} = require(`something's file`)
 
 -------
 you need to set an admin and be the only person to make changes in fabric Controller
+
+03/11/2023
+installed jquery today: npm i jquery
