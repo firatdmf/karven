@@ -1,0 +1,117 @@
+.FilterForm .container {
+  width: 30vw;
+  min-width: 20em;
+  margin: 5vh auto;
+  box-shadow: 0 2px 5px rgba(0,0,0,.5);
+}
+
+.FilterForm .a-filter {
+  float:left; width: 100%;
+  color: rgba(255,255,255,1);
+  background: rgba(37,40,42,1);
+  /* background: rgba(0,0,0,0.9); */
+}
+
+.FilterForm .a-filter .title {
+  font-weight: 600;
+  position: relative;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+  background: rgba(85,91,96,.25);
+  color:#d19e25;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.FilterForm .a-filter form {
+  padding: 1.5em;
+}
+
+.FilterForm .a-filter section {
+  padding: 1.5em 0;
+}
+
+.FilterForm .a-filter label {
+  width: 100%; float:left;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 1em;
+}
+
+.FilterForm .a-filter .options {
+  width: 100%; float:left;
+  position: relative;
+  border-top: 1px solid rgba(220,220,220,.25);
+  padding: 1em 0;
+}
+.FilterForm .a-filter .options label {
+  text-transform: none;
+  margin: 0;
+  cursor: pointer;
+}
+.FilterForm .a-filter .options .toggle {
+  position: absolute;
+  top: 1.25em; right: 0;
+  width: 1em;
+  height: 1em;
+}
+.FilterForm .a-filter .options .toggle span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background: rgba(18,119,189,1); */
+  background: #d19e25;
+  width: 1em;
+  height: .25em;
+  transform-origin: center;
+  transition: ease transform 0.5s;
+}
+.FilterForm .a-filter .options .toggle span:last-child {
+  transform: rotateZ(90deg);
+}
+.FilterForm .a-filter .toggled span {
+  transform: rotateZ(360deg) !important;
+}
+
+.FilterForm .a-filter .options .expands {
+  max-height: 0;
+  width: 100%;
+  overflow: hidden;
+  transition: max-height 0.3s;
+  margin-top:20px;
+
+}
+.FilterForm .a-filter .options .expands input {
+  margin-right:7px;
+  margin-top:7px;
+}
+.FilterForm .a-filter .options .open {
+  max-height: 500px;
+}
+
+.FilterForm .a-filter input[type="submit"]  {
+  float:left;width: 100%;
+  padding: .75em 2em;
+  background: rgba(18,119,189,1);
+  background:black;
+  color: rgba(255,255,255,1);
+  color:#d19e25;
+  font-weight: bold;
+  font-size:1.3rem;
+  border-radius: 0;
+  border:none;
+  box-shadow: 0 0 0 rgba(0,0,0,.1);
+  letter-spacing: .05em;
+  transition: .25s ease all;
+  margin-bottom: 1.5em;
+}
+.FilterForm .a-filter input[type="submit"]:hover {
+  cursor: pointer;
+  background: rgba(13,137,223,1);
+  color: rgba(255,255,255,1);
+  transform: translate(0,-.125em);
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+  background:#d19e25;
+  color:black;
+}

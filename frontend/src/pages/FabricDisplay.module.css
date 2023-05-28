@@ -1,0 +1,72 @@
+.FabricDisplay .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5vh 10vw;
+  /* border:4px dashed rgba(0,0,0,0.4); */
+  background-color: #f1f1f1;
+  /* background-color: linen; */
+  border-radius: 2%;
+  justify-content: center;
+  align-items: center;
+  gap: 5vw;
+  font-size: 1.3rem;
+  padding:10px;
+}
+
+.FabricDisplay .fabricName{
+    color:#d19e25;
+}
+
+/* .container img{
+    max-width: 100%;
+    max-height:600px;
+} */
+
+/* .FabricDisplay .info{
+    background-color: white;
+} */
+
+.FabricDisplay .info ul {
+  list-style: none;
+  margin-top: 5%;
+}
+
+.FabricDisplay .info ul li {
+  padding: 1vh 0;
+}
+
+.FabricDisplay .sampleRequest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 20vh;
+  background-color: #f1f1f1;
+  margin: 2% 2%;
+}
+
+.FabricDisplay .sampleRequest .button {
+  padding: 5px;
+  background-color: black;
+  color: white;
+  display: inline-block;
+  /* margin-top:2%; */
+}
+
+.FabricDisplay .sampleRequest .button:hover {
+  cursor: pointer;
+}
+
+.FabricDisplay .sampleRequest p {
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
+
+/* @media screen and (max-width:1000px) {
+    .FabricDisplay .container{
+        display: flex;
+        flex-direction: column;
+    }
+} */

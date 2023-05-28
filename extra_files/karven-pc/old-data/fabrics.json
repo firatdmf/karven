@@ -1,0 +1,341 @@
+[{
+  "_id": {
+    "$oid": "630709aaa84d7a3119a48727"
+  },
+  "name": "Yampa Print - Sienna",
+  "brand": "Lee Jofa",
+  "sku": "2020210.24.0",
+  "price": 0,
+  "width": 54,
+  "verticalRepeat": 13.4,
+  "horizontalRepeat": 13.4,
+  "collectionName": "Breckenridge",
+  "type": "Print",
+  "origin": "Italy",
+  "finish": "Softened",
+  "railRoaded": false,
+  "generalDelivery": "17 - 18 Weeks",
+  "composition": "Cotton - 52%, Linen - 48%",
+  "abrasionTest": 18000,
+  "pattern": "Geometric, Global",
+  "endUse": "multipurpose",
+  "cleaningCode": "W",
+  "imageFileName": "first.jpg",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661405610135"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1661405610135"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63070aa0a84d7a3119a48732"
+  },
+  "name": "Rabat - 62",
+  "brand": "Kravet Couture",
+  "sku": "36457.4.0",
+  "price": 2,
+  "width": 53,
+  "verticalRepeat": null,
+  "horizontalRepeat": 0.75,
+  "collectionName": "2022",
+  "type": "Velvet",
+  "origin": "Italy",
+  "finish": "",
+  "railRoaded": false,
+  "generalDelivery": "3 - 4 Wks if Stock at Mill",
+  "composition": "Viscose - 62%, Cotton - 38%",
+  "abrasionTest": 50000,
+  "pattern": "Stripes",
+  "endUse": "upholstery",
+  "cleaningCode": "S",
+  "imageFileName": "fabric2.jpg",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661405856595"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1661405856595"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63070ed1a84d7a3119a48747"
+  },
+  "name": "Bastia Fr - 148",
+  "brand": "Kravet Couture",
+  "sku": "36705.1611.0",
+  "price": 12,
+  "width": 55,
+  "verticalRepeat": 21.26,
+  "horizontalRepeat": 1.57,
+  "collectionName": "2022",
+  "type": "",
+  "origin": "Italy",
+  "finish": "Flame Retardant Finish",
+  "railRoaded": false,
+  "generalDelivery": "3 - 4 Wks if Stock at Mill",
+  "composition": "Polyester - 100%",
+  "abrasionTest": 10000,
+  "pattern": "Flamestitch",
+  "endUse": "multipurpose",
+  "cleaningCode": "S",
+  "imageFileName": "fabric3.jpg",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661406929342"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1661406929342"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63070faca84d7a3119a4874e"
+  },
+  "name": "Bayahibe - 100",
+  "brand": "Kravet Couture",
+  "sku": "36706.195.0",
+  "price": 13,
+  "width": 53,
+  "verticalRepeat": 3.94,
+  "horizontalRepeat": 27.17,
+  "collectionName": "2022",
+  "type": "Velvet",
+  "origin": "Belgium",
+  "finish": "",
+  "railRoaded": false,
+  "generalDelivery": "3 - 4 Wks if Stock at Mill",
+  "composition": "Viscose - 80%, Cotton - 10%, Polyester - 10%",
+  "abrasionTest": 50000,
+  "pattern": "Flamestitch, Stripes",
+  "endUse": "upholstery",
+  "cleaningCode": "S",
+  "imageFileName": "fabric4.jpg",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661407148088"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1661407148088"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63071446a84d7a3119a48755"
+  },
+  "name": "Kravet Design - 36408-15",
+  "brand": "Kravet Design",
+  "sku": "36408.15.0",
+  "price": 22,
+  "width": 55.25,
+  "verticalRepeat": null,
+  "horizontalRepeat": null,
+  "collectionName": "Performance Crypton Home",
+  "type": "Chenille",
+  "origin": "United States",
+  "finish": "Acrylic Backed, Crypton Home Finish",
+  "railRoaded": false,
+  "generalDelivery": "7 - 8 Weeks",
+  "composition": "Rayon - 55%, Polyester - 38%, Cotton - 7%",
+  "abrasionTest": 33000,
+  "pattern": "Solid, Texture",
+  "endUse": "upholstery",
+  "cleaningCode": "W",
+  "imageFileName": "fabric5.jpg",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661408326923"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1661408326923"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630714f9a84d7a3119a4875c"
+  },
+  "name": "Mismatch - Punch",
+  "brand": "Kravet Design",
+  "sku": "36317.712.0",
+  "price": 7,
+  "width": 54,
+  "verticalRepeat": null,
+  "horizontalRepeat": null,
+  "collectionName": "Gem Collection",
+  "type": "",
+  "origin": "India",
+  "finish": "Calendered",
+  "railRoaded": false,
+  "generalDelivery": "22 - 23 Weeks",
+  "composition": "Viscose - 100%",
+  "abrasionTest": null,
+  "pattern": "Texture",
+  "endUse": "upholstery",
+  "cleaningCode": "S",
+  "imageFileName": "fabric6.jpg",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661408505312"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1661408505312"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6307165aa84d7a3119a4876f"
+  },
+  "name": "Kravet Design - 36408-8",
+  "brand": "Kravet Design",
+  "sku": "36408.8.0",
+  "price": 8.25,
+  "width": 55.25,
+  "verticalRepeat": null,
+  "horizontalRepeat": null,
+  "collectionName": "Performance Crypton Home",
+  "type": "Chenille",
+  "origin": "United States",
+  "finish": "Acrylic Backed, Crypton Home Finish",
+  "railRoaded": false,
+  "generalDelivery": "7 - 8 Weeks",
+  "composition": "Rayon - 55%, Polyester - 38%, Cotton - 7%",
+  "abrasionTest": 33000,
+  "pattern": "Solid, Texture",
+  "endUse": "upholstery",
+  "cleaningCode": "W",
+  "imageFileName": "fabric7.jpg",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661408858726"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1661408858726"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "630716cca84d7a3119a48772"
+  },
+  "name": "Baronet Strie - Celery",
+  "brand": "Brunschwig & Fils",
+  "sku": "8017142.3.0",
+  "price": 32,
+  "width": 55,
+  "verticalRepeat": 1.75,
+  "horizontalRepeat": 1.5,
+  "collectionName": "Baronet",
+  "type": "",
+  "origin": "Italy",
+  "finish": "Softened",
+  "railRoaded": false,
+  "generalDelivery": "16 - 17 Weeks",
+  "composition": "Cotton - 54%, Viscose - 32%, Linen - 14%",
+  "abrasionTest": 102000,
+  "pattern": "Diamond, Small Scale",
+  "endUse": "upholstery",
+  "cleaningCode": "S",
+  "imageFileName": "fabric8.jpg",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661408972897"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1661408972897"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63071759a84d7a3119a48779"
+  },
+  "name": "Kravet Design - 36411-4",
+  "brand": "Kravet Design",
+  "sku": "36411.4.0",
+  "price": 4.8,
+  "width": 55,
+  "verticalRepeat": null,
+  "horizontalRepeat": null,
+  "collectionName": "Performance Crypton Home",
+  "type": "",
+  "origin": "United States",
+  "finish": "Acrylic Backed, Crypton Home Finish",
+  "railRoaded": false,
+  "generalDelivery": "7 - 8 Weeks",
+  "composition": "Rayon - 44%, Cotton - 41%, Polyester - 15%",
+  "abrasionTest": 63000,
+  "pattern": "Diamond",
+  "endUse": "upholstery",
+  "cleaningCode": "W",
+  "imageFileName": "fabric9.jpg",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661409113674"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1661409113674"
+    }
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63071827a84d7a3119a4877c"
+  },
+  "name": "Kravet Design - 36416-50",
+  "brand": "Kravet Design",
+  "sku": "36416.50.0",
+  "price": 8.25,
+  "width": 56,
+  "verticalRepeat": null,
+  "horizontalRepeat": null,
+  "collectionName": "Performance Crypton Home",
+  "type": "Chenille",
+  "origin": "United States",
+  "finish": "Acrylic Backed, Crypton Home Finish / Crypton Incase",
+  "railRoaded": false,
+  "generalDelivery": "7 - 8 Weeks",
+  "composition": "Cotton - 48%, Polyester - 24%, Rayon - 19%, Olefin - 8%, Nylon - 1%",
+  "abrasionTest": 63000,
+  "pattern": "Texture",
+  "endUse": "drapery",
+  "cleaningCode": "W",
+  "imageFileName": "fabric10.jpg",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1661409319616"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1661409319616"
+    }
+  },
+  "__v": 0
+}]

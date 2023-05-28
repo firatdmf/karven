@@ -1,0 +1,35 @@
+{
+  "name": "mern-tutorial",
+  "version": "1.0.0",
+  "description": "Karven Home",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm start\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend",
+    "railway-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend",
+    "railway-postbuild2": "cd frontend && npm install && npm run build && cd .. && npm i"
+  },
+  "author": "Firat",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "browserslist": "^4.21.4",
+    "caniuse-lite": "^1.0.30001460",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.4.0",
+    "framer-motion": "^7.10.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.3",
+    "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  }
+}

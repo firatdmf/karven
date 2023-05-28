@@ -1,0 +1,74 @@
+footer ul {
+  margin-top: 1%;
+}
+footer ul li {
+  list-style: none;
+  text-decoration: none;
+  margin: 10% 0 1% 0;
+}
+footer ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #151948;
+}
+
+footer h3 {
+  border-bottom: 2px solid black;
+  margin-top:2%;
+}
+
+footer {
+  padding: 1%;
+  background-color: #ebedee;
+  border-top: 0.8px solid black;
+  width: 100wv;
+}
+
+
+footer .footerMenu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+  column-gap: 5%;
+  overflow: hidden;
+}
+
+footer .copyright {
+  margin-top:2%;
+  text-align: center;
+  border-top: 1px solid black;
+  padding-top: 1%;
+}
+
+footer .karvenLogo {
+  width: 50%;
+  height: auto;
+  opacity: 0.9;
+  display: block;
+  margin:0 auto;
+  opacity: 1;
+}
+footer .karvenLogo:hover{
+  opacity:0.9;
+}
+
+
+@media(max-width:600px){
+  footer .footerMenu{
+      grid-template-columns: 1fr;
+      
+  }
+  footer ul li{
+    margin:0;
+    margin-top:3%;
+  }
+  footer .karvenLogo{
+    width:30%;
+    display: block;
+    margin:0 auto;
+    margin-top:10%;
+  }
+  footer .col4 p{
+    text-align: center;
+    margin-top:2%;
+  }
+}

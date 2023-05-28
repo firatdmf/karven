@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+
+.classicSheers {
+  color: #151948;
+  padding: 2%;
+}
+.classicSheers h1 {
+  font-family: "Tenor Sans", sans-serif;
+}
+
+.classicSheers .productCategory {
+  margin: 1%;
+}
+
+.classicSheers .bigFlex {
+  display: flex;
+  column-gap: 3vw;
+  background-color: #f1f1f1;
+  border-radius: 5%;
+  padding:2%;
+}
+
+.classicSheers .filterFlex {
+  display: flex;
+  height: 100vh;
+  flex: 1 0 0;
+  /* border: 3px dashed red; */
+}
+.classicSheers .filterFlex .filterBy {
+  display: none;
+}
+
+.classicSheers .productFlex {
+  /* border: 3px dashed blue; */
+  flex: 3 1 0;
+}
+
+.classicSheers .productGrid {
+  margin: 1vh;
+  display: grid;
+  gap: 5vh;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+}
+
+.classicSheers .productGrid .card {
+  text-align: center;
+  color: white;
+  background-color: black;
+  /* border: 3px dashed pink; */
+  overflow: hidden;
+  /* height:40vh; */
+}
+
+.classicSheers .productGrid .card img {
+  object-fit: cover;
+  max-width: 100%;
+  min-height: 100%;
+}
+
+/* .classicSheers .svg img {
+  object-fit: cover;
+  max-width: 100%;
+  min-height: 100%;
+} */
+
+@media screen and (max-width: 793px) {
+  .classicSheers .bigFlex {
+    flex-direction: column;
+  }
+
+  .classicSheers .productGrid {
+    padding: 5vh;
+  }
+  .classicSheers .filterFlex {
+    height: 200px;
+  }
+
+  .classicSheers .filterFlex .filterBy {
+    display: flex;
+    width: 100%;
+    height: 7vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .classicSheers .filterFlex .mobileFilterPage {
+    /* display: none; */
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    padding: 5%;
+  }
+  .classicSheers .filterFlex .mobileFilterPage ul{
+    list-style: none;
+  }
+  .classicSheers .filterFlex .mobileFilterPage .closeButton {
+    height: 4%;
+    width: 7%;
+    background: black;
+    position: fixed;
+    right: 1%;
+    top: 1%;
+  }
+}
+
+@media screen and (max-width: 643px) {
+  .classicSheers .productGrid .card {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .classicSheers .productGrid .card {
+    width: auto;
+  }
+
+  .classicSheers .productGrid {
+    padding: 1vh;
+  }
+}

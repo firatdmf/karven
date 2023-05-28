@@ -1,0 +1,18 @@
+put zip code, get shipping estimates: time and money
+Request Quote
+make blog page 
+
+AI:
+embroidery pattern generator
+recommend like fabrics to customer's previous orders (or favorites) every week by email
+pattern demonstration on an Object
+fabric pattern classifier
+keep recording data from your customers
+
+user | company name | company origin | pattern type | content | width | color
+ahmet
+mehmet
+
+Also have bookkeeping feature
+---------
+Pay attention to Pareto (20% of customers brings the 80% of the revenue)

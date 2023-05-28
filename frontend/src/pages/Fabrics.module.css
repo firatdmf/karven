@@ -1,0 +1,196 @@
+.fabricsJSX .container {
+  /* box-sizing: border-box; */
+  display: grid;
+  grid-template-areas:
+    "cover cover"
+    "resultsInfo resultsInfo"
+    /* "filter fabricSection"; */
+    "fabricSection fabricSection"
+    "pagesInfo pagesInfo";
+  /* grid-template-columns: 2fr 5fr; */
+  grid-template-columns: 0 5fr;
+  grid-template-rows: 300px 1fr;
+  gap: 1vh 1vw;
+  margin: 0 20px;
+}
+
+.fabricsJSX .bread {
+  /* margin: 20px; */
+  margin: 15px;
+}
+
+.fabricsJSX .cover {
+  position: relative;
+  grid-area: cover;
+  /* border:2px solid black; */
+  /* background: url("https://images.pexels.com/photos/1460890/pexels-photo-1460890.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")
+    no-repeat; */
+  /* background: url("https://i.ibb.co/2WnzfKW/karven-linkedin-banner.png")
+    no-repeat; */
+  background: url("../../public/images/cover/karven-linkedin-banner.png")
+    no-repeat;
+  background-size: 90%;
+  background-position: center;
+  border-radius: 0 0 10px 10px;
+  margin: 0 20px;
+  margin-bottom: 5vh;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fabricsJSX .headlineBox {
+  display: flex;
+  opacity: 0.95;
+  position: absolute;
+  height: 120px;
+  width: 21%;
+  background: #959aa4;
+  background: rgba(0, 0, 0, 0.8);
+  color: #d19e25;
+  bottom: -10%;
+  left: 2%;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  border: 4px white solid;
+}
+
+.fabricsJSX .headlineBox2 {
+  display: none;
+  grid-area: cover2;
+}
+
+.fabricsJSX .filter {
+  grid-area: filter;
+  /* border: 1px dashed black; */
+  /* background-color: #f1f1f1; */
+  display: none;
+}
+.fabricsJSX .fabricSection {
+  grid-area: fabricSection;
+}
+
+.fabricsJSX .resultsInfo {
+  grid-area: resultsInfo;
+  display: flex;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  margin-bottom: 5vh;
+  background-color: #ebedee;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.fabricsJSX .resultsInfo .floatRight {
+  float: right;
+  /* display:inline-block; */
+}
+
+.fabricsJSX .fabrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+  /* setting all the rows the same height */
+  grid-auto-rows: 1fr;
+  justify-items: center;
+  justify-content: center;
+  gap: 15px;
+  /* margin:auto; */
+}
+/* .fabricsJSX .fabrics .fabricItem{
+  border:3.5px dashed rgba(21,25,72,0.15);
+} */
+
+.fabricsJSX .durabilitySelect {
+  display: none;
+}
+
+.pagesInfo{
+  grid-area:pagesInfo;
+}
+
+.cardSwitch {
+  padding: 15px;
+  margin: 5vh 0 2vh 0;
+  background-color: #ebedee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.cardSwitch .pageNumbers {
+  display: flex;
+}
+
+.cardSwitch .pageNumbers .numbers {
+  padding: 0 10px;
+}
+.fabricsJSX .cardSwitch .pageArrowButton {
+  font-size: 2rem;
+}
+
+/* Removing default button styling */
+.cardSwitch button,
+.fabricsJSX .fabricSection p button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  outline: inherit;
+  margin: 0 5px;
+}
+
+.fabricsJSX .fabricSection .floatRight button {
+  padding: 5px;
+}
+
+.fabricsJSX .cardSwitch button:hover {
+  color: #d09d34;
+  background-color: black;
+  cursor: pointer;
+}
+
+.fabricsJSX .fabricSection .floatRight button:hover {
+  border-bottom: 1px dashed black;
+  cursor: pointer;
+}
+
+.fabricsJSX .cardSwitch .selectedPage,
+.fabricsJSX .cardSwitch .selectedPage:hover {
+  color: #d09d34;
+  background-color: black;
+  cursor: default;
+  border-radius: 20px;
+}
+
+.fabricsJSX .cardSwitch .pageArrowButton:hover {
+  color: #d09d34;
+  background-color: black;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    display: none;
+  }
+
+  .fabricsJSX .container {
+    grid-template-areas:
+      "resultsInfo resultsInfo"
+      "filter fabricSection"
+      "pagesInfo pagesInfo"
+      ;
+    /* grid-template-columns: 0 5fr; */
+    grid-template-rows: 1fr;
+  }
+}
+
+/* below is for the pageInfo thing */
+
+/* @media scren and (max-width:388px) {
+
+} */

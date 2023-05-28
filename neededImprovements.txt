@@ -1,0 +1,6 @@
+change youtube pp on video to karven logo (or k icon)
+
+next thing to do is to upload from csv through the file fabricData.csv or figure out something else
+->
+12/18/2022
+next thing to do is to deploy the app and list all embroidery at once

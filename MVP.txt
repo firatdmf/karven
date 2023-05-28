@@ -1,0 +1,12 @@
+------
+make the filter work (ultimately decide what fabrics to display)
+bonus: when customer clicks back, go back to the previous screen not resetting everything 
+create FAQ section: can you make any color? what is your moq? Do you sell to public? How many locations you have?
+create Price Quote section: (put embroidery next to it)
+Set up google analytics
+make it mobile friendly
+final seo adjustments
+show certifications: UV PROTECTION, EASY CLEAN, ANTIBACTERIAL, HIGH DURABILITY, FR/FLAME RETARDANT
+show attended expositions
+
+--- We export  100 % of our products ; mainly to European countries such as Spain, Italy, Portugal, Poland, Germany, France, Japan and also to the Middle East and Balkan Countries. ---

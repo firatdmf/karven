@@ -1,0 +1,14 @@
+[{
+    "name":"",
+    "sku":"k12471",
+    "brand":"kismet",
+    "width":300,
+    "price":213,
+    "style":["sheer","embroidery"],
+    "collection":"",
+    "abrasion":30000,
+    "endUse": ["drapery","something else"],
+    "imageUrl":["",""],
+    "content":{"polyester":90,"cotton":10},
+    "theme":["classic","modern"]
+}]

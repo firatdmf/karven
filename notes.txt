@@ -1,0 +1,426 @@
+first I did npm init in  mern-tutorial folder (i typed server.js instead of index.js)
+then npm i express dotenv mongoose colors
+
+//constantly watches the server.js file so we don't have to keep restarting it
+npm i -D nodemon
+
+for packages.json 
+
+    //change the below one to something else
+    // "test": "echo \"Error: no test specified\" && exit 1"
+    
+    //to this
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+
+then he did npm run server
+then closed it with control+c
+
+then create a git repository by typing
+git init
+git add .
+git commit -m 'Initial commit'
+
+then started the server again by typing npm run server
+
+whenever you make a change in .env file, restart your server
+
+left at 17 mins
+
+at 35:22 we add: npm i express-async-handler
+
+we are going to use mongodb, atlas, and compass
+compass is the desktop app(gui) managing your database from your gui
+
+now creating the database
+
+collections are like tables in relational database (instead of rows and columns, you have collections of Documents)
+Documents are JSON objects 
+
+
+to create a git repository:
+type: "git init"
+then "git add ." (this adds all)
+then "git commit -m 'NAME'"
+
+
+to update git 
+you say "git add ."
+and then "git commit -m 'NAME GOES HERE'"
+
+
+---------------
+Part 2: JWT Authentication
+
+jwt has 3 parts: header, payload, and signature
+
+at 14:21 we install "npm i bcryptjs"
+and then "npm i jsonwebtoken"
+
+left the video at 14:39
+
+-----
+
+left at 42:30, getting error with postmant
+
+-----
+3rd Video: Front end Authentication
+
+now we need to create react front end: in the terminal write:
+"npx create-react-app frontend --template redux" 
+what that will do is it also intall redux tool kit and react redux package
+
+since we added redux flag we will have features folder and inside that we will have counter folder which is way too overcomplicated so we will delete them after
+
+now we added     "client": "npm start --prefix frontend" to the package.json (for backend)
+
+now we are going to do some cleaning in the frontend folder:
+Delete files: app.css, logo.svg
+
+-----------------
+deleted everything inside the app.js just left with below:
+function App() {
+  return (
+    <div><h1>My app</h1></div>
+  );
+}
+
+export default App;
+-----------
+
+we now installed a vsc extension:
+ES7+ React/Redux/React-Native snippets v4
+-> this will help you to automatically write the react template: just type rfce and press enter in a react file
+
+You don't have to import react anymore on the top of the pages (they changed it with the update)
+
+now we wrote this in terminal in the frontend folder "npm i react-router-dom" 
+if you accidentally did in another folder you can do: "npm uninstall react-router-dom"
+
+now we installed "npm i react-icons" in frontend folder
+
+left at the time: 16:30 
+
+---------
+27:18 now we do git - in the mern-tutorail directory
+"git add ."
+"git commit -m 'Added frontend UI'"
+
+Now we will run both server and client at the same time with a trick
+in mern-tutorial directory write this into terminal:
+npm i -D concurrently then we put dev field into package.json to run both at the same time with a single command/terminal
+
+
+finished at time stamp 37:30
+
+now we build register and install below in the front end.
+toastify shows errors and alerts in toast, and axios is used for HTTP requests, now instead of postmant we will be able to use axios from our application
+"npm i axios react-toastify"
+
+now we added this to the frontend package.json right below name and version
+"proxy":"http://localhost:5000" 
+
+
+-------
+Final episode
+
+left at time stamp 10:00
+
+-------------------
+Left at 35:27 
+
+Now deployment:
+Heroku is a simple way to deploy full mern stack (or anything with node.js) small scale applications like these
+Stopped the server from running bc you have both backend and frontend running
+
+
+at 50:59 we are running "npm run build" in the frontend folder: we do this for huroku so you won't have to do everytime you deploy
+
+after installing heroku, go to console in your mern-tutorial folder and type: heroku login
+then login following the directions.
+Then type "heroku create [yourUniqueName]" in mern-tutorail folder's terminal (this has to be a unique name), I said mernappfirat
+
+then it's gonna give you your link, you can change later
+
+remember .env does not get pushed so you go to heroku settings and put those values in Config Vars for production
+-> start with MONGO_URI, then JWT_SECRET, then NODE_ENV. No need to put the port there
+then we added "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend" to the package.json scripts
+
+then we go back to heroku and click on deploy
+
+now I typed below
+git commit -m 'Prepare deploy'
+git push heroku main
+
+//however that did not seem to work so I also did below by looking at the heroku website directions
+
+heroku git:remote -a mernappfirat
+git add .
+git commit -am "make it better"
+git push heroku master
+
+
+// Then I typed (brad says this)
+heroku open
+
+--------
+did not work trying again another set:
+git add .
+git commit -m 'Prepare deploy'
+heroku git:remote -a mernappfirat
+git push heroku master
+heroku open
+
+THE ABOVE WORKED!! but crashed soon after so I made the mongodb database accessible to all ip's now it worked again!!
+
+
+Now we are fully deployed! Then you can add your own domain at the settings.
+what's nice is with mongodb atlas you don't need to worry about having a db installed on your server bc we use a cloud db.
+
+---------------------------------------------------
+what's a thunk function, async
+
+
+I myself installed bootstap in the frontend folder: "npm i bootstrap@5.2.0"
+--------------
+Right now progress and messages are not incldued in the components
+I did not touch the fabricController yet
+I left the video at 27:35 (https://www.youtube.com/watch?v=b6Oe2puTdMQ&t=1339s)
+
+---------------------------------
+I will now install npm install framer-motion (for grid animations, I installed in the parent folder but that's okay)
+
+---------
+9/2/2022
+filtering worked!! I used the below code for reference and adjusted to my code (the link: https://contactmentor.com/reactjs-filter-array-of-objects/)
+
+import { useEffect, useState } from "react";
+import "./styles.css";
+
+export default function App() {
+  // Array of all car objects
+  const carList = [
+    {
+      name: "BMW M6",
+      url:
+        "https://mediapool.bmwgroup.com/cache/P9/201411/P90169551/P90169551-the-new-bmw-m6-coup-exterior-12-2014-600px.jpg",
+      release_year: 2020
+    },
+    {
+      name: "VW Polo",
+      url:
+        "https://cdn.euroncap.com/media/30740/volkswagen-polo-359-235.jpg?mode=crop&width=359&height=235",
+      release_year: 2018
+    },
+    {
+      name: "Audi S6",
+      url:
+        "https://www.motortrend.com/uploads/sites/5/2020/03/6-2020-audi-s6.jpg?fit=around%7C875:492.1875",
+      release_year: 2020
+    },
+    {
+      name: "BMW M2",
+      url:
+        "https://imgd.aeplcdn.com/0x0/cw/ec/37092/BMW-M2-Exterior-141054.jpg?wm=0",
+      release_year: 2019
+    },
+    {
+      name: "Audi A3",
+      url: "https://cdn.motor1.com/images/mgl/BEooZ/s3/2021-audi-s3.jpg",
+      release_year: 2019
+    }
+  ];
+  // List of all cars satisfing all the filters
+  const [filteredList, setFilteredList] = useState(carList);
+  // Selected Brand name filter
+  const [selectedBrand, setSelectedBrand] = useState("");
+  // Selected Year filter
+  const [selectedYear, setSelectedYear] = useState();
+
+  const filterByBrand = (filteredData) => {
+    // Avoid filter for empty string
+    if (!selectedBrand) {
+      return filteredData;
+    }
+
+    const filteredCars = filteredData.filter(
+      (car) => car.name.split(" ").indexOf(selectedBrand) !== -1
+    );
+    return filteredCars;
+  };
+  const filterByYear = (filteredData) => {
+    // Avoid filter for null value
+    if (!selectedYear) {
+      return filteredData;
+    }
+
+    const filteredCars = filteredData.filter(
+      (car) => car.release_year === selectedYear
+    );
+    return filteredCars;
+  };
+
+  // Update seletedBrand state
+  const handleBrandChange = (event) => {
+    setSelectedBrand(event.target.value);
+  };
+
+  // Toggle seletedYear state
+  const handleYearChange = (event) => {
+    const inputYear = Number(event.target.id);
+
+    if (inputYear === selectedYear) {
+      setSelectedYear("");
+    } else {
+      setSelectedYear(inputYear);
+    }
+  };
+
+  useEffect(() => {
+    var filteredData = filterByBrand(carList);
+    filteredData = filterByYear(filteredData);
+    setFilteredList(filteredData);
+  }, [selectedBrand, selectedYear]);
+
+  return (
+    <div className="App">
+      <div className="brand-filter">
+        <div>Filter by Brand :</div>
+        <select
+          id="brand-input"
+          value={selectedBrand}
+          onChange={handleBrandChange}
+        >
+          <option value="">All</option>
+          <option value="BMW">BMW</option>
+          <option value="VW">VW</option>
+          <option value="Audi">Audi</option>
+        </select>
+      </div>
+      <div>Filter by Year</div>
+      <div id="year-options" onClick={handleYearChange}>
+        <div
+          className={selectedYear === 2018 ? "active-option" : "filter-option"}
+          id="2018"
+        >
+          2018
+        </div>
+        <div
+          className={selectedYear === 2019 ? "active-option" : "filter-option"}
+          id="2019"
+        >
+          2019
+        </div>
+        <div
+          className={selectedYear === 2020 ? "active-option" : "filter-option"}
+          id="2020"
+        >
+          2020
+        </div>
+      </div>
+
+      <div id="car-list">
+        {filteredList.map((item, index) => (
+          <div className="car-item" key={index}>
+            <div className="car-name">{`Name: ${item.name}`}</div>
+            <div className="car-year">{`Year: ${item.release_year}`}</div>
+            <img className="car-image" src={item.url} alt="car-img" />
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+---------------------------------------------------------------------------------------
+
+
+const checkHandle = (e) => {
+    console.log(selectedEndUse);
+    let naame = e.target.name;
+    if (naame === "reset") {
+      setSelectedEndUse((prevState) => ({
+        ...prevState,
+        drapery: false,
+        upholstery: false,
+        multipurpose: false,
+      }));
+      return;
+    } else {
+      setSelectedEndUse((prevState) => ({
+        ...prevState,
+        [naame]: !selectedEndUse[naame],
+      }));
+      return;
+    }
+  };
+-------------------------------------------
+
+  const checkHandle = async (e) => {
+    console.log(allStates);
+    let value = e.target.value;
+    let stateName = e.target.name;
+    console.log(value, stateName);
+    if (value === "reset") {
+      let obj = {};
+      // let keys = Object.keys(selectedEndUse)
+      Object.keys(allStates[stateName]).forEach((key) => {
+        obj[key] = false;
+      });
+      setAllStates((prevState)=>({
+        ...prevState,[stateName]:obj
+      }))
+      // console.log(allStates[stateName]);
+      // setSelectedEndUse(obj);
+      setSelectedEndUse(allStates["selectedEndUse"])
+    } else{
+      let obj ={};
+      Object.keys(allStates[stateName]).forEach((key)=>{
+        obj[key] = allStates[stateName][key]
+      })
+      obj[value] = !obj[value];
+      await setAllStates((prevState)=>({
+        ...prevState,[stateName]:obj
+      }))
+      setSelectedEndUse(allStates["selectedEndUse"])
+      return;
+      // setAllStates({})
+    }
+  };
+
+  ------------------------------------------------------
+  I learned minmax stuff and put it inside the home.jsx, I made sure I am covering 320px viewport correctly (cuz that's just enough)
+  Now I will add this project to github pages so I typed the below code in the terminal
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/firatdmf/karven.git
+git push -u origin main
+
+----
+to pull from github
+-> entire thing (new)
+git clone https://github.com/firatdmf/karven.git
+
+-> just the changes 
+git fetch origin
+git checkout main
+git merge origin/main
+
+
+---------------
+if the module.exports = something;
+const something = require(`something's file`)
+
+if the module.exports = {something}
+const {something} = require(`something's file`)
+
+-------
+you need to set an admin and be the only person to make changes in fabric Controller
+
+03/11/2023
+installed jquery today: npm i jquery
+
+04/15/2023
+To deploy on railway:
+I first went into the frontend directory and ran "npm run build"
+Then I commit this to the github

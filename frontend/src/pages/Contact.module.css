@@ -1,0 +1,107 @@
+.firstPart {
+  padding: 2% 0;
+  /* position: relative;   */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
+  /* justify-content: center;
+    align-items: flex-start; */
+}
+
+.firstPart .item {
+  flex: 1 1 300px;
+  /* background: black; */
+  /* border: black 0.5px dashed; */
+  padding: 1% 4%;
+}
+
+.firstPart .col2 {
+  flex-grow: 2;
+}
+
+.firstPart .map iframe {
+  width: 100%;
+  height: auto;
+  border: 0;
+}
+
+.firstPart .map p {
+  margin: 2% 0;
+  white-space: nowrap;
+}
+
+.firstPart h2 {
+  margin-bottom: 5%;
+  border-bottom: 2px solid black;
+}
+
+.firstPart .image {
+  height: 50%;
+  width: 100%;
+  /* background-image: url("https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  margin: 5px 0;
+  flex-grow: 0.8;
+}
+
+/* form {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-areas:
+    "name businessName"
+    "phone email"
+    "message message";
+  gap: 3%;
+}
+
+
+.name {
+  grid-area: name;
+}
+.businessName {
+  grid-area: businessName;
+}
+
+.phone {
+  grid-area: phone;
+}
+.email {
+  grid-area: email;
+}
+.message {
+  grid-area: message;
+  background-color: beige;
+  height:20vh;
+} */
+.contact input:not(.contactWay input) {
+  width: 100%;
+  height: 3%;
+}
+
+.contact .col2 input {
+  padding: 15px 10px;
+  line-height: 20%;
+  margin-bottom: 20px;
+}
+textarea {
+  padding: 1% 1%;
+  resize: none;
+  height: 10rem;
+  width: 100%;
+}
+.firstPart button {
+  width: 100%;
+  padding:3%;
+  font-size: 1.2rem;
+}
+
+.firstPart button:hover{
+    cursor: pointer;
+}
+/* @media only screen and (max-width: 920px) {
+  .col3 {
+    display: none;
+  }
+} */
