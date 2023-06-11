@@ -1,8 +1,9 @@
 .slider {
   width: 100%;
-  height: 90vh;
+  height: 60vh;
   position: relative;
   overflow: hidden;
+  margin: auto;
 }
 
 .slide {
@@ -17,26 +18,29 @@
 }
 
 @media screen and (min-width: 600px) {
-  .slide img {
-    width: 100%;
-    height: 100%;
-  }
+  // .slide img {
+  //   width: 100%;
+  //   height: 100%;
+  // }
 }
 
 .slide img {
+  width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center bottom;
 }
 
 .content {
+  font-family: charter, Georgia, Cambria, times new roman, Times, serif;
   cursor: pointer;
   position: absolute;
   top: 23rem;
-  left: 5rem;
+  right: 5rem;
   opacity: 0;
-  width: 50%;
-  padding: 3rem;
-  background: rgba(0, 0, 0, 0.8);
+  width: 33%;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.5);
   animation: slide-up 1s ease 0.5s;
   animation-fill-mode: forwards;
   // visibility: hidden;
@@ -49,15 +53,22 @@
   }
   100% {
     visibility: visible;
-    top: 17rem;
+    top: 15rem;
   }
 }
 
 @media screen and (max-width: 600px) {
   .content {
-    width: 80%;
+    width: 70%;
   }
 }
+
+// @media screen and (max-width:1000px) {
+//   .content{
+//     display: none;
+//   }
+  
+// }
 
 .content > * {
   color: #fff;
@@ -69,40 +80,39 @@
   transform: translateX(0);
 }
 
-.current .content{
-    opacity: 1;
-
+.current .content {
+  opacity: 1;
 }
 
-.arrow{
-    top:35%;
-    border:2px solid white;
-    border-radius: 50%;
-    background-color: transparent;
-    color: white;
-    width: 2rem;
-    height: 2rem;
-    cursor:pointer;
-    position: absolute;
-    z-index:999;
+.arrow {
+  top: 45%;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  position: absolute;
+  z-index: 999;
 }
 
-.arrow:hover{
-    background: white;
-    color:#777;
+.arrow:hover {
+  background: white;
+  color: #777;
 }
 
 .next {
-    right:1.5rem;
+  right: 1.5rem;
 }
 .prev {
-    left:1.5rem;
+  left: 1.5rem;
 }
 
 hr {
-    height:2px;
-    background: white;
-    width:50%;
+  height: 2px;
+  background: white;
+  width: 50%;
 }
 
 // #theButton:hover, #theButton:focus, #theButton:active {
@@ -110,13 +120,12 @@ hr {
 //   background-color: red;
 // }
 
-
-#theButton{
+#theButton {
   background-color: red;
   padding: 20px;
 }
 
-#theButton:hover{
+#theButton:hover {
   cursor: pointer;
 }
 

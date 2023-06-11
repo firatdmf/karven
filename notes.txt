@@ -424,3 +424,28 @@ installed jquery today: npm i jquery
 To deploy on railway:
 I first went into the frontend directory and ran "npm run build"
 Then I commit this to the github
+
+
+----
+06/10/2023
+fabric types:
+klasik
+etek
+pano
+kort
+bantlı
+3D
+Serpme
+Aplik / güpür
+
+Aşağıdakiler çok önemli değil
+kadifeli
+dikey
+çiçekli
+Taşlı
+İncili
+Çocuk
+Siyah Zemin
+çıtır
+
+Desen bilmediklerime geçici bir desen ayarlamalıyım

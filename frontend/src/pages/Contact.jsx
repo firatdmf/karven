@@ -7,7 +7,8 @@ function Contact() {
         <div className={`${classes.map} ${classes.item}`}>
           <h2>Contact Us</h2>
           <h4>Phone:</h4>
-          <p>+90 (282) 675-1552</p>
+          <p>+90 (282) 675-1552 (Office)</p>
+          <p>+90 (533) 544-2525 (Mobile)</p>
           <h4>Email:</h4>
           <p>info@demfirat.com</p>
           <p>karvenmuhasebe@gmail.com</p>

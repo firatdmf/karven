@@ -3,7 +3,7 @@
 import { BsSuitHeart, BsSuitHeartFill } from "react-icons/bs";
 import classes from "./FabricItem.module.css";
 import { Link } from "react-router-dom";
-function FabricItem({ fabric, page }) {
+function FabricItem({ fabric }) {
   // window.onpopstate = () =>{
   //   Link("/hello")
   // }

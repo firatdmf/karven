@@ -1,13 +1,10 @@
 import FabricItem from "../components/FabricItem";
-import { getFabrics } from "../features/fabrics/fabricSlice";
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
-import { reset } from "../features/auth/authSlice";
 import Spinner from "../components/Spinner";
 import classes from "./Fabrics.module.css";
 import FilterForm from "../components/FilterForm";
 import { IoArrowBackCircle, IoArrowForwardCircle } from "react-icons/io5";
+import fabrics from "../fabrics.json"
 
 // import { motion, AnimatePresence } from "framer-motion";
 
@@ -95,14 +92,6 @@ function Fabrics() {
     return;
   };
 
-  const navigate = useNavigate();
-  const dispatch = useDispatch();
-  const { user } = useSelector((state) => state.auth);
-  const { fabrics, isLoading, isError, message } = useSelector(
-    (state) => state.fabrics
-  );
-  // const [filtered, setFiltered] = useState([])
-  // const [activeGenre, setActiveGenre] = useState("")
   const [selectedOrigin, setSelectedOrigin] = useState({
     "United States": false,
     Italy: false,
@@ -116,37 +105,13 @@ function Fabrics() {
     selectedEndUse,
     selectedOrigin,
   });
-  // const [draperyChecked, setDraperyChecked] = useState(false);
-  // const [upholsteryChecked, setUpholsteryChecked] = useState(false);
-  // const [multipurposeChecked, setMultipurposeChecked] = useState(false);
   const [filteredFabrics, setFilteredFabrics] = useState({});
   const [page, setPage] = useState(0);
   const [displayAmount, setdisplayAmount] = useState(60);
   let pages = pageNumberCalculator(filteredFabrics, displayAmount);
-  // const [pages, setpages] = useState(()=>(pageNumberCalculator(filteredFabrics,displayAmount)));
   const [range, setRange] = useState(
     iteratingArrayCreator(page, displayAmount)
   );
-
-  useEffect(() => {
-    if (isError) {
-      console.log(message);
-    }
-    // if (!user) {
-    //   navigate("/login");
-    // }
-    dispatch(getFabrics());
-    //that will fetch the goals from the backend and put it in the const variable goals that we created at the top so we have access to it
-
-    //now when we leave the dashboard we want the goals to clear so..
-    return () => {
-      dispatch(reset());
-    };
-  }, [user, navigate, isError, message, dispatch]);
-
-  if (isLoading) {
-    return <Spinner />;
-  }
 
   return (
     <div className={classes.fabricsJSX}>

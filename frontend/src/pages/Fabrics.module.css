@@ -4,8 +4,8 @@
   grid-template-areas:
     "cover cover"
     "resultsInfo resultsInfo"
-    /* "filter fabricSection"; */
-    "fabricSection fabricSection"
+    "filter fabricSection"
+    /* "fabricSection fabricSection" */
     "pagesInfo pagesInfo";
   /* grid-template-columns: 2fr 5fr; */
   grid-template-columns: 0 5fr;
@@ -27,7 +27,7 @@
     no-repeat; */
   /* background: url("https://i.ibb.co/2WnzfKW/karven-linkedin-banner.png")
     no-repeat; */
-  background: url("../../public/images/cover/karven-linkedin-banner.png")
+  background: url("../../public/images/cover/karven_banner.png")
     no-repeat;
   background-size: 90%;
   background-position: center;
@@ -64,7 +64,6 @@
   grid-area: filter;
   /* border: 1px dashed black; */
   /* background-color: #f1f1f1; */
-  display: none;
 }
 .fabricsJSX .fabricSection {
   grid-area: fabricSection;

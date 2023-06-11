@@ -19,6 +19,7 @@ import Fabrics from "./pages/Fabrics";
 import FabricDisplay from "./pages/FabricDisplay";
 import PageDoesNotExist from "./pages/PageDoesNotExist";
 import Trial2 from "./Trial2";
+import Products from "./pages/Products";
 
 function App() {
   return (
@@ -38,6 +39,8 @@ function App() {
             <Route path="/fabricDisplay" element={<FabricDisplay/>}/>
             <Route path="/trial" element={<Trial />} />
             <Route path="/trial2" element={<Trial2 />} />
+            <Route path="/products" element={<Products />} />
+
 
             {/* If none of the pages is requested but a non-existing page, then bring the below component */}
             <Route path="*" element={<PageDoesNotExist />} />

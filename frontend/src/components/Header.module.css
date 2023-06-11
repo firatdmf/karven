@@ -2,7 +2,18 @@
   height: 10%;
   width: 100%;
   background-color: #f1f1f1;
-  padding: 5px 70px 0px 0px;
+  padding: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  cursor: pointer;
 }
 
 .topBar {
@@ -19,13 +30,65 @@
   padding: 0 10px 0 10px;
 }
 
-.logo {
+.logoGrid {
+  display: flex;
+}
+.logoGrid > * {
+  flex: 1;
+  flex-basis: 0;
+}
+.logoGrid .item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: charter, Georgia, Cambria, times new roman, Times, serif;
+  margin: 10px;
+}
+
+.logoGrid .item2 .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  width: 100%;
+  height: 100%;
+  height: 150px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.logoGrid .item2 .img img {
+  max-width: 100%;
+  max-height: 100%;
+  /* height:100%; */
+  width: 200px;
+}
+.logoGrid .item3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: charter, Georgia, Cambria, times new roman, Times, serif;
+  font-size: 1.2rem;
+  vertical-align: baseline;
+}
+
+.logoGrid .item3 p {
+  margin: 15px;
+}
+.logoGrid .item3 svg {
+  vertical-align: bottom;
+}
+
+/* .logo {
   display: block;
   width: 15%;
   margin-left: auto;
   margin-right: auto;
-  /* opacity: 1; */
-}
+
+} */
 
 /* Style the navbar */
 .navbar {
@@ -34,6 +97,7 @@
   background-color: #f1f1f1;
   border-radius: 0px 0px 30px 30px;
   box-shadow: 2px 8px 10px 1px rgba(0, 0, 0, 0.2);
+  font-size:1.3rem;
 }
 
 /* Navbar links */
@@ -44,7 +108,9 @@
   text-align: center;
   padding: 19px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.3rem;
+  font-family: charter, Georgia, Cambria, times new roman, Times, serif;
+
 }
 
 /* Navbar links on mouse-over */
@@ -136,12 +202,12 @@
   .navbar .a {
     float: none;
     display: block;
-    text-align: left;
+    text-align: center;
     width: 100%;
     margin: 0;
     padding: 14px;
   }
-  .navbar .userDisplay {
+  .navbar .quote {
     display: none;
   }
   .header .topBar2 {
@@ -155,4 +221,18 @@
   .header .logo {
     width: 30%;
   }
+}
+
+@media screen and (max-width: 720px) {
+  .logoGrid .item1,
+  .logoGrid .item3 {
+    display: none;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .navbar .quote {
+    display: none;
+  }
+  
 }

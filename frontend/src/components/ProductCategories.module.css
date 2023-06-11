@@ -1,0 +1,44 @@
+.Products {
+  padding: 10px;
+}
+.Products .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: stretch;
+  align-items: start;
+  overflow: hidden;
+  padding:30px;
+}
+
+.Products .product {
+  width: 300px;
+  /* Adjust the height as needed */
+  height: 400px;
+  margin: 20px;
+  text-align: center;
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.Products .product img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Products .product h3 {
+  margin-top: 10px;
+}
+
+/* .solidSheerFabrics img{
+    object-position: 800%;
+    object-fit: none;
+  } */
+
+.Products .link {
+  text-decoration: none;
+  color: inherit;
+}

@@ -54,9 +54,9 @@ function Footer() {
               src={karvenLogo}
               alt="Karven Logo"
             />
-            <p style={{ fontWeight: "bold" }}>
+            {/* <p style={{ fontWeight: "bold" }}>
               One Family. One Passion. One Resource.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className={classes.copyright}>

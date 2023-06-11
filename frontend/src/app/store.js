@@ -4,15 +4,15 @@ import { configureStore } from "@reduxjs/toolkit";
 
 //Bring the reducers for each redux state
 import authReducer from "../features/auth/authSlice";
-import goalReducer from '../features/goals/goalSlice';
-import fabricReducer from '../features/fabrics/fabricSlice';
+// import goalReducer from '../features/goals/goalSlice';
+// import fabricReducer from '../features/fabrics/fabricSlice';
 
 //export those reducers as one big reducer, and give them a name for reference (keys) in redux tool kit
 export const store = configureStore({
   reducer: {
     //below is where you can change the state names in the redux (displayed in redux toolkit)
     auth:authReducer,
-    goals:goalReducer,
-    fabrics:fabricReducer,
+    // goals:goalReducer,
+    // fabrics:fabricReducer,
   },
 });

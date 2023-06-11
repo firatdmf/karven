@@ -1,8 +1,11 @@
-import Products from "./components/Products";
+// import ProductGrid from "./components/ProductGrid";
+import ProductDetailCard from "./components/ProductDetailCard";
+import ProductGrid from "./components/ProductGrid";
 function Trial2() {
   return (
     <>
-      <Products></Products>
+      <ProductGrid/>
+      {/* <ProductDetailCard /> */}
     </>
   );
 }

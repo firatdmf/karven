@@ -154,6 +154,31 @@ function Fabrics() {
         Home <span style={{ fontSize: "10px" }}>{">"}</span> Fabrics
       </div>
       <section className={classes.container}>
+        <div className={classes.resultsInfo}>
+          <div>
+            Showing{" "}
+            {range[0] +
+              1 +
+              " - " +
+              (range[0] + 1 + displayAmount < filteredFabrics.length
+                ? range[range.length - 1] + 1
+                : filteredFabrics.length)}{" "}
+            of {filteredFabrics.length} results
+          </div>
+          {/* <span className={classes.floatRight}>
+            View:{" "}
+            <div value={60} onClick={displayAmountButton}>
+              60
+            </div>
+            <div value={120} onClick={displayAmountButton}>
+              120
+            </div>
+            <div value={"all"} onClick={displayAmountButton}>
+              All
+            </div>
+          </span> */}
+        </div>
+
         <div className={classes.cover}>
           <div className={classes.headlineBox}>Fabric</div>
         </div>
@@ -177,29 +202,6 @@ function Fabrics() {
           />
         </div>
 
-        <div className={classes.resultsInfo}>
-          Showing
-          {range[0] +
-            1 +
-            " - " +
-            (range[0] + 1 + displayAmount < filteredFabrics.length
-              ? range[range.length - 1] + 1
-              : filteredFabrics.length)}{" "}
-          of {filteredFabrics.length} results
-          <span className={classes.floatRight}>
-            View:{" "}
-            <div value={60} onClick={displayAmountButton}>
-              60
-            </div>{" "}
-            <div value={120} onClick={displayAmountButton}>
-              120
-            </div>{" "}
-            <div value={"all"} onClick={displayAmountButton}>
-              All
-            </div>
-          </span>
-        </div>
-
         {/* Now on the product display section */}
         <div className={classes.fabricSection}>
           {filteredFabrics.length > 0 ? (
@@ -211,6 +213,7 @@ function Fabrics() {
                     key={fabric._id}
                     fabric={fabric}
                     className={classes.fabricItem}
+                    page={page}
                   />
                 ) : (
                   ""
@@ -220,144 +223,134 @@ function Fabrics() {
           ) : (
             <h3>You have not set any fabric</h3>
           )}
-          {pages.length > 1 ? (
-            <div className={classes.cardSwitch}>
-              <div className={classes.pageNumbers}>
-                {page === 0 ? (
-                  ""
-                ) : (
-                  <IoArrowBackCircle
-                    value="prev"
-                    className={classes.pageArrowButton}
-                    onClick={() => {
-                      // alert(page);
-                      let pageValue = page;
-                      let newPageValue = pageValue - 1;
-                      let displayAmountValue = Number(displayAmount);
-                      let rangeValue = [];
-                      let startingNo = newPageValue * displayAmountValue;
-                      let finishNo;
-                      // console.log("the sum is: " + startingNo + displayAmountValue);
-                      // console.log("filtered fabrics length is: " + filteredFabrics.length);
-                      if (
-                        Number(startingNo + displayAmountValue) <
-                        filteredFabrics.length
-                      ) {
-                        // alert("going thru here!");
-                        finishNo = startingNo + displayAmountValue;
-                      } else {
-                        finishNo = filteredFabrics.length;
-                      }
-                      if (newPageValue === 0) {
-                        rangeValue = iteratingArrayCreator(
-                          0,
-                          displayAmountValue
-                        );
-                      } else {
-                        // console.log("display amount value is:" + displayAmountValue);
-                        // console.log(
-                        //   "starting value is:" + startingNo + "finish value is:" + finishNo
-                        // );
-                        rangeValue = iteratingArrayCreator(
-                          startingNo,
-                          finishNo
-                        );
-                        // alert('starting no: '+startingNo)
-                        // alert(displayAmount);
-                        // alert(finishNo);
-                      }
-                      setPage(newPageValue);
-                      setRange(rangeValue);
-                      return;
-                    }}
-                  />
-                )}
-                {pages.map(
-                  (item, index) =>
-                    page === item ? (
-                      <button
-                        className={`${classes.numbers} ${classes.selectedPage}`}
-                        key={index}
-                        value={item}
-                        onClick={pageButton}
-                      >
-                        {index + 1}
-                      </button>
-                    ) : (
-                      <button
-                        className={classes.numbers}
-                        key={index}
-                        value={item}
-                        onClick={pageButton}
-                      >
-                        {index + 1}
-                      </button>
-                    )
-                  // <button
-                  //   className={classes.numbers}
-                  //   key={index}
-                  //   value={item}
-                  //   onClick={pageButton}
-                  // >
-                  //   {index + 1}
-                  // </button>
-                )}
-                {page === pages.length - 1 ? (
-                  ""
-                ) : (
-                  <IoArrowForwardCircle
-                    value="next"
-                    className={classes.pageArrowButton}
-                    onClick={() => {
-                      // alert(page);
-                      let pageValue = page;
-                      let newPageValue = pageValue + 1;
-                      let displayAmountValue = Number(displayAmount);
-                      let rangeValue = [];
-                      let startingNo = newPageValue * displayAmountValue;
-                      let finishNo;
-                      // console.log("the sum is: " + startingNo + displayAmountValue);
-                      // console.log("filtered fabrics length is: " + filteredFabrics.length);
-                      if (
-                        Number(startingNo + displayAmountValue) <
-                        filteredFabrics.length
-                      ) {
-                        // alert("going thru here!");
-                        finishNo = startingNo + displayAmountValue;
-                      } else {
-                        finishNo = filteredFabrics.length;
-                      }
-                      if (newPageValue === 0) {
-                        rangeValue = iteratingArrayCreator(
-                          0,
-                          displayAmountValue
-                        );
-                      } else {
-                        // console.log("display amount value is:" + displayAmountValue);
-                        // console.log(
-                        //   "starting value is:" + startingNo + "finish value is:" + finishNo
-                        // );
-                        rangeValue = iteratingArrayCreator(
-                          startingNo,
-                          finishNo
-                        );
-                        // alert('starting no: '+startingNo)
-                        // alert(displayAmount);
-                        // alert(finishNo);
-                      }
-                      setPage(newPageValue);
-                      setRange(rangeValue);
-                      return;
-                    }}
-                  />
-                )}
-              </div>
-            </div>
-          ) : (
-            ""
-          )}
         </div>
       </section>
+      <div className={classes.pagesInfo}>
+        {pages.length > 1 ? (
+          <div className={classes.cardSwitch}>
+            <div className={classes.pageNumbers}>
+              {page === 0 ? (
+                ""
+              ) : (
+                <IoArrowBackCircle
+                  value="prev"
+                  className={classes.pageArrowButton}
+                  onClick={() => {
+                    // alert(page);
+                    let pageValue = page;
+                    let newPageValue = pageValue - 1;
+                    let displayAmountValue = Number(displayAmount);
+                    let rangeValue = [];
+                    let startingNo = newPageValue * displayAmountValue;
+                    let finishNo;
+                    // console.log("the sum is: " + startingNo + displayAmountValue);
+                    // console.log("filtered fabrics length is: " + filteredFabrics.length);
+                    if (
+                      Number(startingNo + displayAmountValue) <
+                      filteredFabrics.length
+                    ) {
+                      // alert("going thru here!");
+                      finishNo = startingNo + displayAmountValue;
+                    } else {
+                      finishNo = filteredFabrics.length;
+                    }
+                    if (newPageValue === 0) {
+                      rangeValue = iteratingArrayCreator(0, displayAmountValue);
+                    } else {
+                      // console.log("display amount value is:" + displayAmountValue);
+                      // console.log(
+                      //   "starting value is:" + startingNo + "finish value is:" + finishNo
+                      // );
+                      rangeValue = iteratingArrayCreator(startingNo, finishNo);
+                      // alert('starting no: '+startingNo)
+                      // alert(displayAmount);
+                      // alert(finishNo);
+                    }
+                    setPage(newPageValue);
+                    setRange(rangeValue);
+                    return;
+                  }}
+                />
+              )}
+              {pages.map(
+                (item, index) =>
+                  page === item ? (
+                    <button
+                      className={`${classes.numbers} ${classes.selectedPage}`}
+                      key={index}
+                      value={item}
+                      onClick={pageButton}
+                    >
+                      {index + 1}
+                    </button>
+                  ) : (
+                    <button
+                      className={classes.numbers}
+                      key={index}
+                      value={item}
+                      onClick={pageButton}
+                    >
+                      {index + 1}
+                    </button>
+                  )
+                // <button
+                //   className={classes.numbers}
+                //   key={index}
+                //   value={item}
+                //   onClick={pageButton}
+                // >
+                //   {index + 1}
+                // </button>
+              )}
+              {page === pages.length - 1 ? (
+                ""
+              ) : (
+                <IoArrowForwardCircle
+                  value="next"
+                  className={classes.pageArrowButton}
+                  onClick={() => {
+                    // alert(page);
+                    let pageValue = page;
+                    let newPageValue = pageValue + 1;
+                    let displayAmountValue = Number(displayAmount);
+                    let rangeValue = [];
+                    let startingNo = newPageValue * displayAmountValue;
+                    let finishNo;
+                    // console.log("the sum is: " + startingNo + displayAmountValue);
+                    // console.log("filtered fabrics length is: " + filteredFabrics.length);
+                    if (
+                      Number(startingNo + displayAmountValue) <
+                      filteredFabrics.length
+                    ) {
+                      // alert("going thru here!");
+                      finishNo = startingNo + displayAmountValue;
+                    } else {
+                      finishNo = filteredFabrics.length;
+                    }
+                    if (newPageValue === 0) {
+                      rangeValue = iteratingArrayCreator(0, displayAmountValue);
+                    } else {
+                      // console.log("display amount value is:" + displayAmountValue);
+                      // console.log(
+                      //   "starting value is:" + startingNo + "finish value is:" + finishNo
+                      // );
+                      rangeValue = iteratingArrayCreator(startingNo, finishNo);
+                      // alert('starting no: '+startingNo)
+                      // alert(displayAmount);
+                      // alert(finishNo);
+                    }
+                    setPage(newPageValue);
+                    setRange(rangeValue);
+                    return;
+                  }}
+                />
+              )}
+            </div>
+          </div>
+        ) : (
+          ""
+        )}
+      </div>
     </div>
   );
 }

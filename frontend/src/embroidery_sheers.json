@@ -1,0 +1,29 @@
+[
+  { "sku": "N1002", "cost": 6.8, "type": "classic" },
+  { "sku": "N1003", "cost": 6.5, "type": "classic" },
+  { "sku": "N1006", "cost": 6.7, "type": "classic" },
+  { "sku": "N1008", "cost": 0, "type": "classic" },
+  {
+    "sku": "N1009T",
+    "cost": 10,
+    "type": "classic",
+    "variants": ["G01", "K07", "K49"]
+  },
+  { "sku": "N1013", "cost": 8, "type": "classic" },
+  { "sku": "N1014", "cost": 10, "type": "classic" },
+  { "sku": "N1016", "cost": 0, "type": "classic" },
+  { "sku": "N1020", "cost": 7.8, "type": "classic" },
+
+  { "sku": "K13030", "cost": 0, "type": "busy", "variants": ["K64"] },
+  { "sku": "K13034", "cost": 0, "type": "busy" },
+  { "sku": "K13036", "cost": 0, "type": "busy" },
+  { "sku": "K13045", "cost": 0, "type": "busy" },
+  { "sku": "K13063", "cost": 0, "type": "busy" },
+  { "sku": "K13233", "cost": 0, "type": "busy" },
+  { "sku": "K13260", "cost": 0, "type": "busy" },
+  { "sku": "K13262", "cost": 0, "type": "busy", "variants": ["K104"] },
+  { "sku": "K13263", "cost": 0, "type": "busy", "variants": ["K104"] },
+  { "sku": "K13267", "cost": 0, "type": "busy" },
+  { "sku": "K13272", "cost": 0, "type": "busy", "variants": ["K104"] }
+
+]

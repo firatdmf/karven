@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux"; // to see if the user is logged in or not
 import { logout, reset } from "../features/auth/authSlice";
 import classes from "./Header.module.css";
+import { AiFillInstagram, AiOutlineMail } from "react-icons/ai";
 
 function Header() {
   const capitilize = function (string) {
@@ -26,7 +27,6 @@ function Header() {
         <span className={classes.span2}>
           {user ? (
             <div className={classes.span2flex}>
-
               <p>Welcome back, {user && capitilize(user.name)}!</p>
               <div className={classes.logoutButton} onClick={onLogout}>
                 <FaSignOutAlt />
@@ -53,24 +53,62 @@ function Header() {
         </span>
       </div>
 
-      {/* <div className={classes.topBar}>
-        <div className={classes.floatLeft}>
-        </div>
+      <div className={classes.topBar}>
+        <div className={classes.floatLeft}></div>
         <p>
-          Call a licensed expert
-          <span className={classes.bold}>1-323-794-6484</span> |
-          <span className={classes.bold}>Become a partner</span>
+          Language:
+          <span className={classes.bold}>Turkish</span> |
+          <span className={classes.bold}>English</span> |
+          <span className={classes.bold}>Russian</span>
         </p>
-      </div> */}
-      <Link to="/">
+      </div>
+      <div className={classes.logoGrid}>
+        <div className={`${classes.item1} ${classes.item}`}>
+          <div>
+            <p>
+              VAKIFLAR OSB MAH D100 CAD NO 38 <br />
+              ERGENE TEKIRDAG, 59930 <br />
+              TURKIYE
+            </p>
+            <p>+90 (533) 544-2525</p>
+          </div>
+        </div>
+        <div className={`${classes.item2} ${classes.item}`}>
+          <div className={classes.img}>
+            <Link to="/">
+              <img src={logo} alt="logo" className={classes.logo} />
+            </Link>
+          </div>
+        </div>
+        <div className={`${classes.item3} ${classes.item}`}>
+          <div>
+            <a
+              className={classes.a}
+              href="https://www.instagram.com/karvenhomedecor/"
+              target="_blank"
+            >
+              <p>
+                <AiFillInstagram />
+                :/karvenhomedecor
+              </p>
+            </a>
+            <a href="mailto:info@demfirat.com">
+              <p>
+                <AiOutlineMail />: info@demfirat.com
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* <Link to="/">
         <img src={logo} alt="logo" className={classes.logo} />
-      </Link>
+      </Link> */}
       <div className={classes.navbar}>
         <Link className={classes.a} to="/">
           Home
         </Link>
-        <Link className={classes.a} to="/fabrics">
-          Fabrics
+        <Link className={classes.a} to="/products">
+          Products
         </Link>
         {/* <Link className={classes.a} to="/fabricUpload">
           Upload Fabrics
@@ -81,8 +119,13 @@ function Header() {
         <Link className={classes.a} to="/contact">
           Contact
         </Link>
+        <p
+          className={classes.quote}
+          style={{ float: "right", marginTop: "20px", marginRight: "17px",fontSize:'1.1rem' }}
+        >
+          Think Holistic, Think Embroidered
+        </p>
       </div>
-      {/* <div className={classes.shuffle2}></div> */}
     </header>
   );
 }

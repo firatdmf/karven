@@ -1,0 +1,95 @@
+.ProductCardPage .card {
+  position: relative;
+  /* overflow: hidden; */
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f1f1f1;
+  width: 90vw;
+  /* height:80vh; */
+  /* margin:auto; */
+  padding: 10px;
+  border: 4px dashed rgba(0, 0, 0, 0.3);
+  margin: 5vh auto;
+  border-radius: 20px;
+  /* gap:10px; */
+  overflow: hidden;
+}
+
+.ProductCardPage .card > * {
+  padding:10px;
+  border:1px dashed red;
+}
+
+
+.ProductCardPage .imageCarousel {
+  /* width: 1px; */
+  /* width:30px; */
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  /* width: 100px; */
+  row-gap: 20px;
+  flex-basis: 10%;
+  min-width:100px;
+}
+.ProductCardPage .imageCarousel > * {
+  position: relative;
+  /* margin-top: 20px; */
+  /* height: 15%; */
+  width: 90%;
+  /* border: 2px dashed red; */
+  background-color: gray;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ProductCardPage .imageCarousel img {
+  /* width: auto;
+  height: auto; */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.ProductCardPage .imageCarousel .selected {
+  border: 4px solid #d19e25;
+  /* border-image: linear-gradient(#f6b73c, #4d9f0c) 30; */
+  /* border-width: 4px; */
+  /* border-style: solid; */
+}
+
+.ProductCardPage .image {
+  position: relative;
+  /* width: 50%; */
+  text-align: start;
+  flex-basis: 40%;
+  /* height:100%; */
+  min-width:250px;
+
+}
+.ProductCardPage .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.ProductCardPage .detail {
+  /* width: 40%;
+  width: max-content; */
+  flex-basis:50%;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  border: 1px dashed green;
+}
+
+.ProductCardPage .sideKarven {
+  font-size: 2rem;
+  color: #d19e25;
+  float: right;
+}
