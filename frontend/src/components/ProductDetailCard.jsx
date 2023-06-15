@@ -1,7 +1,41 @@
 import "./ProductDetailCard.css";
 import { useState, useEffect } from "react";
-import { Link, useNavigate } from "react-router-dom";
+// import { Link, useNavigate } from "react-router-dom";
+// import axios from "axios";
+// import Spinner from "../components/Spinner";
+// import PageDoesNotExist from "../pages/PageDoesNotExist";
+
 function ProductDetailCard() {
+  const API_URL = "/api/fabrics/";
+  const pathname = window.location.pathname;
+  const fabricSku = pathname.substring(pathname.lastIndexOf("/") + 1);
+  const [fabric, setFabric] = useState({});
+  const [loaded, setLoaded] = useState(0);
+  // useEffect(() => {
+  //   const getFabric = async () => {
+  //     try {
+  //       const response = await axios.get(API_URL + fabricSku);
+  //       setFabric(response.data);
+  //       // console.log(response.data);
+  //       setLoaded(1);
+  //       return fabric;
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+  //   };
+
+  //   getFabric();
+  // }, []);
+
+  //if the fabric components is not all loaded then use spinner
+  // if (!loaded) {
+  //   return <Spinner />;
+  // }
+  // //if the fabric is not found send them to this page
+  // if (fabric.message) {
+  //   return <PageDoesNotExist />;
+  // }
+
   const variantClick = (e) => {
     // let url = new URL(e.currentTarget.src);
     // alert(url);
@@ -41,7 +75,6 @@ function ProductDetailCard() {
   const [variantUrl, setvariantUrl] = useState("");
   const [variantArray, setVariantArray] = useState(variants);
 
-
   // below is for settings the image carousel look
   const imgs = document.querySelectorAll(".img-select a");
   const imgBtns = [...imgs];
@@ -67,7 +100,7 @@ function ProductDetailCard() {
 
   window.addEventListener("resize", slideImage);
 
-  // image carousel finishes here 
+  // image carousel finishes here
   return (
     <div className="ProductDetailCardPage">
       <div className="card-wrapper">

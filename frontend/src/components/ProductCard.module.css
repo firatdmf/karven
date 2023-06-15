@@ -1,0 +1,55 @@
+.ProductCard .card {
+    position: relative;
+    height: 350px;
+    /* min-width: 100%; */
+    /* min-width: 300px; */
+    /* background-color: red; */
+    /* border: 1px dashed black; */
+    /* color:white; */
+    overflow: hidden;
+    /* height: 90%; */
+    max-width:200px;
+}
+
+.ProductCard .image {
+    position: relative;
+    width: 100%;
+    height: 82%;
+    /* height: 280px; */
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .ProductCard .image img {
+    /* width: auto;
+    height: auto; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  
+  /* .ProductCard .collectionName {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 0FabricItem 0.8em;
+  } */
+  
+  .ProductCard .theme {
+    background-color: black;
+    text-align: end;
+    color: white;
+    /* color: #d09d34; */
+  }
+  
+  .ProductCard .link {
+    text-decoration: none;
+    color: black;
+  }
+  

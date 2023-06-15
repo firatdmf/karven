@@ -99,7 +99,8 @@ function About() {
         <div className={`${classes.row} ${classes.row4}`}>
           <div className={classes.box1}>
             <img
-              src="https://cdn.shopify.com/s/files/1/0570/3945/4375/files/Karven_Tekstil_Factory-Exterior_1080x.jpg?v=1660321830"
+              // src="https://cdn.shopify.com/s/files/1/0570/3945/4375/files/Karven_Tekstil_Factory-Exterior_1080x.jpg?v=1660321830"
+              src="/images/factory/karven-factory-building-exterior-resized.jpg"
               alt="Karven Home Factory/Plant Exterior"
             />
           </div>
@@ -143,6 +144,18 @@ function About() {
             />
           </div>
         </div>
+        {/* <div className={`${classes.row} ${classes.row6}`}>
+          <div className={classes.box1}>
+            <img
+              src="/images/cover/hometex.jpg"
+              alt="Hometex 2023 Istanbul Team Photograph  "
+            />
+          </div>
+          <div className={`${classes.box2} ${classes.textCenter}`}>
+            <h3>HomeTex</h3>
+            <h1>2023</h1>
+          </div>
+        </div> */}
 
 
         {/* <div className={`${classes.row} ${classes.row6}`}>

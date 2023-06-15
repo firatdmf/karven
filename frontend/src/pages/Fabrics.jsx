@@ -1,6 +1,6 @@
 import FabricItem from "../components/FabricItem";
 import { useEffect, useState } from "react";
-import Spinner from "../components/Spinner";
+// import Spinner from "../components/Spinner";
 import classes from "./Fabrics.module.css";
 import FilterForm from "../components/FilterForm";
 import { IoArrowBackCircle, IoArrowForwardCircle } from "react-icons/io5";

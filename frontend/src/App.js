@@ -19,6 +19,7 @@ import Fabrics from "./pages/Fabrics";
 import FabricDisplay from "./pages/FabricDisplay";
 import PageDoesNotExist from "./pages/PageDoesNotExist";
 import Trial2 from "./Trial2";
+import Trial3 from "./Trial3";
 import Products from "./pages/Products";
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
             <Route path="/fabricDisplay" element={<FabricDisplay/>}/>
             <Route path="/trial" element={<Trial />} />
             <Route path="/trial2" element={<Trial2 />} />
+            <Route path="/trial3" element={<Trial3 />} />
             <Route path="/products" element={<Products />} />
 
 

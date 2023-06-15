@@ -30,7 +30,7 @@
 }
 .ProductDetailCardPage .img-select {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: stretch;
   align-content: stretch;
   justify-content: center;
@@ -252,7 +252,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items: flex-end;
     /* border: 3px cyan dashed; */
   }
 

@@ -34,7 +34,7 @@ function ProductCategories() {
       <div className={classes.container}>
         {productCategories.map((item, index) => {
           return (
-            <Link to={item.link} className={classes.link}>
+            <Link to={item.link} className={classes.link} key={index}>
               <div className={classes.product}>
                 <img src={item.imgLink} alt={item.alt} />
                 <h3>{item.name}</h3>

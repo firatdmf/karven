@@ -1,0 +1,16 @@
+
+  .ProductGrid {
+    padding:20px;
+  }
+  .ProductGrid .fabrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    /* setting all the rows the same height */
+    grid-auto-rows: 1fr;
+    justify-items: center;
+    justify-content: center;
+    /* margin:auto; */
+    row-gap:15px;
+  }
+
+  
