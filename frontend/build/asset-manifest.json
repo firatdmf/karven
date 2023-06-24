@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.943c85f8.css",
-    "main.js": "/static/js/main.3c5fcd5d.js",
+    "main.css": "/static/css/main.4dadebb0.css",
+    "main.js": "/static/js/main.2b6cbfed.js",
     "static/media/karven.mp4": "/static/media/karven.92394ea14cafac3f35fa.mp4",
-    "static/media/karven-linkedin-banner.png": "/static/media/karven-linkedin-banner.9d0335a9832a2cb4134d.png",
+    "static/media/karven_banner.png": "/static/media/karven_banner.9d0335a9832a2cb4134d.png",
     "static/media/zeugma.jpg": "/static/media/zeugma.ce7d5d36a20cf5f9da06.jpg",
+    "static/media/1337_grommets_displayed.jpg": "/static/media/1337_grommets_displayed.ce32f63ff7d06bea2c52.jpg",
     "static/media/karvenLogo.png": "/static/media/karvenLogo.b6be8f78742d2addbeda.png",
     "static/media/storeFrontPic.jpg": "/static/media/storeFrontPic.94ac320e794a71008917.jpg",
-    "static/media/ready-made.jpg": "/static/media/ready-made.6e6585e2a99ecd0c76c3.jpg",
     "static/media/sheer-curtain-fabric-rolled-cover-image-model-3022.jpg": "/static/media/sheer-curtain-fabric-rolled-cover-image-model-3022.6dee3d80aa35339642e9.jpg",
+    "static/media/karven-fabric-icon.svg": "/static/media/karven-fabric-icon.986662b18f33a7cbcfb9.svg",
     "index.html": "/index.html",
-    "main.943c85f8.css.map": "/static/css/main.943c85f8.css.map",
-    "main.3c5fcd5d.js.map": "/static/js/main.3c5fcd5d.js.map"
+    "main.4dadebb0.css.map": "/static/css/main.4dadebb0.css.map",
+    "main.2b6cbfed.js.map": "/static/js/main.2b6cbfed.js.map"
   },
   "entrypoints": [
-    "static/css/main.943c85f8.css",
-    "static/js/main.3c5fcd5d.js"
+    "static/css/main.4dadebb0.css",
+    "static/js/main.2b6cbfed.js"
   ]
 }
