@@ -53,7 +53,7 @@ function Header() {
         </span>
       </div>
 
-      <div className={classes.topBar}>
+      {/* <div className={classes.topBar}>
         <div className={classes.floatLeft}></div>
         <p>
           Language:
@@ -61,7 +61,7 @@ function Header() {
           <span className={classes.bold}>English</span> |
           <span className={classes.bold}>Russian</span>
         </p>
-      </div>
+      </div> */}
       <div className={classes.logoGrid}>
         <div className={`${classes.item1} ${classes.item}`}>
           <div>

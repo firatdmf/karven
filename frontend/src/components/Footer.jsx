@@ -1,8 +1,8 @@
 import classes from "./Footer.module.css";
 import karvenLogo from "../assets/karvenLogo.png";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 function Footer() {
-  const currentYear = new Date().getFullYear()  
+  const currentYear = new Date().getFullYear();
   return (
     <>
       <footer>
@@ -10,7 +10,14 @@ function Footer() {
           <div className={classes.col1}>
             <h3>Karven Home</h3>
             <ul>
-              <li>Our Story</li>
+              <Link
+                to="/about"
+                onClick={() => {
+                  window.scroll(0, 0);
+                }}
+              >
+                <li>Our Story</li>
+              </Link>
               {/* <li>Blog</li> */}
               {/* <li>Our Corporate Heart</li>
               <li>Our Sustainable Commitment</li>
@@ -24,7 +31,7 @@ function Footer() {
               {/* <li>Careers at Karven</li> */}
             </ul>
           </div>
-{/* 
+          {/* 
           <div className={classes.col2}>
             <h3>Tools</h3>
             <ul>
@@ -43,7 +50,15 @@ function Footer() {
             <ul>
               {/* <li>Showrooms</li> */}
               {/* <li>Showroom Safety Practices</li> */}
-              <li>Contact Us</li>
+              <Link
+                to="/contact"
+                onClick={() => {
+                  window.scroll(0, 0);
+                }}
+              >
+                <li>Contact Us</li>
+              </Link>
+
               {/* <li onClick={() => window.location = 'mailto:info@karvenhome.com'}>info@karvenhome.com</li> */}
             </ul>
           </div>
@@ -60,7 +75,7 @@ function Footer() {
           </div>
         </div>
         <div className={classes.copyright}>
-              <p>© {currentYear} Karven Home | All Rights Reserved</p>
+          <p>© {currentYear} Karven Home | All Rights Reserved</p>
         </div>
       </footer>
     </>
