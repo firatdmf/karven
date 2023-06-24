@@ -27,7 +27,9 @@
 }
 .ProductDetailCardPage .img-showcase img {
   min-width: 100%;
+  cursor: pointer;
 }
+
 .ProductDetailCardPage .img-select {
   display: flex;
   justify-content: flex-start;
@@ -37,7 +39,6 @@
 }
 .ProductDetailCardPage .img-item {
   margin: 0.3rem;
-  border:1px dashed green; 
   /* object-fit: cover; */
 }
 
@@ -45,9 +46,8 @@
   /* height:100px; */
   /* object-fit: contain; */
   height: 100%;
-  border:1px dashed red; 
-  max-width:100px;
-  max-height:100px;
+  max-width: 100px;
+  max-height: 100px;
 }
 .ProductDetailCardPage .img-item .clicked {
   border: 3px solid #d19e25;
@@ -60,7 +60,6 @@
   text-align: center;
   font-size: 1.2rem;
 }
-
 
 .ProductDetailCardPage .img-item .non-clicked:hover {
   opacity: 1;
@@ -161,8 +160,8 @@
     left center no-repeat; */
   background: url("../../public/images/icons/karven-fabric-icon.svg") left
     center no-repeat;
-  background-size: 18px;
-  padding-left: 1.7rem;
+  background-size: 30px;
+  padding-left: 2rem;
   margin: 0.4rem 0;
   font-weight: 600;
   opacity: 0.9;
@@ -228,6 +227,21 @@
 /* .ProductDetailCardPage .card-wrapper {
   margin:20px;
 } */
+
+.ProductDetailCardPage .sampleRequest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 20vh;
+  background-color: #f1f1f1;
+  margin: 2% 2%;
+}
+.ProductDetailCardPage .sampleRequest p {
+  margin-top: 2%;
+  font-size: 1.2rem;
+}
 
 @media screen and (min-width: 992px) {
   .ProductDetailCardPage .card {

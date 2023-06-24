@@ -1,11 +1,8 @@
-import ProductCategories from "../components/ProductCategories";
+import ProductGrid from "../components/ProductGrid"
 function Products() {
-
   return (
-    <>
-      <ProductCategories></ProductCategories>
-    </>
-  );
+    <ProductGrid/>
+  )
 }
 
-export default Products;
+export default Products

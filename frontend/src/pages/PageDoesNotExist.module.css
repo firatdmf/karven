@@ -4,10 +4,11 @@
     padding:2vh 2vw;
     height: 100%;
     /* background-color: #1d3041; */
-    background-color: rgba(0,0,0,0.90);
+    /* background-color: rgba(0,0,0,0.90); */
     font-family: "Open Sans - Semibold", sans-serif;
     color: #fff;
     color: #d19e25;
+    padding:10px 50px;
   }
   .PageDoesNotExist h1 {
     text-align: center;

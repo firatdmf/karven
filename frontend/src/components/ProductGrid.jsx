@@ -2,9 +2,9 @@ import classes from "./ProductGrid.module.css";
 import ProductCard from "./ProductCard";
 import { useEffect } from "react";
 import { useState } from "react";
-import products from "../fabrics.json";
+// import products from "../fabrics.json";
+import products from "../products.json";
 function ProductGrid() {
-
   const [loadAmount, setloadAmount] = useState(20);
   const [loadedProducts, setloadedProducts] = useState([]);
 
@@ -27,7 +27,7 @@ function ProductGrid() {
   }, [loadAmount]);
   return (
     <div className={classes.ProductGrid}>
-      <div className={classes.fabrics} >
+      <div className={classes.fabrics}>
         {loadedProducts.map((fabric, index) => {
           return <ProductCard key={index} product={fabric} />;
         })}

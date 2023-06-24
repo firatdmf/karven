@@ -10,7 +10,7 @@ function ProductCategories() {
     // },
     {
       name: "Embroidered Sheer Fabrics",
-      link: "/Trial2",
+      link: "/Products",
       imgLink: "/images/kirat/8159.jpg",
       alt: "Embroidered Sheer Fabrics",
     },

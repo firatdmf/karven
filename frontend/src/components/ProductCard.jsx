@@ -6,8 +6,9 @@ function ProductCard({ product }) {
   //   Link("/hello")
   // }
   // console.log(page);
+  product = product.files[0]
   let heartIcon;
-  const imageDir = "images/kirat/" + product.sku + ".jpg";
+  const imageDir = "/CurtainFabricCodesPics/" + product.name;
   if (5 > 3) {
     heartIcon = <BsSuitHeart title="Add to favorites" />;
   } else {
@@ -16,7 +17,7 @@ function ProductCard({ product }) {
   return (
     <div className={classes.ProductCard}>
       <Link
-        to={"/fabricDisplay/" + product.sku}
+        to={"/product/" + product.design}
         // state={{
         //   from: {
         //     product: product,
@@ -38,9 +39,9 @@ function ProductCard({ product }) {
           ) : (
             ""
           )}
-          <div className={classes.productName}>{product.name}</div>
+          <div className={classes.productName}>{product.design}</div>
           <div className={classes.SKU}>{product.sku}</div>
-          {heartIcon}
+          {/* {heartIcon} */}
           {/* <div className={classes.favorites}>Add to Favorites</div> */}
         </div>
       </Link>
