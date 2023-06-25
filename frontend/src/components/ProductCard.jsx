@@ -30,7 +30,7 @@ function ProductCard({ product }) {
       >
         <div className={classes.card}>
           <div className={classes.image}>
-            <img src={imageDir} alt={"Image of the product: " + product.name} />
+            <img src={imageDir} alt={"Image of the product: " + product.name} key={imageDir}/>
           </div>
           {product.theme ? (
             <div className={classes.theme}>

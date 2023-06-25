@@ -11,12 +11,7 @@ function ProductGrid() {
   const [loadedProducts, setloadedProducts] = useState([]);
   const [filterUsed, setfilterUsed] = useState(false);
   const filter = (e) => {
-    let searchTerm = e.currentTarget.value;
-    let boole = false;
-    if (searchTerm) {
-      boole = true;
-    }
-    setfilterUsed(boole);
+    setfilterUsed(true);
     // console.log(e);
     // console.log(filterUsed);
     let array = [];
