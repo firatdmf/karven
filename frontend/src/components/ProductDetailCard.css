@@ -28,6 +28,7 @@
 .ProductDetailCardPage .img-showcase img {
   min-width: 100%;
   cursor: pointer;
+  max-height:650px;
 }
 
 .ProductDetailCardPage .img-select {

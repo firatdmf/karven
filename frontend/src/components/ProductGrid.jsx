@@ -9,16 +9,16 @@ import { FaSearch } from "react-icons/fa";
 function ProductGrid() {
   const [loadAmount, setloadAmount] = useState(20);
   const [loadedProducts, setloadedProducts] = useState([]);
-  const [numShownProducts, setNumShownProducts] = useState(
-    loadedProducts.length
-  );
   const [filterUsed, setfilterUsed] = useState(false);
   const filter = (e) => {
-    if (e) {
-      setfilterUsed(true);
-    } else {
-      setfilterUsed(false);
+    let searchTerm = e.currentTarget.value;
+    let boole = false;
+    if (searchTerm) {
+      boole = true;
     }
+    setfilterUsed(boole);
+    // console.log(e);
+    // console.log(filterUsed);
     let array = [];
     products.map((item, index) => {
       if (
@@ -30,7 +30,6 @@ function ProductGrid() {
     });
     // let filteredData = Array.prototype.concat.apply([], array);
     setloadedProducts(array);
-    console.log(loadedProducts.length);
   };
 
   useEffect(() => {
@@ -42,6 +41,7 @@ function ProductGrid() {
         filterUsed === false
       ) {
         // console.log("you're at the bottom of the page");
+
         setloadAmount(loadAmount + 20);
         // console.log(loadAmount);
         // here add more items in the 'filteredData' state from the 'allData' state source.
@@ -51,9 +51,12 @@ function ProductGrid() {
     return () => {
       window.removeEventListener("scroll", handleScrollEvent);
     };
-  }, [loadAmount]);
+  }, [loadAmount, filterUsed]);
   return (
     <div className={classes.ProductGrid}>
+      <div className={classes.cover}>
+        <div className={classes.headlineBox}>Embroidery</div>
+      </div>
       {/* search bar below */}
       <div className={classes.wrap}>
         <div className={classes.search}>
