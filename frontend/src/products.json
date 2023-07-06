@@ -292,18 +292,18 @@
         "design": "1056",
         "files": [
             {
+                "name": "1056-1.jpg",
+                "design": "1056",
+                "annex": "",
+                "variant": "",
+                "imageNo": "1"
+            },
+            {
                 "name": "1056-2.jpg",
                 "design": "1056",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
-            },
-            {
-                "name": "1056.jpg",
-                "design": "1056",
-                "annex": "",
-                "variant": "",
-                "imageNo": "1"
             },
             {
                 "name": "1056_K12.jpg",

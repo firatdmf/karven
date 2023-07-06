@@ -2,11 +2,13 @@ import classes from "./ProductGrid.module.css";
 import ProductCard from "./ProductCard";
 import { useEffect } from "react";
 import { useState } from "react";
+import { useSelector, useDispatch } from "react-redux"; // to see if the user is logged in or not
 // import products from "../fabrics.json";
 import products from "../products.json";
 import { FaSearch } from "react-icons/fa";
 
 function ProductGrid() {
+  const { user } = useSelector((state) => state.auth); // define the function with the which part of the state we want it from, which in this case it is auth
   const [loadAmount, setloadAmount] = useState(20);
   const [loadedProducts, setloadedProducts] = useState([]);
   const [filterUsed, setfilterUsed] = useState(false);
@@ -43,10 +45,15 @@ function ProductGrid() {
       }
     }
     window.addEventListener("scroll", handleScrollEvent);
+
     return () => {
       window.removeEventListener("scroll", handleScrollEvent);
     };
+
   }, [loadAmount, filterUsed]);
+  if(!user){
+    return <p>Please log in to see the products</p>
+  }else{
   return (
     <div className={classes.ProductGrid}>
       <div className={classes.cover}>
@@ -86,7 +93,7 @@ function ProductGrid() {
         ""
       )}
     </div>
-  );
+  );}
 }
 
 export default ProductGrid;

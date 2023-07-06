@@ -1,21 +1,6 @@
-let fabrics = require('./fabrics.json');
+let p = 350;
 
-console.log(typeof(fabrics));
-
-//iterating through an object
-
-// for (const [key,value] of Object.entries(fabrics)){
-//     // console.log(value.sku);
-//     if(typeof(value.sku) === 'string'){
-//         console.log(`${key}: ${value.sku}`)
-//     }
-// }
-
-
-// for (const [key,fabric] of Object.entries(fabrics)){
-//     fabric.sku 
-// }
-
-// console.log(fabrics);
-let x = Object.entries(fabrics).filter((fabric) => fabric[1].fabric[0]==="sheer" && fabric[1].patternType==='embroidery')
-console.log(x);
+for (let i=0;i<10;i++){
+    p = p*1.15;
+}
+console.log(p);
