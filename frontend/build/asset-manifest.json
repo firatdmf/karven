@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fad4c008.css",
-    "main.js": "/static/js/main.d188b28c.js",
+    "main.css": "/static/css/main.aa42cd15.css",
+    "main.js": "/static/js/main.aee0385f.js",
     "static/media/karven.mp4": "/static/media/karven.92394ea14cafac3f35fa.mp4",
     "static/media/karven_banner.png": "/static/media/karven_banner.9d0335a9832a2cb4134d.png",
     "static/media/zeugma.jpg": "/static/media/zeugma.ce7d5d36a20cf5f9da06.jpg",
@@ -11,11 +11,11 @@
     "static/media/sheer-curtain-fabric-rolled-cover-image-model-3022.jpg": "/static/media/sheer-curtain-fabric-rolled-cover-image-model-3022.6dee3d80aa35339642e9.jpg",
     "static/media/karven-fabric-icon.svg": "/static/media/karven-fabric-icon.624efb7ae5019c5bb174.svg",
     "index.html": "/index.html",
-    "main.fad4c008.css.map": "/static/css/main.fad4c008.css.map",
-    "main.d188b28c.js.map": "/static/js/main.d188b28c.js.map"
+    "main.aa42cd15.css.map": "/static/css/main.aa42cd15.css.map",
+    "main.aee0385f.js.map": "/static/js/main.aee0385f.js.map"
   },
   "entrypoints": [
-    "static/css/main.fad4c008.css",
-    "static/js/main.d188b28c.js"
+    "static/css/main.aa42cd15.css",
+    "static/js/main.aee0385f.js"
   ]
 }

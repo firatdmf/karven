@@ -299,11 +299,11 @@
                 "imageNo": "1"
             },
             {
-                "name": "1056-2.jpg",
+                "name": "1056-2.JPG",
                 "design": "1056",
                 "annex": "",
                 "variant": "",
-                "imageNo": "2"
+                "imageNo": "2.JPG"
             },
             {
                 "name": "1056_K12.jpg",
@@ -358,10 +358,10 @@
         "design": "1072",
         "files": [
             {
-                "name": "1072_K17.jpg",
+                "name": "1072_K17.JPG",
                 "design": "1072",
                 "annex": "",
-                "variant": "K17",
+                "variant": "K17.JPG",
                 "imageNo": "1"
             }
         ],
@@ -1103,10 +1103,10 @@
         "design": "1213",
         "files": [
             {
-                "name": "1213_K14.jpg",
+                "name": "1213_K14.JPG",
                 "design": "1213",
                 "annex": "",
-                "variant": "K14",
+                "variant": "K14.JPG",
                 "imageNo": "1"
             }
         ],
@@ -1372,10 +1372,10 @@
         "design": "1248",
         "files": [
             {
-                "name": "1248_K41.jpg",
+                "name": "1248_K41.JPG",
                 "design": "1248",
                 "annex": "",
-                "variant": "K41",
+                "variant": "K41.JPG",
                 "imageNo": "1"
             }
         ],
@@ -1385,10 +1385,10 @@
         "design": "1249",
         "files": [
             {
-                "name": "1249_K41.jpg",
+                "name": "1249_K41.JPG",
                 "design": "1249",
                 "annex": "",
-                "variant": "K41",
+                "variant": "K41.JPG",
                 "imageNo": "1"
             }
         ],
@@ -3846,17 +3846,17 @@
         "design": "24402",
         "files": [
             {
-                "name": "24402i_G112-2.jpg",
+                "name": "24402i_G112-2.JPG",
                 "design": "24402",
                 "annex": "i",
                 "variant": "G112",
-                "imageNo": "2"
+                "imageNo": "2.JPG"
             },
             {
-                "name": "24402i_G112.jpg",
+                "name": "24402i_G112.JPG",
                 "design": "24402",
                 "annex": "i",
-                "variant": "G112",
+                "variant": "G112.JPG",
                 "imageNo": "1"
             },
             {
@@ -5500,6 +5500,19 @@
         "length": 300
     },
     {
+        "design": "24666",
+        "files": [
+            {
+                "name": "24666i.jpg",
+                "design": "24666",
+                "annex": "i",
+                "variant": "",
+                "imageNo": "1"
+            }
+        ],
+        "length": 300
+    },
+    {
         "design": "24667",
         "files": [
             {
@@ -6791,10 +6804,16 @@
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
-            },
+            }
+        ],
+        "length": 300
+    },
+    {
+        "design": "49063.JPG",
+        "files": [
             {
-                "name": "49063.jpg",
-                "design": "49063",
+                "name": "49063.JPG",
+                "design": "49063.JPG",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
