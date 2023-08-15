@@ -42,12 +42,12 @@ function Header() {
                 </Link>
               </span>
               <span>|</span>
-              <span>
+              {/* <span>
                 <Link to="/register" className={classes.registerButton}>
                   <FaUser />
                   <p>Register</p>
                 </Link>
-              </span>
+              </span> */}
             </div>
           )}
         </span>
