@@ -1,3 +1,6 @@
+.contact {
+  font-size: 1.25rem;
+}
 .firstPart {
   padding: 2% 0;
   /* position: relative;   */
@@ -15,13 +18,10 @@
   padding: 1% 4%;
 }
 
-.firstPart .col2 {
-  flex-grow: 2;
-}
-
-.firstPart .map iframe {
+.firstPart iframe {
   width: 100%;
-  height: auto;
+  /* height: auto; */
+  height: 250px;
   border: 0;
 }
 
@@ -44,47 +44,12 @@
   background-position: bottom;
   margin: 5px 0;
   flex-grow: 0.8;
+  text-align: center;
+}
+.contact img{
+  height:400px;
 }
 
-/* form {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-template-areas:
-    "name businessName"
-    "phone email"
-    "message message";
-  gap: 3%;
-}
-
-
-.name {
-  grid-area: name;
-}
-.businessName {
-  grid-area: businessName;
-}
-
-.phone {
-  grid-area: phone;
-}
-.email {
-  grid-area: email;
-}
-.message {
-  grid-area: message;
-  background-color: beige;
-  height:20vh;
-} */
-.contact input:not(.contactWay input) {
-  width: 100%;
-  height: 3%;
-}
-
-.contact .col2 input {
-  padding: 15px 10px;
-  line-height: 20%;
-  margin-bottom: 20px;
-}
 textarea {
   padding: 1% 1%;
   resize: none;
@@ -93,12 +58,12 @@ textarea {
 }
 .firstPart button {
   width: 100%;
-  padding:3%;
+  padding: 3%;
   font-size: 1.2rem;
 }
 
-.firstPart button:hover{
-    cursor: pointer;
+.firstPart button:hover {
+  cursor: pointer;
 }
 /* @media only screen and (max-width: 920px) {
   .col3 {

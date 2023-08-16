@@ -42,12 +42,12 @@ function Header() {
                 </Link>
               </span>
               <span>|</span>
-              {/* <span>
+              <span>
                 <Link to="/register" className={classes.registerButton}>
                   <FaUser />
                   <p>Register</p>
                 </Link>
-              </span> */}
+              </span>
             </div>
           )}
         </span>
@@ -121,7 +121,12 @@ function Header() {
         </Link>
         <p
           className={classes.quote}
-          style={{ float: "right", marginTop: "20px", marginRight: "17px",fontSize:'1.1rem' }}
+          style={{
+            float: "right",
+            marginTop: "20px",
+            marginRight: "17px",
+            fontSize: "1.1rem",
+          }}
         >
           Think Holistic, Think Embroidered
         </p>
