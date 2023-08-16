@@ -120,7 +120,7 @@ function Contact() {
             Türkiye
           </p>
           <h4>Product line:</h4>
-          <p>Home Textiles: Bedding, Towels, Bathrobes </p>
+          <p>{titleCase("bed linen, bedspreads, furniture covers, towels, kitchen towels, towel sets, tablecloths, blankets, pillows, mattress covers, children's assortment, bathrobes, home clothes, sheets, blankets, aprons, sauna sets, ironing board covers.")}</p>
         </div>
 
         <div className={`${classes.item} ${classes.map} `}>
