@@ -1,7 +1,7 @@
-.contact {
+.Contact {
   font-size: 1.25rem;
 }
-.firstPart {
+.row {
   padding: 2% 0;
   /* position: relative;   */
   display: flex;
@@ -9,35 +9,43 @@
   gap: 1%;
   /* justify-content: center;
     align-items: flex-start; */
+    align-items: center;
 }
 
-.firstPart .item {
+.row .item {
   flex: 1 1 300px;
   /* background: black; */
   /* border: black 0.5px dashed; */
   padding: 1% 4%;
+}   
+
+.row .textInfo{
+  padding:40px;
+  border: 5px dashed rgba(0,0,0,0.4);
+  margin:20px;
+}
+.row .textInfo > * {
+  margin-bottom:20px;
 }
 
-.firstPart iframe {
+.row iframe {
   width: 100%;
   /* height: auto; */
-  height: 250px;
-  border: 0;
+  height: 350px;
 }
 
-.firstPart .map p {
+.row .map p {
   margin: 2% 0;
   white-space: nowrap;
 }
 
-.firstPart h2 {
-  margin-bottom: 5%;
+.row h2 {
   border-bottom: 2px solid black;
 }
 
-.firstPart .image {
-  height: 50%;
-  width: 100%;
+.row .image {
+  max-height: 50%;
+  max-width: 100%;
   /* background-image: url("https://images.pexels.com/photos/276267/pexels-photo-276267.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
   background-repeat: no-repeat;
   background-size: 100%;
@@ -46,8 +54,9 @@
   flex-grow: 0.8;
   text-align: center;
 }
-.contact img{
-  height:400px;
+.Contact img{
+  height:100%;
+  width: 100%;
 }
 
 textarea {
@@ -56,17 +65,12 @@ textarea {
   height: 10rem;
   width: 100%;
 }
-.firstPart button {
-  width: 100%;
-  padding: 3%;
-  font-size: 1.2rem;
-}
 
-.firstPart button:hover {
+.row button:hover {
   cursor: pointer;
 }
-/* @media only screen and (max-width: 920px) {
-  .col3 {
-    display: none;
+@media only screen and (max-width: 675px) {
+  .Contact .textInfo {
+    order:2;
   }
-} */
+}
