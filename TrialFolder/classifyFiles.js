@@ -1,6 +1,7 @@
-const testFolder = "../frontend/public/CurtainFabricCodesPics";
+// I am importing the fs module from the builtin node. FS enables me to read and write files within the system
 const fs = require("fs");
 
+// below productsOld array is for reference purposes that I have used before. I am not using anymore.
 let productsOld = [
   "12K201.jpg",
   "1002.jpg",
@@ -23,53 +24,64 @@ let productsOld = [
   "AP12001.jpg",
 ];
 
+// Below function determines if a character is a letter or not.
 let isLetter = (str) => {
   return str.length === 1 && str.match(/[a-z]/i);
 };
 
 let classifyImage = (fileName, products) => {
+  // lets create an empty object
   let object = {};
+  // annex stands for T or I, for tasli and incili respectively
   let annex;
+  // takeout the file extension from the name of the file and store it in the design variable. This will be altered later on the code
   let design = fileName.split(".jpg")[0];
-  let variant;
+
+  // Initializing the variable imageNo
   let imageNo;
+  // If the file name icludes - character, it means it has multiple images of this design and variant. So let's take the order number of that design+variant and assign to imageNo variable
   if (fileName.includes("-")) {
     // imageNo.push(design.split("-")[1]);
     imageNo = design.split("-")[1];
+    // Since we have a multiple order we need to alter the design variable so we will eliminate the extra strings beside the design string. Which should be something like 1204 ideally
     design = design.split("-")[0];
   } else {
-    // imageNo.push("1");
+    // If we have no multiples. Let's set the imageNo to 1.
     imageNo = "1";
   }
 
+  // Initializing the variable variant
+  let variant;
   if (design.includes("_")) {
-    // variant.push(design.split("_")[1]);
+    // If we have the _ character, that means we have a variant stated. Let's save the variant, and alter the design variable again. 
     variant = design.split("_")[1];
     design = design.split("_")[0];
+
+  // If we have no "_", then let's set the variant to be an empty string 
   } else {
     variant = "";
   }
 
+  // Let's determine if the design has a tas or inci (This needs to updated for designs that have both inci and tas)
+  // For that lets get the second last character
   let secondLastCharacter = design.charAt(design.length - 2);
+  // Now lets determine if it's a letter or not. If it is not a letter, and the character comes right after it is a letter, then it has a variant.
   if (!isLetter(secondLastCharacter) && isLetter(design.slice(-1))) {
+    // Take out the last character and store it in the variable called annex
     annex = design.slice(-1);
+    // Let's once again filter out the extra strings from the design variable
     design = fileName.split(annex)[0];
   } else {
     annex = "";
   }
 
+  // Now at below, we determine if we already have this design in the folder/data
+  // If there is, then we store their indexes from the products json file 
   const i = products.findIndex((e) => e.design === design);
+  // lets initialize a boolean variable and set it equal to false
   let exists = false;
   if (i > -1) {
     exists = true;
-    //   if (!products[i].variant.includes(variant[0])) {
-    //     products[i].variant.push(variant[0]);
-    //     // products[i].variant = variant[0];
-    //   }
-    //   if (!products[i].imageNo.includes(imageNo[0])) {
-    //     products[i].imageNo.push(imageNo[0]);
-    //     // products[i].imageNo = imageNo[0];
-    //   }
   }
   // else {
   object.name = fileName;
@@ -87,13 +99,8 @@ let classifyImage = (fileName, products) => {
 let classifyEachFile = (productFiles) => {
   let products = [];
   productFiles.map((item, index) => {
-    // if (index < 30) {
     let [object, exists] = classifyImage(item, products);
-    // if (exists === false) {
     products.push(object);
-    // } else {
-    // }
-    // }
   });
   // console.table(products);
   return products;
@@ -113,7 +120,7 @@ let uniqueDesignsObject = (products) => {
   });
   uniqueArray = removeDuplicates(uniqueArray);
   uniqueArray.forEach((item, index) => {
-    uniqueArray[index] = { design: item, files: [], length:300 };
+    uniqueArray[index] = { design: item, files: [], length: 300 };
   });
   // console.table(uniqueArray);
   return uniqueArray;
@@ -143,7 +150,10 @@ let writeJSON = (arrayOfObjectData) => {
   );
 };
 
+// main function that runs
 let node = () => {
+  const testFolder = "../frontend/public/CurtainFabricCodesPics";
+  // first read all the file names inside the testfolder
   let productFiles = fs.readdirSync(testFolder).map((fileName, index) => {
     return fileName;
   });

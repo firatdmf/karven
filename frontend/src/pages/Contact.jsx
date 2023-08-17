@@ -171,10 +171,11 @@ function Contact() {
           <h4>Representative:</h4>
           <p>Adem Öztürk</p>
           <h4>Phone:</h4>
-          <p>+7 (968) 738 13 00</p>
-          <p>+7 (916) 055 42 02 </p>
+          <p>+7 (968) 738 13 00 (Cell)</p>
+          <p>+7 (916) 055 42 02 (Cell)</p>
+          <p>+7 (926) 101 25 96 (Office)</p>
           <h4>Email:</h4>
-          <p>info@demfirat.com</p>
+          <p>demfiratmosk@mail.ru</p>
           <p>karventekstil@mail.ru</p>
           <h4>Website:</h4>
           <p><a href="https://www.karven.ru" target="_blank" >www.karven.ru</a></p>
