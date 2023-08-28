@@ -3,7 +3,7 @@
         "design": "1002",
         "files": [
             {
-                "name": "1002.jpg",
+                "name": "1002.webp",
                 "design": "1002",
                 "annex": "",
                 "variant": "",
@@ -16,7 +16,7 @@
         "design": "1003",
         "files": [
             {
-                "name": "1003.jpg",
+                "name": "1003.webp",
                 "design": "1003",
                 "annex": "",
                 "variant": "",
@@ -29,14 +29,14 @@
         "design": "1006",
         "files": [
             {
-                "name": "1006-2.jpg",
+                "name": "1006-2.webp",
                 "design": "1006",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1006.jpg",
+                "name": "1006.webp",
                 "design": "1006",
                 "annex": "",
                 "variant": "",
@@ -49,7 +49,7 @@
         "design": "1008",
         "files": [
             {
-                "name": "1008.jpg",
+                "name": "1008.webp",
                 "design": "1008",
                 "annex": "",
                 "variant": "",
@@ -62,28 +62,28 @@
         "design": "1009",
         "files": [
             {
-                "name": "1009T.jpg",
+                "name": "1009T.webp",
                 "design": "1009",
                 "annex": "T",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1009_G01.jpg",
+                "name": "1009_G01.webp",
                 "design": "1009",
                 "annex": "",
                 "variant": "G01",
                 "imageNo": "1"
             },
             {
-                "name": "1009_K07.jpg",
+                "name": "1009_K07.webp",
                 "design": "1009",
                 "annex": "",
                 "variant": "K07",
                 "imageNo": "1"
             },
             {
-                "name": "1009_K49.jpg",
+                "name": "1009_K49.webp",
                 "design": "1009",
                 "annex": "",
                 "variant": "K49",
@@ -96,7 +96,7 @@
         "design": "1013",
         "files": [
             {
-                "name": "1013.jpg",
+                "name": "1013.webp",
                 "design": "1013",
                 "annex": "",
                 "variant": "",
@@ -109,7 +109,7 @@
         "design": "1014",
         "files": [
             {
-                "name": "1014.jpg",
+                "name": "1014.webp",
                 "design": "1014",
                 "annex": "",
                 "variant": "",
@@ -122,7 +122,7 @@
         "design": "1016",
         "files": [
             {
-                "name": "1016.jpg",
+                "name": "1016.webp",
                 "design": "1016",
                 "annex": "",
                 "variant": "",
@@ -135,7 +135,7 @@
         "design": "1020",
         "files": [
             {
-                "name": "1020.jpg",
+                "name": "1020.webp",
                 "design": "1020",
                 "annex": "",
                 "variant": "",
@@ -148,7 +148,7 @@
         "design": "1021",
         "files": [
             {
-                "name": "1021.jpg",
+                "name": "1021.webp",
                 "design": "1021",
                 "annex": "",
                 "variant": "",
@@ -161,7 +161,7 @@
         "design": "1026",
         "files": [
             {
-                "name": "1026.jpg",
+                "name": "1026.webp",
                 "design": "1026",
                 "annex": "",
                 "variant": "",
@@ -174,14 +174,14 @@
         "design": "1031",
         "files": [
             {
-                "name": "1031.jpg",
+                "name": "1031.webp",
                 "design": "1031",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1031_K07.jpg",
+                "name": "1031_K07.webp",
                 "design": "1031",
                 "annex": "",
                 "variant": "K07",
@@ -194,7 +194,7 @@
         "design": "1037",
         "files": [
             {
-                "name": "1037_K12.jpg",
+                "name": "1037_K12.webp",
                 "design": "1037",
                 "annex": "",
                 "variant": "K12",
@@ -207,7 +207,7 @@
         "design": "1038",
         "files": [
             {
-                "name": "1038_K08.jpg",
+                "name": "1038_K08.webp",
                 "design": "1038",
                 "annex": "",
                 "variant": "K08",
@@ -220,7 +220,7 @@
         "design": "1043",
         "files": [
             {
-                "name": "1043_K07.jpg",
+                "name": "1043_K07.webp",
                 "design": "1043",
                 "annex": "",
                 "variant": "K07",
@@ -233,7 +233,7 @@
         "design": "1045",
         "files": [
             {
-                "name": "1045.jpg",
+                "name": "1045.webp",
                 "design": "1045",
                 "annex": "",
                 "variant": "",
@@ -246,7 +246,7 @@
         "design": "1049",
         "files": [
             {
-                "name": "1049.jpg",
+                "name": "1049.webp",
                 "design": "1049",
                 "annex": "",
                 "variant": "",
@@ -259,7 +259,7 @@
         "design": "1050",
         "files": [
             {
-                "name": "1050.jpg",
+                "name": "1050.webp",
                 "design": "1050",
                 "annex": "",
                 "variant": "",
@@ -272,14 +272,14 @@
         "design": "1053",
         "files": [
             {
-                "name": "1053_G05.jpg",
+                "name": "1053_G05.webp",
                 "design": "1053",
                 "annex": "",
                 "variant": "G05",
                 "imageNo": "1"
             },
             {
-                "name": "1053_G17.jpg",
+                "name": "1053_G17.webp",
                 "design": "1053",
                 "annex": "",
                 "variant": "G17",
@@ -292,21 +292,21 @@
         "design": "1056",
         "files": [
             {
-                "name": "1056-1.jpg",
+                "name": "1056-1.webp",
                 "design": "1056",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1056-2.JPG",
+                "name": "1056-2.webp",
                 "design": "1056",
                 "annex": "",
                 "variant": "",
-                "imageNo": "2.JPG"
+                "imageNo": "2"
             },
             {
-                "name": "1056_K12.jpg",
+                "name": "1056_K12.webp",
                 "design": "1056",
                 "annex": "",
                 "variant": "K12",
@@ -319,7 +319,7 @@
         "design": "1057",
         "files": [
             {
-                "name": "1057_K12.jpg",
+                "name": "1057_K12.webp",
                 "design": "1057",
                 "annex": "",
                 "variant": "K12",
@@ -332,7 +332,7 @@
         "design": "1064",
         "files": [
             {
-                "name": "1064_G19.jpg",
+                "name": "1064_G19.webp",
                 "design": "1064",
                 "annex": "",
                 "variant": "G19",
@@ -345,7 +345,7 @@
         "design": "1069",
         "files": [
             {
-                "name": "1069.jpg",
+                "name": "1069.webp",
                 "design": "1069",
                 "annex": "",
                 "variant": "",
@@ -358,10 +358,10 @@
         "design": "1072",
         "files": [
             {
-                "name": "1072_K17.JPG",
+                "name": "1072_K17.webp",
                 "design": "1072",
                 "annex": "",
-                "variant": "K17.JPG",
+                "variant": "K17",
                 "imageNo": "1"
             }
         ],
@@ -371,28 +371,28 @@
         "design": "1089",
         "files": [
             {
-                "name": "1089.jpg",
+                "name": "1089.webp",
                 "design": "1089",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1089T-2.jpg",
+                "name": "1089T-2.webp",
                 "design": "1089",
                 "annex": "T",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1089T.jpg",
+                "name": "1089T.webp",
                 "design": "1089",
                 "annex": "T",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1089_K32.jpg",
+                "name": "1089_K32.webp",
                 "design": "1089",
                 "annex": "",
                 "variant": "K32",
@@ -405,7 +405,7 @@
         "design": "1091",
         "files": [
             {
-                "name": "1091_G17.jpg",
+                "name": "1091_G17.webp",
                 "design": "1091",
                 "annex": "",
                 "variant": "G17",
@@ -418,7 +418,7 @@
         "design": "1096",
         "files": [
             {
-                "name": "1096_G06.jpg",
+                "name": "1096_G06.webp",
                 "design": "1096",
                 "annex": "",
                 "variant": "G06",
@@ -431,7 +431,7 @@
         "design": "1102",
         "files": [
             {
-                "name": "1102.jpg",
+                "name": "1102.webp",
                 "design": "1102",
                 "annex": "",
                 "variant": "",
@@ -444,7 +444,7 @@
         "design": "1103",
         "files": [
             {
-                "name": "1103.jpg",
+                "name": "1103.webp",
                 "design": "1103",
                 "annex": "",
                 "variant": "",
@@ -457,7 +457,7 @@
         "design": "1109",
         "files": [
             {
-                "name": "1109.jpg",
+                "name": "1109.webp",
                 "design": "1109",
                 "annex": "",
                 "variant": "",
@@ -470,14 +470,14 @@
         "design": "1114",
         "files": [
             {
-                "name": "1114.jpg",
+                "name": "1114.webp",
                 "design": "1114",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1114_K17.jpg",
+                "name": "1114_K17.webp",
                 "design": "1114",
                 "annex": "",
                 "variant": "K17",
@@ -490,7 +490,7 @@
         "design": "1126",
         "files": [
             {
-                "name": "1126_G07.jpg",
+                "name": "1126_G07.webp",
                 "design": "1126",
                 "annex": "",
                 "variant": "G07",
@@ -503,14 +503,14 @@
         "design": "1128",
         "files": [
             {
-                "name": "1128_K22.jpg",
+                "name": "1128_K22.webp",
                 "design": "1128",
                 "annex": "",
                 "variant": "K22",
                 "imageNo": "1"
             },
             {
-                "name": "1128_K23.jpg",
+                "name": "1128_K23.webp",
                 "design": "1128",
                 "annex": "",
                 "variant": "K23",
@@ -523,7 +523,7 @@
         "design": "1130",
         "files": [
             {
-                "name": "1130_K20.jpg",
+                "name": "1130_K20.webp",
                 "design": "1130",
                 "annex": "",
                 "variant": "K20",
@@ -536,7 +536,7 @@
         "design": "1133",
         "files": [
             {
-                "name": "1133_K12.jpg",
+                "name": "1133_K12.webp",
                 "design": "1133",
                 "annex": "",
                 "variant": "K12",
@@ -549,14 +549,14 @@
         "design": "1135",
         "files": [
             {
-                "name": "1135.jpg",
+                "name": "1135.webp",
                 "design": "1135",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1135_G30.jpg",
+                "name": "1135_G30.webp",
                 "design": "1135",
                 "annex": "",
                 "variant": "G30",
@@ -569,21 +569,21 @@
         "design": "1136",
         "files": [
             {
-                "name": "1136.jpg",
+                "name": "1136.webp",
                 "design": "1136",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1136_K07.jpg",
+                "name": "1136_K07.webp",
                 "design": "1136",
                 "annex": "",
                 "variant": "K07",
                 "imageNo": "1"
             },
             {
-                "name": "1136_K28.jpg",
+                "name": "1136_K28.webp",
                 "design": "1136",
                 "annex": "",
                 "variant": "K28",
@@ -596,14 +596,14 @@
         "design": "1141",
         "files": [
             {
-                "name": "1141_K12.jpg",
+                "name": "1141_K12.webp",
                 "design": "1141",
                 "annex": "",
                 "variant": "K12",
                 "imageNo": "1"
             },
             {
-                "name": "1141_K40.jpg",
+                "name": "1141_K40.webp",
                 "design": "1141",
                 "annex": "",
                 "variant": "K40",
@@ -616,14 +616,14 @@
         "design": "1142",
         "files": [
             {
-                "name": "1142.jpg",
+                "name": "1142.webp",
                 "design": "1142",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1142_K10.jpg",
+                "name": "1142_K10.webp",
                 "design": "1142",
                 "annex": "",
                 "variant": "K10",
@@ -636,7 +636,7 @@
         "design": "1143",
         "files": [
             {
-                "name": "1143.jpg",
+                "name": "1143.webp",
                 "design": "1143",
                 "annex": "",
                 "variant": "",
@@ -649,14 +649,14 @@
         "design": "1144",
         "files": [
             {
-                "name": "1144_K11-2.jpg",
+                "name": "1144_K11-2.webp",
                 "design": "1144",
                 "annex": "",
                 "variant": "K11",
                 "imageNo": "2"
             },
             {
-                "name": "1144_K11.jpg",
+                "name": "1144_K11.webp",
                 "design": "1144",
                 "annex": "",
                 "variant": "K11",
@@ -669,7 +669,7 @@
         "design": "1147",
         "files": [
             {
-                "name": "1147_K10.jpg",
+                "name": "1147_K10.webp",
                 "design": "1147",
                 "annex": "",
                 "variant": "K10",
@@ -682,7 +682,7 @@
         "design": "1148",
         "files": [
             {
-                "name": "1148_K62.jpg",
+                "name": "1148_K62.webp",
                 "design": "1148",
                 "annex": "",
                 "variant": "K62",
@@ -695,21 +695,21 @@
         "design": "1149",
         "files": [
             {
-                "name": "1149_K12.jpg",
+                "name": "1149_K12.webp",
                 "design": "1149",
                 "annex": "",
                 "variant": "K12",
                 "imageNo": "1"
             },
             {
-                "name": "1149_K23.jpg",
+                "name": "1149_K23.webp",
                 "design": "1149",
                 "annex": "",
                 "variant": "K23",
                 "imageNo": "1"
             },
             {
-                "name": "1149_K62.jpg",
+                "name": "1149_K62.webp",
                 "design": "1149",
                 "annex": "",
                 "variant": "K62",
@@ -722,7 +722,7 @@
         "design": "1151",
         "files": [
             {
-                "name": "1151.jpg",
+                "name": "1151.webp",
                 "design": "1151",
                 "annex": "",
                 "variant": "",
@@ -735,7 +735,7 @@
         "design": "1153",
         "files": [
             {
-                "name": "1153.jpg",
+                "name": "1153.webp",
                 "design": "1153",
                 "annex": "",
                 "variant": "",
@@ -748,14 +748,14 @@
         "design": "1154",
         "files": [
             {
-                "name": "1154_K13.jpg",
+                "name": "1154_K13.webp",
                 "design": "1154",
                 "annex": "",
                 "variant": "K13",
                 "imageNo": "1"
             },
             {
-                "name": "1154_K48.jpg",
+                "name": "1154_K48.webp",
                 "design": "1154",
                 "annex": "",
                 "variant": "K48",
@@ -768,7 +768,7 @@
         "design": "1159",
         "files": [
             {
-                "name": "1159_K12.jpg",
+                "name": "1159_K12.webp",
                 "design": "1159",
                 "annex": "",
                 "variant": "K12",
@@ -781,7 +781,7 @@
         "design": "1164",
         "files": [
             {
-                "name": "1164_K12.jpg",
+                "name": "1164_K12.webp",
                 "design": "1164",
                 "annex": "",
                 "variant": "K12",
@@ -794,7 +794,7 @@
         "design": "1169",
         "files": [
             {
-                "name": "1169_G13.jpg",
+                "name": "1169_G13.webp",
                 "design": "1169",
                 "annex": "",
                 "variant": "G13",
@@ -807,7 +807,7 @@
         "design": "1170",
         "files": [
             {
-                "name": "1170.jpg",
+                "name": "1170.webp",
                 "design": "1170",
                 "annex": "",
                 "variant": "",
@@ -820,7 +820,7 @@
         "design": "1172",
         "files": [
             {
-                "name": "1172.jpg",
+                "name": "1172.webp",
                 "design": "1172",
                 "annex": "",
                 "variant": "",
@@ -833,7 +833,7 @@
         "design": "1173",
         "files": [
             {
-                "name": "1173.jpg",
+                "name": "1173.webp",
                 "design": "1173",
                 "annex": "",
                 "variant": "",
@@ -846,7 +846,7 @@
         "design": "1174",
         "files": [
             {
-                "name": "1174_K50.jpg",
+                "name": "1174_K50.webp",
                 "design": "1174",
                 "annex": "",
                 "variant": "K50",
@@ -859,7 +859,7 @@
         "design": "1176",
         "files": [
             {
-                "name": "1176_K12.jpg",
+                "name": "1176_K12.webp",
                 "design": "1176",
                 "annex": "",
                 "variant": "K12",
@@ -872,7 +872,7 @@
         "design": "1179",
         "files": [
             {
-                "name": "1179_K12.jpg",
+                "name": "1179_K12.webp",
                 "design": "1179",
                 "annex": "",
                 "variant": "K12",
@@ -885,7 +885,7 @@
         "design": "1181",
         "files": [
             {
-                "name": "1181_K12.jpg",
+                "name": "1181_K12.webp",
                 "design": "1181",
                 "annex": "",
                 "variant": "K12",
@@ -898,7 +898,7 @@
         "design": "1182",
         "files": [
             {
-                "name": "1182_K12.jpg",
+                "name": "1182_K12.webp",
                 "design": "1182",
                 "annex": "",
                 "variant": "K12",
@@ -911,7 +911,7 @@
         "design": "1184",
         "files": [
             {
-                "name": "1184_D13.jpg",
+                "name": "1184_D13.webp",
                 "design": "1184",
                 "annex": "",
                 "variant": "D13",
@@ -924,7 +924,7 @@
         "design": "1185",
         "files": [
             {
-                "name": "1185.jpg",
+                "name": "1185.webp",
                 "design": "1185",
                 "annex": "",
                 "variant": "",
@@ -937,14 +937,14 @@
         "design": "1193",
         "files": [
             {
-                "name": "1193_K21-2.jpg",
+                "name": "1193_K21-2.webp",
                 "design": "1193",
                 "annex": "",
                 "variant": "K21",
                 "imageNo": "2"
             },
             {
-                "name": "1193_K21.jpg",
+                "name": "1193_K21.webp",
                 "design": "1193",
                 "annex": "",
                 "variant": "K21",
@@ -957,14 +957,14 @@
         "design": "1198",
         "files": [
             {
-                "name": "1198.jpg",
+                "name": "1198.webp",
                 "design": "1198",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1198_K60.jpg",
+                "name": "1198_K60.webp",
                 "design": "1198",
                 "annex": "",
                 "variant": "K60",
@@ -977,7 +977,7 @@
         "design": "1199",
         "files": [
             {
-                "name": "1199_K56.jpg",
+                "name": "1199_K56.webp",
                 "design": "1199",
                 "annex": "",
                 "variant": "K56",
@@ -990,7 +990,7 @@
         "design": "1200",
         "files": [
             {
-                "name": "1200_K56.jpg",
+                "name": "1200_K56.webp",
                 "design": "1200",
                 "annex": "",
                 "variant": "K56",
@@ -1003,7 +1003,7 @@
         "design": "1201",
         "files": [
             {
-                "name": "1201_K14.jpg",
+                "name": "1201_K14.webp",
                 "design": "1201",
                 "annex": "",
                 "variant": "K14",
@@ -1016,14 +1016,14 @@
         "design": "1204",
         "files": [
             {
-                "name": "1204_K62.jpg",
+                "name": "1204_K62.webp",
                 "design": "1204",
                 "annex": "",
                 "variant": "K62",
                 "imageNo": "1"
             },
             {
-                "name": "1204_K64.jpg",
+                "name": "1204_K64.webp",
                 "design": "1204",
                 "annex": "",
                 "variant": "K64",
@@ -1036,21 +1036,21 @@
         "design": "1205",
         "files": [
             {
-                "name": "1205-2.jpg",
+                "name": "1205-2.webp",
                 "design": "1205",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1205.jpg",
+                "name": "1205.webp",
                 "design": "1205",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1205_K14.jpg",
+                "name": "1205_K14.webp",
                 "design": "1205",
                 "annex": "",
                 "variant": "K14",
@@ -1063,7 +1063,7 @@
         "design": "1207",
         "files": [
             {
-                "name": "1207_K14.jpg",
+                "name": "1207_K14.webp",
                 "design": "1207",
                 "annex": "",
                 "variant": "K14",
@@ -1076,21 +1076,21 @@
         "design": "1211",
         "files": [
             {
-                "name": "1211.jpg",
+                "name": "1211.webp",
                 "design": "1211",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1211_K12.jpg",
+                "name": "1211_K12.webp",
                 "design": "1211",
                 "annex": "",
                 "variant": "K12",
                 "imageNo": "1"
             },
             {
-                "name": "1211_K23.jpg",
+                "name": "1211_K23.webp",
                 "design": "1211",
                 "annex": "",
                 "variant": "K23",
@@ -1103,10 +1103,10 @@
         "design": "1213",
         "files": [
             {
-                "name": "1213_K14.JPG",
+                "name": "1213_K14.webp",
                 "design": "1213",
                 "annex": "",
-                "variant": "K14.JPG",
+                "variant": "K14",
                 "imageNo": "1"
             }
         ],
@@ -1116,7 +1116,7 @@
         "design": "1214",
         "files": [
             {
-                "name": "1214_K34.jpg",
+                "name": "1214_K34.webp",
                 "design": "1214",
                 "annex": "",
                 "variant": "K34",
@@ -1129,7 +1129,7 @@
         "design": "1215",
         "files": [
             {
-                "name": "1215.jpg",
+                "name": "1215.webp",
                 "design": "1215",
                 "annex": "",
                 "variant": "",
@@ -1142,7 +1142,7 @@
         "design": "1217",
         "files": [
             {
-                "name": "1217_K55.jpg",
+                "name": "1217_K55.webp",
                 "design": "1217",
                 "annex": "",
                 "variant": "K55",
@@ -1155,7 +1155,7 @@
         "design": "1218",
         "files": [
             {
-                "name": "1218_K48.jpg",
+                "name": "1218_K48.webp",
                 "design": "1218",
                 "annex": "",
                 "variant": "K48",
@@ -1168,7 +1168,7 @@
         "design": "1219",
         "files": [
             {
-                "name": "1219_K57.jpg",
+                "name": "1219_K57.webp",
                 "design": "1219",
                 "annex": "",
                 "variant": "K57",
@@ -1181,14 +1181,14 @@
         "design": "1220",
         "files": [
             {
-                "name": "1220.jpg",
+                "name": "1220.webp",
                 "design": "1220",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1220_K62.jpg",
+                "name": "1220_K62.webp",
                 "design": "1220",
                 "annex": "",
                 "variant": "K62",
@@ -1201,7 +1201,7 @@
         "design": "1228",
         "files": [
             {
-                "name": "1228_K29.jpg",
+                "name": "1228_K29.webp",
                 "design": "1228",
                 "annex": "",
                 "variant": "K29",
@@ -1214,7 +1214,7 @@
         "design": "12334",
         "files": [
             {
-                "name": "12334_K18.jpg",
+                "name": "12334_K18.webp",
                 "design": "12334",
                 "annex": "",
                 "variant": "K18",
@@ -1227,7 +1227,7 @@
         "design": "1236",
         "files": [
             {
-                "name": "1236_K55.jpg",
+                "name": "1236_K55.webp",
                 "design": "1236",
                 "annex": "",
                 "variant": "K55",
@@ -1240,7 +1240,7 @@
         "design": "1237",
         "files": [
             {
-                "name": "1237.jpg",
+                "name": "1237.webp",
                 "design": "1237",
                 "annex": "",
                 "variant": "",
@@ -1253,7 +1253,7 @@
         "design": "1241",
         "files": [
             {
-                "name": "1241_K12.jpg",
+                "name": "1241_K12.webp",
                 "design": "1241",
                 "annex": "",
                 "variant": "K12",
@@ -1266,7 +1266,7 @@
         "design": "12430",
         "files": [
             {
-                "name": "12430_Kartela.jpg",
+                "name": "12430_Kartela.webp",
                 "design": "12430",
                 "annex": "",
                 "variant": "Kartela",
@@ -1279,14 +1279,14 @@
         "design": "12443",
         "files": [
             {
-                "name": "12443_Kartela-2.jpg",
+                "name": "12443_Kartela-2.webp",
                 "design": "12443",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "2"
             },
             {
-                "name": "12443_Kartela.jpg",
+                "name": "12443_Kartela.webp",
                 "design": "12443",
                 "annex": "",
                 "variant": "Kartela",
@@ -1299,7 +1299,7 @@
         "design": "12456",
         "files": [
             {
-                "name": "12456.jpg",
+                "name": "12456.webp",
                 "design": "12456",
                 "annex": "",
                 "variant": "",
@@ -1312,7 +1312,7 @@
         "design": "12465",
         "files": [
             {
-                "name": "12465.jpg",
+                "name": "12465.webp",
                 "design": "12465",
                 "annex": "",
                 "variant": "",
@@ -1325,7 +1325,7 @@
         "design": "1246",
         "files": [
             {
-                "name": "1246_K06.jpg",
+                "name": "1246_K06.webp",
                 "design": "1246",
                 "annex": "",
                 "variant": "K06",
@@ -1338,28 +1338,28 @@
         "design": "12471",
         "files": [
             {
-                "name": "12471-2.jpg",
+                "name": "12471-2.webp",
                 "design": "12471",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "12471.jpg",
+                "name": "12471.webp",
                 "design": "12471",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "12471_Kartela-2.jpg",
+                "name": "12471_Kartela-2.webp",
                 "design": "12471",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "2"
             },
             {
-                "name": "12471_Kartela.jpg",
+                "name": "12471_Kartela.webp",
                 "design": "12471",
                 "annex": "",
                 "variant": "Kartela",
@@ -1372,10 +1372,10 @@
         "design": "1248",
         "files": [
             {
-                "name": "1248_K41.JPG",
+                "name": "1248_K41.webp",
                 "design": "1248",
                 "annex": "",
-                "variant": "K41.JPG",
+                "variant": "K41",
                 "imageNo": "1"
             }
         ],
@@ -1385,10 +1385,10 @@
         "design": "1249",
         "files": [
             {
-                "name": "1249_K41.JPG",
+                "name": "1249_K41.webp",
                 "design": "1249",
                 "annex": "",
-                "variant": "K41.JPG",
+                "variant": "K41",
                 "imageNo": "1"
             }
         ],
@@ -1398,7 +1398,7 @@
         "design": "12503",
         "files": [
             {
-                "name": "12503.jpg",
+                "name": "12503.webp",
                 "design": "12503",
                 "annex": "",
                 "variant": "",
@@ -1411,7 +1411,7 @@
         "design": "12504",
         "files": [
             {
-                "name": "12504.jpg",
+                "name": "12504.webp",
                 "design": "12504",
                 "annex": "",
                 "variant": "",
@@ -1424,7 +1424,7 @@
         "design": "12513",
         "files": [
             {
-                "name": "12513.jpg",
+                "name": "12513.webp",
                 "design": "12513",
                 "annex": "",
                 "variant": "",
@@ -1437,7 +1437,7 @@
         "design": "12519",
         "files": [
             {
-                "name": "12519_G52.jpg",
+                "name": "12519_G52.webp",
                 "design": "12519",
                 "annex": "",
                 "variant": "G52",
@@ -1450,7 +1450,7 @@
         "design": "12520",
         "files": [
             {
-                "name": "12520_G52.jpg",
+                "name": "12520_G52.webp",
                 "design": "12520",
                 "annex": "",
                 "variant": "G52",
@@ -1463,7 +1463,7 @@
         "design": "12522",
         "files": [
             {
-                "name": "12522_G52.jpg",
+                "name": "12522_G52.webp",
                 "design": "12522",
                 "annex": "",
                 "variant": "G52",
@@ -1476,7 +1476,7 @@
         "design": "12524",
         "files": [
             {
-                "name": "12524.jpg",
+                "name": "12524.webp",
                 "design": "12524",
                 "annex": "",
                 "variant": "",
@@ -1489,7 +1489,7 @@
         "design": "12525",
         "files": [
             {
-                "name": "12525_Kartela.jpg",
+                "name": "12525_Kartela.webp",
                 "design": "12525",
                 "annex": "",
                 "variant": "Kartela",
@@ -1502,14 +1502,14 @@
         "design": "12526",
         "files": [
             {
-                "name": "12526.jpg",
+                "name": "12526.webp",
                 "design": "12526",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "12526_G07.jpg",
+                "name": "12526_G07.webp",
                 "design": "12526",
                 "annex": "",
                 "variant": "G07",
@@ -1522,7 +1522,7 @@
         "design": "12527",
         "files": [
             {
-                "name": "12527.jpg",
+                "name": "12527.webp",
                 "design": "12527",
                 "annex": "",
                 "variant": "",
@@ -1535,14 +1535,14 @@
         "design": "12528",
         "files": [
             {
-                "name": "12528-2.jpg",
+                "name": "12528-2.webp",
                 "design": "12528",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "12528.jpg",
+                "name": "12528.webp",
                 "design": "12528",
                 "annex": "",
                 "variant": "",
@@ -1555,7 +1555,7 @@
         "design": "1252",
         "files": [
             {
-                "name": "1252_K26.jpg",
+                "name": "1252_K26.webp",
                 "design": "1252",
                 "annex": "",
                 "variant": "K26",
@@ -1568,14 +1568,14 @@
         "design": "12530",
         "files": [
             {
-                "name": "12530.jpg",
+                "name": "12530.webp",
                 "design": "12530",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "12530_G07.jpg",
+                "name": "12530_G07.webp",
                 "design": "12530",
                 "annex": "",
                 "variant": "G07",
@@ -1588,7 +1588,7 @@
         "design": "12532",
         "files": [
             {
-                "name": "12532.jpg",
+                "name": "12532.webp",
                 "design": "12532",
                 "annex": "",
                 "variant": "",
@@ -1601,7 +1601,7 @@
         "design": "12533",
         "files": [
             {
-                "name": "12533_Kartela.jpg",
+                "name": "12533_Kartela.webp",
                 "design": "12533",
                 "annex": "",
                 "variant": "Kartela",
@@ -1614,14 +1614,14 @@
         "design": "12535",
         "files": [
             {
-                "name": "12535_Kartela-2.jpg",
+                "name": "12535_Kartela-2.webp",
                 "design": "12535",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "2"
             },
             {
-                "name": "12535_Kartela.jpg",
+                "name": "12535_Kartela.webp",
                 "design": "12535",
                 "annex": "",
                 "variant": "Kartela",
@@ -1634,7 +1634,7 @@
         "design": "12536",
         "files": [
             {
-                "name": "12536_Kartela.jpg",
+                "name": "12536_Kartela.webp",
                 "design": "12536",
                 "annex": "",
                 "variant": "Kartela",
@@ -1647,7 +1647,7 @@
         "design": "12537",
         "files": [
             {
-                "name": "12537.jpg",
+                "name": "12537.webp",
                 "design": "12537",
                 "annex": "",
                 "variant": "",
@@ -1660,7 +1660,7 @@
         "design": "1253",
         "files": [
             {
-                "name": "1253_K41.jpg",
+                "name": "1253_K41.webp",
                 "design": "1253",
                 "annex": "",
                 "variant": "K41",
@@ -1673,7 +1673,7 @@
         "design": "12544",
         "files": [
             {
-                "name": "12544.jpg",
+                "name": "12544.webp",
                 "design": "12544",
                 "annex": "",
                 "variant": "",
@@ -1686,7 +1686,7 @@
         "design": "12545",
         "files": [
             {
-                "name": "12545.jpg",
+                "name": "12545.webp",
                 "design": "12545",
                 "annex": "",
                 "variant": "",
@@ -1699,7 +1699,7 @@
         "design": "12546",
         "files": [
             {
-                "name": "12546.jpg",
+                "name": "12546.webp",
                 "design": "12546",
                 "annex": "",
                 "variant": "",
@@ -1712,7 +1712,7 @@
         "design": "12547",
         "files": [
             {
-                "name": "12547.jpg",
+                "name": "12547.webp",
                 "design": "12547",
                 "annex": "",
                 "variant": "",
@@ -1725,14 +1725,14 @@
         "design": "12548",
         "files": [
             {
-                "name": "12548-2.jpg",
+                "name": "12548-2.webp",
                 "design": "12548",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "12548.jpg",
+                "name": "12548.webp",
                 "design": "12548",
                 "annex": "",
                 "variant": "",
@@ -1745,7 +1745,7 @@
         "design": "12549",
         "files": [
             {
-                "name": "12549.jpg",
+                "name": "12549.webp",
                 "design": "12549",
                 "annex": "",
                 "variant": "",
@@ -1758,7 +1758,7 @@
         "design": "12550",
         "files": [
             {
-                "name": "12550.jpg",
+                "name": "12550.webp",
                 "design": "12550",
                 "annex": "",
                 "variant": "",
@@ -1771,7 +1771,7 @@
         "design": "12551",
         "files": [
             {
-                "name": "12551.jpg",
+                "name": "12551.webp",
                 "design": "12551",
                 "annex": "",
                 "variant": "",
@@ -1784,7 +1784,7 @@
         "design": "12552",
         "files": [
             {
-                "name": "12552.jpg",
+                "name": "12552.webp",
                 "design": "12552",
                 "annex": "",
                 "variant": "",
@@ -1797,7 +1797,7 @@
         "design": "12564",
         "files": [
             {
-                "name": "12564.jpg",
+                "name": "12564.webp",
                 "design": "12564",
                 "annex": "",
                 "variant": "",
@@ -1810,7 +1810,7 @@
         "design": "12565",
         "files": [
             {
-                "name": "12565.jpg",
+                "name": "12565.webp",
                 "design": "12565",
                 "annex": "",
                 "variant": "",
@@ -1823,7 +1823,7 @@
         "design": "1257",
         "files": [
             {
-                "name": "1257.jpg",
+                "name": "1257.webp",
                 "design": "1257",
                 "annex": "",
                 "variant": "",
@@ -1836,28 +1836,28 @@
         "design": "1260",
         "files": [
             {
-                "name": "1260-2.jpg",
+                "name": "1260-2.webp",
                 "design": "1260",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1260.jpg",
+                "name": "1260.webp",
                 "design": "1260",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1260_K12.jpg",
+                "name": "1260_K12.webp",
                 "design": "1260",
                 "annex": "",
                 "variant": "K12",
                 "imageNo": "1"
             },
             {
-                "name": "1260_K28.jpg",
+                "name": "1260_K28.webp",
                 "design": "1260",
                 "annex": "",
                 "variant": "K28",
@@ -1870,7 +1870,7 @@
         "design": "1261",
         "files": [
             {
-                "name": "1261_G07.jpg",
+                "name": "1261_G07.webp",
                 "design": "1261",
                 "annex": "",
                 "variant": "G07",
@@ -1883,7 +1883,7 @@
         "design": "1264",
         "files": [
             {
-                "name": "1264_G54.jpg",
+                "name": "1264_G54.webp",
                 "design": "1264",
                 "annex": "",
                 "variant": "G54",
@@ -1896,28 +1896,28 @@
         "design": "12667",
         "files": [
             {
-                "name": "12667-2.jpg",
+                "name": "12667-2.webp",
                 "design": "12667",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "12667-3.jpg",
+                "name": "12667-3.webp",
                 "design": "12667",
                 "annex": "",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "12667-4.jpg",
+                "name": "12667-4.webp",
                 "design": "12667",
                 "annex": "",
                 "variant": "",
                 "imageNo": "4"
             },
             {
-                "name": "12667.jpg",
+                "name": "12667.webp",
                 "design": "12667",
                 "annex": "",
                 "variant": "",
@@ -1930,7 +1930,7 @@
         "design": "12668",
         "files": [
             {
-                "name": "12668.jpg",
+                "name": "12668.webp",
                 "design": "12668",
                 "annex": "",
                 "variant": "",
@@ -1943,14 +1943,14 @@
         "design": "1266",
         "files": [
             {
-                "name": "1266_K43-2.jpg",
+                "name": "1266_K43-2.webp",
                 "design": "1266",
                 "annex": "",
                 "variant": "K43",
                 "imageNo": "2"
             },
             {
-                "name": "1266_K43.jpg",
+                "name": "1266_K43.webp",
                 "design": "1266",
                 "annex": "",
                 "variant": "K43",
@@ -1963,7 +1963,7 @@
         "design": "1267",
         "files": [
             {
-                "name": "1267.jpg",
+                "name": "1267.webp",
                 "design": "1267",
                 "annex": "",
                 "variant": "",
@@ -1976,21 +1976,21 @@
         "design": "1268",
         "files": [
             {
-                "name": "1268-2.jpg",
+                "name": "1268-2.webp",
                 "design": "1268",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1268-3.jpg",
+                "name": "1268-3.webp",
                 "design": "1268",
                 "annex": "",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "1268.jpg",
+                "name": "1268.webp",
                 "design": "1268",
                 "annex": "",
                 "variant": "",
@@ -2003,14 +2003,14 @@
         "design": "1269",
         "files": [
             {
-                "name": "1269.jpg",
+                "name": "1269.webp",
                 "design": "1269",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1269_K72.jpg",
+                "name": "1269_K72.webp",
                 "design": "1269",
                 "annex": "",
                 "variant": "K72",
@@ -2023,7 +2023,7 @@
         "design": "1286",
         "files": [
             {
-                "name": "1286.jpg",
+                "name": "1286.webp",
                 "design": "1286",
                 "annex": "",
                 "variant": "",
@@ -2036,7 +2036,7 @@
         "design": "1288",
         "files": [
             {
-                "name": "1288.jpg",
+                "name": "1288.webp",
                 "design": "1288",
                 "annex": "",
                 "variant": "",
@@ -2049,14 +2049,14 @@
         "design": "1290",
         "files": [
             {
-                "name": "1290i.jpg",
+                "name": "1290i.webp",
                 "design": "1290",
                 "annex": "i",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1290i_Kartela.jpg",
+                "name": "1290i_Kartela.webp",
                 "design": "1290",
                 "annex": "i",
                 "variant": "Kartela",
@@ -2069,7 +2069,7 @@
         "design": "12930",
         "files": [
             {
-                "name": "12930_G07.jpg",
+                "name": "12930_G07.webp",
                 "design": "12930",
                 "annex": "",
                 "variant": "G07",
@@ -2082,7 +2082,7 @@
         "design": "12K201",
         "files": [
             {
-                "name": "12K201.jpg",
+                "name": "12K201.webp",
                 "design": "12K201",
                 "annex": "",
                 "variant": "",
@@ -2095,7 +2095,7 @@
         "design": "12K202",
         "files": [
             {
-                "name": "12K202.jpg",
+                "name": "12K202.webp",
                 "design": "12K202",
                 "annex": "",
                 "variant": "",
@@ -2108,7 +2108,7 @@
         "design": "12K203",
         "files": [
             {
-                "name": "12K203.jpg",
+                "name": "12K203.webp",
                 "design": "12K203",
                 "annex": "",
                 "variant": "",
@@ -2121,7 +2121,7 @@
         "design": "12K204",
         "files": [
             {
-                "name": "12K204.jpg",
+                "name": "12K204.webp",
                 "design": "12K204",
                 "annex": "",
                 "variant": "",
@@ -2134,7 +2134,7 @@
         "design": "12K205",
         "files": [
             {
-                "name": "12K205.jpg",
+                "name": "12K205.webp",
                 "design": "12K205",
                 "annex": "",
                 "variant": "",
@@ -2147,7 +2147,7 @@
         "design": "13030",
         "files": [
             {
-                "name": "13030_K64.jpg",
+                "name": "13030_K64.webp",
                 "design": "13030",
                 "annex": "",
                 "variant": "K64",
@@ -2160,14 +2160,14 @@
         "design": "13034",
         "files": [
             {
-                "name": "13034-2.jpg",
+                "name": "13034-2.webp",
                 "design": "13034",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "13034.jpg",
+                "name": "13034.webp",
                 "design": "13034",
                 "annex": "",
                 "variant": "",
@@ -2180,7 +2180,7 @@
         "design": "13036",
         "files": [
             {
-                "name": "13036.jpg",
+                "name": "13036.webp",
                 "design": "13036",
                 "annex": "",
                 "variant": "",
@@ -2193,7 +2193,7 @@
         "design": "13045",
         "files": [
             {
-                "name": "13045.jpg",
+                "name": "13045.webp",
                 "design": "13045",
                 "annex": "",
                 "variant": "",
@@ -2206,7 +2206,7 @@
         "design": "13063",
         "files": [
             {
-                "name": "13063.jpg",
+                "name": "13063.webp",
                 "design": "13063",
                 "annex": "",
                 "variant": "",
@@ -2219,7 +2219,7 @@
         "design": "1314",
         "files": [
             {
-                "name": "1314_K47.jpg",
+                "name": "1314_K47.webp",
                 "design": "1314",
                 "annex": "",
                 "variant": "K47",
@@ -2232,35 +2232,35 @@
         "design": "1321",
         "files": [
             {
-                "name": "1321T_G07.jpg",
+                "name": "1321T_G07.webp",
                 "design": "1321",
                 "annex": "T",
                 "variant": "G07",
                 "imageNo": "1"
             },
             {
-                "name": "1321T_G16.jpg",
+                "name": "1321T_G16.webp",
                 "design": "1321",
                 "annex": "T",
                 "variant": "G16",
                 "imageNo": "1"
             },
             {
-                "name": "1321T_G23.jpg",
+                "name": "1321T_G23.webp",
                 "design": "1321",
                 "annex": "T",
                 "variant": "G23",
                 "imageNo": "1"
             },
             {
-                "name": "1321T_G47.jpg",
+                "name": "1321T_G47.webp",
                 "design": "1321",
                 "annex": "T",
                 "variant": "G47",
                 "imageNo": "1"
             },
             {
-                "name": "1321T_Kartela.jpg",
+                "name": "1321T_Kartela.webp",
                 "design": "1321",
                 "annex": "T",
                 "variant": "Kartela",
@@ -2273,7 +2273,7 @@
         "design": "13233",
         "files": [
             {
-                "name": "13233.jpg",
+                "name": "13233.webp",
                 "design": "13233",
                 "annex": "",
                 "variant": "",
@@ -2286,14 +2286,14 @@
         "design": "1324",
         "files": [
             {
-                "name": "1324T.jpg",
+                "name": "1324T.webp",
                 "design": "1324",
                 "annex": "T",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1324T_G33.jpg",
+                "name": "1324T_G33.webp",
                 "design": "1324",
                 "annex": "T",
                 "variant": "G33",
@@ -2306,21 +2306,21 @@
         "design": "1325",
         "files": [
             {
-                "name": "1325T_G07.jpg",
+                "name": "1325T_G07.webp",
                 "design": "1325",
                 "annex": "T",
                 "variant": "G07",
                 "imageNo": "1"
             },
             {
-                "name": "1325T_G45.jpg",
+                "name": "1325T_G45.webp",
                 "design": "1325",
                 "annex": "T",
                 "variant": "G45",
                 "imageNo": "1"
             },
             {
-                "name": "1325T_G47.jpg",
+                "name": "1325T_G47.webp",
                 "design": "1325",
                 "annex": "T",
                 "variant": "G47",
@@ -2333,7 +2333,7 @@
         "design": "13260",
         "files": [
             {
-                "name": "13260.jpg",
+                "name": "13260.webp",
                 "design": "13260",
                 "annex": "",
                 "variant": "",
@@ -2346,7 +2346,7 @@
         "design": "13262",
         "files": [
             {
-                "name": "13262_K104.jpg",
+                "name": "13262_K104.webp",
                 "design": "13262",
                 "annex": "",
                 "variant": "K104",
@@ -2359,7 +2359,7 @@
         "design": "13263",
         "files": [
             {
-                "name": "13263_K104.jpg",
+                "name": "13263_K104.webp",
                 "design": "13263",
                 "annex": "",
                 "variant": "K104",
@@ -2372,7 +2372,7 @@
         "design": "13267",
         "files": [
             {
-                "name": "13267.jpg",
+                "name": "13267.webp",
                 "design": "13267",
                 "annex": "",
                 "variant": "",
@@ -2385,7 +2385,7 @@
         "design": "13272",
         "files": [
             {
-                "name": "13272_K104.jpg",
+                "name": "13272_K104.webp",
                 "design": "13272",
                 "annex": "",
                 "variant": "K104",
@@ -2398,7 +2398,7 @@
         "design": "13282",
         "files": [
             {
-                "name": "13282_K104.jpg",
+                "name": "13282_K104.webp",
                 "design": "13282",
                 "annex": "",
                 "variant": "K104",
@@ -2411,7 +2411,7 @@
         "design": "13283",
         "files": [
             {
-                "name": "13283.jpg",
+                "name": "13283.webp",
                 "design": "13283",
                 "annex": "",
                 "variant": "",
@@ -2424,7 +2424,7 @@
         "design": "13288",
         "files": [
             {
-                "name": "13288_K64.jpg",
+                "name": "13288_K64.webp",
                 "design": "13288",
                 "annex": "",
                 "variant": "K64",
@@ -2437,7 +2437,7 @@
         "design": "1328",
         "files": [
             {
-                "name": "1328T_G02.jpg",
+                "name": "1328T_G02.webp",
                 "design": "1328",
                 "annex": "T",
                 "variant": "G02",
@@ -2450,7 +2450,7 @@
         "design": "13292",
         "files": [
             {
-                "name": "13292.jpg",
+                "name": "13292.webp",
                 "design": "13292",
                 "annex": "",
                 "variant": "",
@@ -2463,7 +2463,7 @@
         "design": "13296",
         "files": [
             {
-                "name": "13296.jpg",
+                "name": "13296.webp",
                 "design": "13296",
                 "annex": "",
                 "variant": "",
@@ -2476,7 +2476,7 @@
         "design": "13297",
         "files": [
             {
-                "name": "13297.jpg",
+                "name": "13297.webp",
                 "design": "13297",
                 "annex": "",
                 "variant": "",
@@ -2489,7 +2489,7 @@
         "design": "13299",
         "files": [
             {
-                "name": "13299.jpg",
+                "name": "13299.webp",
                 "design": "13299",
                 "annex": "",
                 "variant": "",
@@ -2502,7 +2502,7 @@
         "design": "13300",
         "files": [
             {
-                "name": "13300.jpg",
+                "name": "13300.webp",
                 "design": "13300",
                 "annex": "",
                 "variant": "",
@@ -2515,7 +2515,7 @@
         "design": "1333",
         "files": [
             {
-                "name": "1333.jpg",
+                "name": "1333.webp",
                 "design": "1333",
                 "annex": "",
                 "variant": "",
@@ -2528,7 +2528,7 @@
         "design": "1334",
         "files": [
             {
-                "name": "1334.jpg",
+                "name": "1334.webp",
                 "design": "1334",
                 "annex": "",
                 "variant": "",
@@ -2541,21 +2541,21 @@
         "design": "1337",
         "files": [
             {
-                "name": "1337-2.jpg",
+                "name": "1337-2.webp",
                 "design": "1337",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1337-3.jpg",
+                "name": "1337-3.webp",
                 "design": "1337",
                 "annex": "",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "1337.jpg",
+                "name": "1337.webp",
                 "design": "1337",
                 "annex": "",
                 "variant": "",
@@ -2568,7 +2568,7 @@
         "design": "1338!",
         "files": [
             {
-                "name": "1338!.jpg",
+                "name": "1338!.webp",
                 "design": "1338!",
                 "annex": "",
                 "variant": "",
@@ -2581,7 +2581,7 @@
         "design": "1338",
         "files": [
             {
-                "name": "1338.jpg",
+                "name": "1338.webp",
                 "design": "1338",
                 "annex": "",
                 "variant": "",
@@ -2594,7 +2594,7 @@
         "design": "1339",
         "files": [
             {
-                "name": "1339.jpg",
+                "name": "1339.webp",
                 "design": "1339",
                 "annex": "",
                 "variant": "",
@@ -2607,14 +2607,14 @@
         "design": "1342",
         "files": [
             {
-                "name": "1342-2.jpg",
+                "name": "1342-2.webp",
                 "design": "1342",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1342.jpg",
+                "name": "1342.webp",
                 "design": "1342",
                 "annex": "",
                 "variant": "",
@@ -2627,28 +2627,28 @@
         "design": "1349",
         "files": [
             {
-                "name": "1349-2.jpg",
+                "name": "1349-2.webp",
                 "design": "1349",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1349-3.jpg",
+                "name": "1349-3.webp",
                 "design": "1349",
                 "annex": "",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "1349-4.jpg",
+                "name": "1349-4.webp",
                 "design": "1349",
                 "annex": "",
                 "variant": "",
                 "imageNo": "4"
             },
             {
-                "name": "1349.jpg",
+                "name": "1349.webp",
                 "design": "1349",
                 "annex": "",
                 "variant": "",
@@ -2661,7 +2661,7 @@
         "design": "1351",
         "files": [
             {
-                "name": "1351.jpg",
+                "name": "1351.webp",
                 "design": "1351",
                 "annex": "",
                 "variant": "",
@@ -2674,7 +2674,7 @@
         "design": "1352",
         "files": [
             {
-                "name": "1352.jpg",
+                "name": "1352.webp",
                 "design": "1352",
                 "annex": "",
                 "variant": "",
@@ -2687,7 +2687,7 @@
         "design": "1353",
         "files": [
             {
-                "name": "1353.jpg",
+                "name": "1353.webp",
                 "design": "1353",
                 "annex": "",
                 "variant": "",
@@ -2700,21 +2700,21 @@
         "design": "1354",
         "files": [
             {
-                "name": "1354.jpg",
+                "name": "1354.webp",
                 "design": "1354",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1354_G64-2.jpg",
+                "name": "1354_G64-2.webp",
                 "design": "1354",
                 "annex": "",
                 "variant": "G64",
                 "imageNo": "2"
             },
             {
-                "name": "1354_G64.jpg",
+                "name": "1354_G64.webp",
                 "design": "1354",
                 "annex": "",
                 "variant": "G64",
@@ -2727,7 +2727,7 @@
         "design": "1355",
         "files": [
             {
-                "name": "1355.jpg",
+                "name": "1355.webp",
                 "design": "1355",
                 "annex": "",
                 "variant": "",
@@ -2740,7 +2740,7 @@
         "design": "1356",
         "files": [
             {
-                "name": "1356.jpg",
+                "name": "1356.webp",
                 "design": "1356",
                 "annex": "",
                 "variant": "",
@@ -2753,14 +2753,14 @@
         "design": "1357",
         "files": [
             {
-                "name": "1357-2.jpg",
+                "name": "1357-2.webp",
                 "design": "1357",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1357.jpg",
+                "name": "1357.webp",
                 "design": "1357",
                 "annex": "",
                 "variant": "",
@@ -2773,7 +2773,7 @@
         "design": "1358",
         "files": [
             {
-                "name": "1358-2.jpg",
+                "name": "1358-2.webp",
                 "design": "1358",
                 "annex": "",
                 "variant": "",
@@ -2786,21 +2786,21 @@
         "design": "1359",
         "files": [
             {
-                "name": "1359-2.jpg",
+                "name": "1359-2.webp",
                 "design": "1359",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1359-3.jpg",
+                "name": "1359-3.webp",
                 "design": "1359",
                 "annex": "",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "1359.jpg",
+                "name": "1359.webp",
                 "design": "1359",
                 "annex": "",
                 "variant": "",
@@ -2813,21 +2813,21 @@
         "design": "1360",
         "files": [
             {
-                "name": "1360.jpg",
+                "name": "1360.webp",
                 "design": "1360",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1360_G30.jpg",
+                "name": "1360_G30.webp",
                 "design": "1360",
                 "annex": "",
                 "variant": "G30",
                 "imageNo": "1"
             },
             {
-                "name": "1360_Kartela.jpg",
+                "name": "1360_Kartela.webp",
                 "design": "1360",
                 "annex": "",
                 "variant": "Kartela",
@@ -2840,7 +2840,7 @@
         "design": "1361",
         "files": [
             {
-                "name": "1361.jpg",
+                "name": "1361.webp",
                 "design": "1361",
                 "annex": "",
                 "variant": "",
@@ -2853,14 +2853,14 @@
         "design": "1362",
         "files": [
             {
-                "name": "1362-2.jpg",
+                "name": "1362-2.webp",
                 "design": "1362",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1362.jpg",
+                "name": "1362.webp",
                 "design": "1362",
                 "annex": "",
                 "variant": "",
@@ -2873,14 +2873,14 @@
         "design": "1364",
         "files": [
             {
-                "name": "1364-2.jpg",
+                "name": "1364-2.webp",
                 "design": "1364",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1364.jpg",
+                "name": "1364.webp",
                 "design": "1364",
                 "annex": "",
                 "variant": "",
@@ -2893,49 +2893,49 @@
         "design": "1365",
         "files": [
             {
-                "name": "1365-2.jpg",
+                "name": "1365-2.webp",
                 "design": "1365",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1365-3.jpg",
+                "name": "1365-3.webp",
                 "design": "1365",
                 "annex": "",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "1365-4.jpg",
+                "name": "1365-4.webp",
                 "design": "1365",
                 "annex": "",
                 "variant": "",
                 "imageNo": "4"
             },
             {
-                "name": "1365-5.jpg",
+                "name": "1365-5.webp",
                 "design": "1365",
                 "annex": "",
                 "variant": "",
                 "imageNo": "5"
             },
             {
-                "name": "1365-6.jpg",
+                "name": "1365-6.webp",
                 "design": "1365",
                 "annex": "",
                 "variant": "",
                 "imageNo": "6"
             },
             {
-                "name": "1365-7.jpg",
+                "name": "1365-7.webp",
                 "design": "1365",
                 "annex": "",
                 "variant": "",
                 "imageNo": "7"
             },
             {
-                "name": "1365.jpg",
+                "name": "1365.webp",
                 "design": "1365",
                 "annex": "",
                 "variant": "",
@@ -2948,14 +2948,14 @@
         "design": "1367",
         "files": [
             {
-                "name": "1367-2.jpg",
+                "name": "1367-2.webp",
                 "design": "1367",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1367.jpg",
+                "name": "1367.webp",
                 "design": "1367",
                 "annex": "",
                 "variant": "",
@@ -2968,7 +2968,7 @@
         "design": "1368",
         "files": [
             {
-                "name": "1368.jpg",
+                "name": "1368.webp",
                 "design": "1368",
                 "annex": "",
                 "variant": "",
@@ -2981,14 +2981,14 @@
         "design": "1369",
         "files": [
             {
-                "name": "1369.jpg",
+                "name": "1369.webp",
                 "design": "1369",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1369T.jpg",
+                "name": "1369T.webp",
                 "design": "1369",
                 "annex": "T",
                 "variant": "",
@@ -3001,35 +3001,35 @@
         "design": "1370",
         "files": [
             {
-                "name": "1370-2.jpg",
+                "name": "1370-2.webp",
                 "design": "1370",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1370-3.jpg",
+                "name": "1370-3.webp",
                 "design": "1370",
                 "annex": "",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "1370-4.jpg",
+                "name": "1370-4.webp",
                 "design": "1370",
                 "annex": "",
                 "variant": "",
                 "imageNo": "4"
             },
             {
-                "name": "1370-5.jpg",
+                "name": "1370-5.webp",
                 "design": "1370",
                 "annex": "",
                 "variant": "",
                 "imageNo": "5"
             },
             {
-                "name": "1370.jpg",
+                "name": "1370.webp",
                 "design": "1370",
                 "annex": "",
                 "variant": "",
@@ -3042,14 +3042,14 @@
         "design": "1371",
         "files": [
             {
-                "name": "1371.jpg",
+                "name": "1371.webp",
                 "design": "1371",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1371T.jpg",
+                "name": "1371T.webp",
                 "design": "1371",
                 "annex": "T",
                 "variant": "",
@@ -3062,7 +3062,7 @@
         "design": "1372",
         "files": [
             {
-                "name": "1372.jpg",
+                "name": "1372.webp",
                 "design": "1372",
                 "annex": "",
                 "variant": "",
@@ -3075,21 +3075,21 @@
         "design": "1373",
         "files": [
             {
-                "name": "1373-2.jpg",
+                "name": "1373-2.webp",
                 "design": "1373",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1373-3.jpg",
+                "name": "1373-3.webp",
                 "design": "1373",
                 "annex": "",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "1373.jpg",
+                "name": "1373.webp",
                 "design": "1373",
                 "annex": "",
                 "variant": "",
@@ -3102,14 +3102,14 @@
         "design": "1375",
         "files": [
             {
-                "name": "1375-2.jpg",
+                "name": "1375-2.webp",
                 "design": "1375",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1375.jpg",
+                "name": "1375.webp",
                 "design": "1375",
                 "annex": "",
                 "variant": "",
@@ -3122,21 +3122,21 @@
         "design": "1377",
         "files": [
             {
-                "name": "1377-2.jpg",
+                "name": "1377-2.webp",
                 "design": "1377",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1377-3.jpg",
+                "name": "1377-3.webp",
                 "design": "1377",
                 "annex": "",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "1377.jpg",
+                "name": "1377.webp",
                 "design": "1377",
                 "annex": "",
                 "variant": "",
@@ -3149,21 +3149,21 @@
         "design": "1379",
         "files": [
             {
-                "name": "1379_G78-2.jpg",
+                "name": "1379_G78-2.webp",
                 "design": "1379",
                 "annex": "",
                 "variant": "G78",
                 "imageNo": "2"
             },
             {
-                "name": "1379_G78-3.jpg",
+                "name": "1379_G78-3.webp",
                 "design": "1379",
                 "annex": "",
                 "variant": "G78",
                 "imageNo": "3"
             },
             {
-                "name": "1379_G78.jpg",
+                "name": "1379_G78.webp",
                 "design": "1379",
                 "annex": "",
                 "variant": "G78",
@@ -3176,21 +3176,21 @@
         "design": "1380",
         "files": [
             {
-                "name": "1380-2.jpg",
+                "name": "1380-2.webp",
                 "design": "1380",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1380-3.jpg",
+                "name": "1380-3.webp",
                 "design": "1380",
                 "annex": "",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "1380.jpg",
+                "name": "1380.webp",
                 "design": "1380",
                 "annex": "",
                 "variant": "",
@@ -3203,7 +3203,7 @@
         "design": "1381",
         "files": [
             {
-                "name": "1381.jpg",
+                "name": "1381.webp",
                 "design": "1381",
                 "annex": "",
                 "variant": "",
@@ -3216,14 +3216,14 @@
         "design": "1382",
         "files": [
             {
-                "name": "1382-2.jpg",
+                "name": "1382-2.webp",
                 "design": "1382",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1382.jpg",
+                "name": "1382.webp",
                 "design": "1382",
                 "annex": "",
                 "variant": "",
@@ -3236,7 +3236,7 @@
         "design": "1383",
         "files": [
             {
-                "name": "1383.jpg",
+                "name": "1383.webp",
                 "design": "1383",
                 "annex": "",
                 "variant": "",
@@ -3249,7 +3249,7 @@
         "design": "1384",
         "files": [
             {
-                "name": "1384.jpg",
+                "name": "1384.webp",
                 "design": "1384",
                 "annex": "",
                 "variant": "",
@@ -3262,7 +3262,7 @@
         "design": "1387",
         "files": [
             {
-                "name": "1387.jpg",
+                "name": "1387.webp",
                 "design": "1387",
                 "annex": "",
                 "variant": "",
@@ -3275,14 +3275,14 @@
         "design": "1388",
         "files": [
             {
-                "name": "1388-2.jpg",
+                "name": "1388-2.webp",
                 "design": "1388",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1388.jpg",
+                "name": "1388.webp",
                 "design": "1388",
                 "annex": "",
                 "variant": "",
@@ -3295,7 +3295,7 @@
         "design": "1389",
         "files": [
             {
-                "name": "1389.jpg",
+                "name": "1389.webp",
                 "design": "1389",
                 "annex": "",
                 "variant": "",
@@ -3308,7 +3308,7 @@
         "design": "1390",
         "files": [
             {
-                "name": "1390.jpg",
+                "name": "1390.webp",
                 "design": "1390",
                 "annex": "",
                 "variant": "",
@@ -3321,14 +3321,14 @@
         "design": "1391",
         "files": [
             {
-                "name": "1391-2.jpg",
+                "name": "1391-2.webp",
                 "design": "1391",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1391.jpg",
+                "name": "1391.webp",
                 "design": "1391",
                 "annex": "",
                 "variant": "",
@@ -3341,7 +3341,7 @@
         "design": "1392",
         "files": [
             {
-                "name": "1392.jpg",
+                "name": "1392.webp",
                 "design": "1392",
                 "annex": "",
                 "variant": "",
@@ -3354,7 +3354,7 @@
         "design": "1393",
         "files": [
             {
-                "name": "1393.jpg",
+                "name": "1393.webp",
                 "design": "1393",
                 "annex": "",
                 "variant": "",
@@ -3367,7 +3367,7 @@
         "design": "1394",
         "files": [
             {
-                "name": "1394.jpg",
+                "name": "1394.webp",
                 "design": "1394",
                 "annex": "",
                 "variant": "",
@@ -3380,7 +3380,7 @@
         "design": "1395",
         "files": [
             {
-                "name": "1395.jpg",
+                "name": "1395.webp",
                 "design": "1395",
                 "annex": "",
                 "variant": "",
@@ -3393,7 +3393,7 @@
         "design": "1396",
         "files": [
             {
-                "name": "1396.jpg",
+                "name": "1396.webp",
                 "design": "1396",
                 "annex": "",
                 "variant": "",
@@ -3406,14 +3406,14 @@
         "design": "1397",
         "files": [
             {
-                "name": "1397-2.jpg",
+                "name": "1397-2.webp",
                 "design": "1397",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1397.jpg",
+                "name": "1397.webp",
                 "design": "1397",
                 "annex": "",
                 "variant": "",
@@ -3426,7 +3426,7 @@
         "design": "1398",
         "files": [
             {
-                "name": "1398.jpg",
+                "name": "1398.webp",
                 "design": "1398",
                 "annex": "",
                 "variant": "",
@@ -3439,14 +3439,14 @@
         "design": "1399",
         "files": [
             {
-                "name": "1399-2.jpg",
+                "name": "1399-2.webp",
                 "design": "1399",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1399.jpg",
+                "name": "1399.webp",
                 "design": "1399",
                 "annex": "",
                 "variant": "",
@@ -3459,14 +3459,14 @@
         "design": "1400",
         "files": [
             {
-                "name": "1400-2.jpg",
+                "name": "1400-2.webp",
                 "design": "1400",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1400.jpg",
+                "name": "1400.webp",
                 "design": "1400",
                 "annex": "",
                 "variant": "",
@@ -3479,28 +3479,28 @@
         "design": "1401",
         "files": [
             {
-                "name": "1401-2.jpg",
+                "name": "1401-2.webp",
                 "design": "1401",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1401.jpg",
+                "name": "1401.webp",
                 "design": "1401",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "1401T_G16-2.jpg",
+                "name": "1401T_G16-2.webp",
                 "design": "1401",
                 "annex": "T",
                 "variant": "G16",
                 "imageNo": "2"
             },
             {
-                "name": "1401T_G16.jpg",
+                "name": "1401T_G16.webp",
                 "design": "1401",
                 "annex": "T",
                 "variant": "G16",
@@ -3513,7 +3513,7 @@
         "design": "1402",
         "files": [
             {
-                "name": "1402.jpg",
+                "name": "1402.webp",
                 "design": "1402",
                 "annex": "",
                 "variant": "",
@@ -3526,7 +3526,7 @@
         "design": "1403",
         "files": [
             {
-                "name": "1403.jpg",
+                "name": "1403.webp",
                 "design": "1403",
                 "annex": "",
                 "variant": "",
@@ -3539,21 +3539,21 @@
         "design": "1404",
         "files": [
             {
-                "name": "1404T-2.jpg",
+                "name": "1404T-2.webp",
                 "design": "1404",
                 "annex": "T",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1404T-3.jpg",
+                "name": "1404T-3.webp",
                 "design": "1404",
                 "annex": "T",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "1404T.jpg",
+                "name": "1404T.webp",
                 "design": "1404",
                 "annex": "T",
                 "variant": "",
@@ -3566,14 +3566,14 @@
         "design": "1405",
         "files": [
             {
-                "name": "1405T-2.jpg",
+                "name": "1405T-2.webp",
                 "design": "1405",
                 "annex": "T",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1405T.jpg",
+                "name": "1405T.webp",
                 "design": "1405",
                 "annex": "T",
                 "variant": "",
@@ -3586,7 +3586,7 @@
         "design": "1407",
         "files": [
             {
-                "name": "1407.jpg",
+                "name": "1407.webp",
                 "design": "1407",
                 "annex": "",
                 "variant": "",
@@ -3599,21 +3599,21 @@
         "design": "1409",
         "files": [
             {
-                "name": "1409T-2.jpg",
+                "name": "1409T-2.webp",
                 "design": "1409",
                 "annex": "T",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1409T-3.jpg",
+                "name": "1409T-3.webp",
                 "design": "1409",
                 "annex": "T",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "1409T.jpg",
+                "name": "1409T.webp",
                 "design": "1409",
                 "annex": "T",
                 "variant": "",
@@ -3626,14 +3626,14 @@
         "design": "1410",
         "files": [
             {
-                "name": "1410T-2.jpg",
+                "name": "1410T-2.webp",
                 "design": "1410",
                 "annex": "T",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "1410T.jpg",
+                "name": "1410T.webp",
                 "design": "1410",
                 "annex": "T",
                 "variant": "",
@@ -3646,7 +3646,7 @@
         "design": "14721",
         "files": [
             {
-                "name": "14721.jpg",
+                "name": "14721.webp",
                 "design": "14721",
                 "annex": "",
                 "variant": "",
@@ -3659,14 +3659,14 @@
         "design": "2002",
         "files": [
             {
-                "name": "2002_F06.jpg",
+                "name": "2002_F06.webp",
                 "design": "2002",
                 "annex": "",
                 "variant": "F06",
                 "imageNo": "1"
             },
             {
-                "name": "2002_K06-2.jpg",
+                "name": "2002_K06-2.webp",
                 "design": "2002",
                 "annex": "",
                 "variant": "K06",
@@ -3679,7 +3679,7 @@
         "design": "24006",
         "files": [
             {
-                "name": "24006.jpg",
+                "name": "24006.webp",
                 "design": "24006",
                 "annex": "",
                 "variant": "",
@@ -3692,7 +3692,7 @@
         "design": "24068",
         "files": [
             {
-                "name": "24068.jpg",
+                "name": "24068.webp",
                 "design": "24068",
                 "annex": "",
                 "variant": "",
@@ -3705,7 +3705,7 @@
         "design": "24111",
         "files": [
             {
-                "name": "24111.jpg",
+                "name": "24111.webp",
                 "design": "24111",
                 "annex": "",
                 "variant": "",
@@ -3718,7 +3718,7 @@
         "design": "24116",
         "files": [
             {
-                "name": "24116T.jpg",
+                "name": "24116T.webp",
                 "design": "24116",
                 "annex": "T",
                 "variant": "",
@@ -3731,7 +3731,7 @@
         "design": "24117",
         "files": [
             {
-                "name": "24117.jpg",
+                "name": "24117.webp",
                 "design": "24117",
                 "annex": "",
                 "variant": "",
@@ -3744,49 +3744,49 @@
         "design": "24347",
         "files": [
             {
-                "name": "24347_K194.jpg",
+                "name": "24347_K194.webp",
                 "design": "24347",
                 "annex": "",
                 "variant": "K194",
                 "imageNo": "1"
             },
             {
-                "name": "24347_K195.jpg",
+                "name": "24347_K195.webp",
                 "design": "24347",
                 "annex": "",
                 "variant": "K195",
                 "imageNo": "1"
             },
             {
-                "name": "24347_Kartela-2.jpg",
+                "name": "24347_Kartela-2.webp",
                 "design": "24347",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "2"
             },
             {
-                "name": "24347_Kartela-3.jpg",
+                "name": "24347_Kartela-3.webp",
                 "design": "24347",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "3"
             },
             {
-                "name": "24347_Kartela-4.jpg",
+                "name": "24347_Kartela-4.webp",
                 "design": "24347",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "4"
             },
             {
-                "name": "24347_Kartela-5.jpg",
+                "name": "24347_Kartela-5.webp",
                 "design": "24347",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "5"
             },
             {
-                "name": "24347_Kartela.jpg",
+                "name": "24347_Kartela.webp",
                 "design": "24347",
                 "annex": "",
                 "variant": "Kartela",
@@ -3799,7 +3799,7 @@
         "design": "24392",
         "files": [
             {
-                "name": "24392.jpg",
+                "name": "24392.webp",
                 "design": "24392",
                 "annex": "",
                 "variant": "",
@@ -3812,28 +3812,28 @@
         "design": "24398",
         "files": [
             {
-                "name": "24398-2.jpg",
+                "name": "24398-2.webp",
                 "design": "24398",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24398.jpg",
+                "name": "24398.webp",
                 "design": "24398",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "24398i_G07-2.jpg",
+                "name": "24398i_G07-2.webp",
                 "design": "24398",
                 "annex": "i",
                 "variant": "G07",
                 "imageNo": "2"
             },
             {
-                "name": "24398i_G07.jpg",
+                "name": "24398i_G07.webp",
                 "design": "24398",
                 "annex": "i",
                 "variant": "G07",
@@ -3846,35 +3846,35 @@
         "design": "24402",
         "files": [
             {
-                "name": "24402i_G112-2.JPG",
+                "name": "24402i_G112-2.webp",
                 "design": "24402",
                 "annex": "i",
                 "variant": "G112",
-                "imageNo": "2.JPG"
+                "imageNo": "2"
             },
             {
-                "name": "24402i_G112.JPG",
+                "name": "24402i_G112.webp",
                 "design": "24402",
                 "annex": "i",
-                "variant": "G112.JPG",
+                "variant": "G112",
                 "imageNo": "1"
             },
             {
-                "name": "24402i_G12.jpg",
+                "name": "24402i_G12.webp",
                 "design": "24402",
                 "annex": "i",
                 "variant": "G12",
                 "imageNo": "1"
             },
             {
-                "name": "24402i_G50-2.jpg",
+                "name": "24402i_G50-2.webp",
                 "design": "24402",
                 "annex": "i",
                 "variant": "G50",
                 "imageNo": "2"
             },
             {
-                "name": "24402i_G50.jpg",
+                "name": "24402i_G50.webp",
                 "design": "24402",
                 "annex": "i",
                 "variant": "G50",
@@ -3887,28 +3887,28 @@
         "design": "24407",
         "files": [
             {
-                "name": "24407_Kartela-2.jpg",
+                "name": "24407_Kartela-2.webp",
                 "design": "24407",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "2"
             },
             {
-                "name": "24407_Kartela-3.jpg",
+                "name": "24407_Kartela-3.webp",
                 "design": "24407",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "3"
             },
             {
-                "name": "24407_Kartela-4.jpg",
+                "name": "24407_Kartela-4.webp",
                 "design": "24407",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "4"
             },
             {
-                "name": "24407_Kartela.jpg",
+                "name": "24407_Kartela.webp",
                 "design": "24407",
                 "annex": "",
                 "variant": "Kartela",
@@ -3921,7 +3921,7 @@
         "design": "24445",
         "files": [
             {
-                "name": "24445.jpg",
+                "name": "24445.webp",
                 "design": "24445",
                 "annex": "",
                 "variant": "",
@@ -3934,7 +3934,7 @@
         "design": "24451",
         "files": [
             {
-                "name": "24451_G50.jpg",
+                "name": "24451_G50.webp",
                 "design": "24451",
                 "annex": "",
                 "variant": "G50",
@@ -3947,14 +3947,14 @@
         "design": "24473",
         "files": [
             {
-                "name": "24473-2.jpg",
+                "name": "24473-2.webp",
                 "design": "24473",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24473.jpg",
+                "name": "24473.webp",
                 "design": "24473",
                 "annex": "",
                 "variant": "",
@@ -3967,7 +3967,7 @@
         "design": "24477",
         "files": [
             {
-                "name": "24477.jpg",
+                "name": "24477.webp",
                 "design": "24477",
                 "annex": "",
                 "variant": "",
@@ -3980,7 +3980,7 @@
         "design": "24491",
         "files": [
             {
-                "name": "24491_G07.jpg",
+                "name": "24491_G07.webp",
                 "design": "24491",
                 "annex": "",
                 "variant": "G07",
@@ -3993,21 +3993,21 @@
         "design": "24515",
         "files": [
             {
-                "name": "24515_G50-2.jpg",
+                "name": "24515_G50-2.webp",
                 "design": "24515",
                 "annex": "",
                 "variant": "G50",
                 "imageNo": "2"
             },
             {
-                "name": "24515_G50.jpg",
+                "name": "24515_G50.webp",
                 "design": "24515",
                 "annex": "",
                 "variant": "G50",
                 "imageNo": "1"
             },
             {
-                "name": "24515_K136.jpg",
+                "name": "24515_K136.webp",
                 "design": "24515",
                 "annex": "",
                 "variant": "K136",
@@ -4020,7 +4020,7 @@
         "design": "24522",
         "files": [
             {
-                "name": "24522_G50.jpg",
+                "name": "24522_G50.webp",
                 "design": "24522",
                 "annex": "",
                 "variant": "G50",
@@ -4033,7 +4033,7 @@
         "design": "24523",
         "files": [
             {
-                "name": "24523_G07.jpg",
+                "name": "24523_G07.webp",
                 "design": "24523",
                 "annex": "",
                 "variant": "G07",
@@ -4046,7 +4046,7 @@
         "design": "24526",
         "files": [
             {
-                "name": "24526.jpg",
+                "name": "24526.webp",
                 "design": "24526",
                 "annex": "",
                 "variant": "",
@@ -4059,7 +4059,7 @@
         "design": "24529",
         "files": [
             {
-                "name": "24529_G07.jpg",
+                "name": "24529_G07.webp",
                 "design": "24529",
                 "annex": "",
                 "variant": "G07",
@@ -4072,7 +4072,7 @@
         "design": "24530",
         "files": [
             {
-                "name": "24530.jpg",
+                "name": "24530.webp",
                 "design": "24530",
                 "annex": "",
                 "variant": "",
@@ -4085,7 +4085,7 @@
         "design": "24531",
         "files": [
             {
-                "name": "24531_G07.jpg",
+                "name": "24531_G07.webp",
                 "design": "24531",
                 "annex": "",
                 "variant": "G07",
@@ -4098,7 +4098,7 @@
         "design": "24532",
         "files": [
             {
-                "name": "24532.jpg",
+                "name": "24532.webp",
                 "design": "24532",
                 "annex": "",
                 "variant": "",
@@ -4111,28 +4111,28 @@
         "design": "24533",
         "files": [
             {
-                "name": "24533-2.jpg",
+                "name": "24533-2.webp",
                 "design": "24533",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24533-3.jpg",
+                "name": "24533-3.webp",
                 "design": "24533",
                 "annex": "",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "24533.jpg",
+                "name": "24533.webp",
                 "design": "24533",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "24533_G07.jpg",
+                "name": "24533_G07.webp",
                 "design": "24533",
                 "annex": "",
                 "variant": "G07",
@@ -4145,7 +4145,7 @@
         "design": "24534",
         "files": [
             {
-                "name": "24534.jpg",
+                "name": "24534.webp",
                 "design": "24534",
                 "annex": "",
                 "variant": "",
@@ -4158,7 +4158,7 @@
         "design": "24535",
         "files": [
             {
-                "name": "24535_G07.jpg",
+                "name": "24535_G07.webp",
                 "design": "24535",
                 "annex": "",
                 "variant": "G07",
@@ -4171,14 +4171,14 @@
         "design": "24536",
         "files": [
             {
-                "name": "24536-2.jpg",
+                "name": "24536-2.webp",
                 "design": "24536",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24536.jpg",
+                "name": "24536.webp",
                 "design": "24536",
                 "annex": "",
                 "variant": "",
@@ -4191,14 +4191,14 @@
         "design": "24539",
         "files": [
             {
-                "name": "24539-2.jpg",
+                "name": "24539-2.webp",
                 "design": "24539",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24539.jpg",
+                "name": "24539.webp",
                 "design": "24539",
                 "annex": "",
                 "variant": "",
@@ -4211,14 +4211,14 @@
         "design": "24540",
         "files": [
             {
-                "name": "24540.jpg",
+                "name": "24540.webp",
                 "design": "24540",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "24540_G07.jpg",
+                "name": "24540_G07.webp",
                 "design": "24540",
                 "annex": "",
                 "variant": "G07",
@@ -4231,14 +4231,14 @@
         "design": "24541",
         "files": [
             {
-                "name": "24541-2.jpg",
+                "name": "24541-2.webp",
                 "design": "24541",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24541.jpg",
+                "name": "24541.webp",
                 "design": "24541",
                 "annex": "",
                 "variant": "",
@@ -4251,7 +4251,7 @@
         "design": "24542",
         "files": [
             {
-                "name": "24542.jpg",
+                "name": "24542.webp",
                 "design": "24542",
                 "annex": "",
                 "variant": "",
@@ -4264,7 +4264,7 @@
         "design": "24543",
         "files": [
             {
-                "name": "24543_G07.jpg",
+                "name": "24543_G07.webp",
                 "design": "24543",
                 "annex": "",
                 "variant": "G07",
@@ -4277,7 +4277,7 @@
         "design": "24544",
         "files": [
             {
-                "name": "24544.jpg",
+                "name": "24544.webp",
                 "design": "24544",
                 "annex": "",
                 "variant": "",
@@ -4290,14 +4290,14 @@
         "design": "24545",
         "files": [
             {
-                "name": "24545.jpg",
+                "name": "24545.webp",
                 "design": "24545",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "24545_G07.jpg",
+                "name": "24545_G07.webp",
                 "design": "24545",
                 "annex": "",
                 "variant": "G07",
@@ -4310,7 +4310,7 @@
         "design": "24546",
         "files": [
             {
-                "name": "24546_G07.jpg",
+                "name": "24546_G07.webp",
                 "design": "24546",
                 "annex": "",
                 "variant": "G07",
@@ -4323,14 +4323,14 @@
         "design": "24547",
         "files": [
             {
-                "name": "24547_G07-2.jpg",
+                "name": "24547_G07-2.webp",
                 "design": "24547",
                 "annex": "",
                 "variant": "G07",
                 "imageNo": "2"
             },
             {
-                "name": "24547_G07.jpg",
+                "name": "24547_G07.webp",
                 "design": "24547",
                 "annex": "",
                 "variant": "G07",
@@ -4343,7 +4343,7 @@
         "design": "24550",
         "files": [
             {
-                "name": "24550.jpg",
+                "name": "24550.webp",
                 "design": "24550",
                 "annex": "",
                 "variant": "",
@@ -4356,7 +4356,7 @@
         "design": "24551",
         "files": [
             {
-                "name": "24551.jpg",
+                "name": "24551.webp",
                 "design": "24551",
                 "annex": "",
                 "variant": "",
@@ -4369,7 +4369,7 @@
         "design": "24552",
         "files": [
             {
-                "name": "24552.jpg",
+                "name": "24552.webp",
                 "design": "24552",
                 "annex": "",
                 "variant": "",
@@ -4382,7 +4382,7 @@
         "design": "24553",
         "files": [
             {
-                "name": "24553.jpg",
+                "name": "24553.webp",
                 "design": "24553",
                 "annex": "",
                 "variant": "",
@@ -4395,7 +4395,7 @@
         "design": "24554",
         "files": [
             {
-                "name": "24554.jpg",
+                "name": "24554.webp",
                 "design": "24554",
                 "annex": "",
                 "variant": "",
@@ -4408,14 +4408,14 @@
         "design": "24555",
         "files": [
             {
-                "name": "24555.jpg",
+                "name": "24555.webp",
                 "design": "24555",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "24555_G07.jpg",
+                "name": "24555_G07.webp",
                 "design": "24555",
                 "annex": "",
                 "variant": "G07",
@@ -4428,7 +4428,7 @@
         "design": "24557",
         "files": [
             {
-                "name": "24557.jpg",
+                "name": "24557.webp",
                 "design": "24557",
                 "annex": "",
                 "variant": "",
@@ -4441,21 +4441,21 @@
         "design": "24558",
         "files": [
             {
-                "name": "24558.jpg",
+                "name": "24558.webp",
                 "design": "24558",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "24558i.jpg",
+                "name": "24558i.webp",
                 "design": "24558",
                 "annex": "i",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "24558i_Kartela.jpg",
+                "name": "24558i_Kartela.webp",
                 "design": "24558",
                 "annex": "i",
                 "variant": "Kartela",
@@ -4468,7 +4468,7 @@
         "design": "24559",
         "files": [
             {
-                "name": "24559.jpg",
+                "name": "24559.webp",
                 "design": "24559",
                 "annex": "",
                 "variant": "",
@@ -4481,7 +4481,7 @@
         "design": "24560",
         "files": [
             {
-                "name": "24560.jpg",
+                "name": "24560.webp",
                 "design": "24560",
                 "annex": "",
                 "variant": "",
@@ -4494,7 +4494,7 @@
         "design": "24561",
         "files": [
             {
-                "name": "24561.jpg",
+                "name": "24561.webp",
                 "design": "24561",
                 "annex": "",
                 "variant": "",
@@ -4507,21 +4507,21 @@
         "design": "24562",
         "files": [
             {
-                "name": "24562-2.jpg",
+                "name": "24562-2.webp",
                 "design": "24562",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24562.jpg",
+                "name": "24562.webp",
                 "design": "24562",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "24562_G07.jpg",
+                "name": "24562_G07.webp",
                 "design": "24562",
                 "annex": "",
                 "variant": "G07",
@@ -4534,7 +4534,7 @@
         "design": "24563",
         "files": [
             {
-                "name": "24563.jpg",
+                "name": "24563.webp",
                 "design": "24563",
                 "annex": "",
                 "variant": "",
@@ -4547,14 +4547,14 @@
         "design": "24564",
         "files": [
             {
-                "name": "24564.jpg",
+                "name": "24564.webp",
                 "design": "24564",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "24564i.jpg",
+                "name": "24564i.webp",
                 "design": "24564",
                 "annex": "i",
                 "variant": "",
@@ -4567,7 +4567,7 @@
         "design": "24565",
         "files": [
             {
-                "name": "24565.jpg",
+                "name": "24565.webp",
                 "design": "24565",
                 "annex": "",
                 "variant": "",
@@ -4580,7 +4580,7 @@
         "design": "24566",
         "files": [
             {
-                "name": "24566.jpg",
+                "name": "24566.webp",
                 "design": "24566",
                 "annex": "",
                 "variant": "",
@@ -4593,7 +4593,7 @@
         "design": "24567",
         "files": [
             {
-                "name": "24567.jpg",
+                "name": "24567.webp",
                 "design": "24567",
                 "annex": "",
                 "variant": "",
@@ -4606,7 +4606,7 @@
         "design": "24569",
         "files": [
             {
-                "name": "24569.jpg",
+                "name": "24569.webp",
                 "design": "24569",
                 "annex": "",
                 "variant": "",
@@ -4619,7 +4619,7 @@
         "design": "24570",
         "files": [
             {
-                "name": "24570.jpg",
+                "name": "24570.webp",
                 "design": "24570",
                 "annex": "",
                 "variant": "",
@@ -4632,7 +4632,7 @@
         "design": "24571",
         "files": [
             {
-                "name": "24571.jpg",
+                "name": "24571.webp",
                 "design": "24571",
                 "annex": "",
                 "variant": "",
@@ -4645,7 +4645,7 @@
         "design": "24572",
         "files": [
             {
-                "name": "24572.jpg",
+                "name": "24572.webp",
                 "design": "24572",
                 "annex": "",
                 "variant": "",
@@ -4658,7 +4658,7 @@
         "design": "24573",
         "files": [
             {
-                "name": "24573.jpg",
+                "name": "24573.webp",
                 "design": "24573",
                 "annex": "",
                 "variant": "",
@@ -4671,7 +4671,7 @@
         "design": "24574",
         "files": [
             {
-                "name": "24574.jpg",
+                "name": "24574.webp",
                 "design": "24574",
                 "annex": "",
                 "variant": "",
@@ -4684,7 +4684,7 @@
         "design": "24576",
         "files": [
             {
-                "name": "24576.jpg",
+                "name": "24576.webp",
                 "design": "24576",
                 "annex": "",
                 "variant": "",
@@ -4697,7 +4697,7 @@
         "design": "24577",
         "files": [
             {
-                "name": "24577.jpg",
+                "name": "24577.webp",
                 "design": "24577",
                 "annex": "",
                 "variant": "",
@@ -4710,7 +4710,7 @@
         "design": "24579",
         "files": [
             {
-                "name": "24579.jpg",
+                "name": "24579.webp",
                 "design": "24579",
                 "annex": "",
                 "variant": "",
@@ -4723,14 +4723,14 @@
         "design": "24580",
         "files": [
             {
-                "name": "24580.jpg",
+                "name": "24580.webp",
                 "design": "24580",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "24580_K18.jpg",
+                "name": "24580_K18.webp",
                 "design": "24580",
                 "annex": "",
                 "variant": "K18",
@@ -4743,7 +4743,7 @@
         "design": "24581",
         "files": [
             {
-                "name": "24581.jpg",
+                "name": "24581.webp",
                 "design": "24581",
                 "annex": "",
                 "variant": "",
@@ -4756,7 +4756,7 @@
         "design": "24582",
         "files": [
             {
-                "name": "24582.jpg",
+                "name": "24582.webp",
                 "design": "24582",
                 "annex": "",
                 "variant": "",
@@ -4769,7 +4769,7 @@
         "design": "24583",
         "files": [
             {
-                "name": "24583.jpg",
+                "name": "24583.webp",
                 "design": "24583",
                 "annex": "",
                 "variant": "",
@@ -4782,7 +4782,7 @@
         "design": "24585",
         "files": [
             {
-                "name": "24585.jpg",
+                "name": "24585.webp",
                 "design": "24585",
                 "annex": "",
                 "variant": "",
@@ -4795,7 +4795,7 @@
         "design": "24586",
         "files": [
             {
-                "name": "24586.jpg",
+                "name": "24586.webp",
                 "design": "24586",
                 "annex": "",
                 "variant": "",
@@ -4808,7 +4808,7 @@
         "design": "24587",
         "files": [
             {
-                "name": "24587.jpg",
+                "name": "24587.webp",
                 "design": "24587",
                 "annex": "",
                 "variant": "",
@@ -4821,14 +4821,14 @@
         "design": "24588",
         "files": [
             {
-                "name": "24588-2.jpg",
+                "name": "24588-2.webp",
                 "design": "24588",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24588.jpg",
+                "name": "24588.webp",
                 "design": "24588",
                 "annex": "",
                 "variant": "",
@@ -4841,7 +4841,7 @@
         "design": "24589",
         "files": [
             {
-                "name": "24589.jpg",
+                "name": "24589.webp",
                 "design": "24589",
                 "annex": "",
                 "variant": "",
@@ -4854,7 +4854,7 @@
         "design": "24592",
         "files": [
             {
-                "name": "24592.jpg",
+                "name": "24592.webp",
                 "design": "24592",
                 "annex": "",
                 "variant": "",
@@ -4867,7 +4867,7 @@
         "design": "24596",
         "files": [
             {
-                "name": "24596.jpg",
+                "name": "24596.webp",
                 "design": "24596",
                 "annex": "",
                 "variant": "",
@@ -4880,7 +4880,7 @@
         "design": "24599",
         "files": [
             {
-                "name": "24599.jpg",
+                "name": "24599.webp",
                 "design": "24599",
                 "annex": "",
                 "variant": "",
@@ -4893,7 +4893,7 @@
         "design": "24600",
         "files": [
             {
-                "name": "24600.jpg",
+                "name": "24600.webp",
                 "design": "24600",
                 "annex": "",
                 "variant": "",
@@ -4906,7 +4906,7 @@
         "design": "24601",
         "files": [
             {
-                "name": "24601.jpg",
+                "name": "24601.webp",
                 "design": "24601",
                 "annex": "",
                 "variant": "",
@@ -4919,7 +4919,7 @@
         "design": "24603",
         "files": [
             {
-                "name": "24603.jpg",
+                "name": "24603.webp",
                 "design": "24603",
                 "annex": "",
                 "variant": "",
@@ -4932,7 +4932,7 @@
         "design": "24604",
         "files": [
             {
-                "name": "24604.jpg",
+                "name": "24604.webp",
                 "design": "24604",
                 "annex": "",
                 "variant": "",
@@ -4945,7 +4945,7 @@
         "design": "24605",
         "files": [
             {
-                "name": "24605.jpg",
+                "name": "24605.webp",
                 "design": "24605",
                 "annex": "",
                 "variant": "",
@@ -4958,7 +4958,7 @@
         "design": "24606",
         "files": [
             {
-                "name": "24606.jpg",
+                "name": "24606.webp",
                 "design": "24606",
                 "annex": "",
                 "variant": "",
@@ -4971,7 +4971,7 @@
         "design": "24608",
         "files": [
             {
-                "name": "24608.jpg",
+                "name": "24608.webp",
                 "design": "24608",
                 "annex": "",
                 "variant": "",
@@ -4984,7 +4984,7 @@
         "design": "24612",
         "files": [
             {
-                "name": "24612.jpg",
+                "name": "24612.webp",
                 "design": "24612",
                 "annex": "",
                 "variant": "",
@@ -4997,14 +4997,14 @@
         "design": "24613",
         "files": [
             {
-                "name": "24613-2.jpg",
+                "name": "24613-2.webp",
                 "design": "24613",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24613.jpg",
+                "name": "24613.webp",
                 "design": "24613",
                 "annex": "",
                 "variant": "",
@@ -5017,14 +5017,14 @@
         "design": "24614",
         "files": [
             {
-                "name": "24614-2.jpg",
+                "name": "24614-2.webp",
                 "design": "24614",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24614.jpg",
+                "name": "24614.webp",
                 "design": "24614",
                 "annex": "",
                 "variant": "",
@@ -5037,7 +5037,7 @@
         "design": "24615",
         "files": [
             {
-                "name": "24615.jpg",
+                "name": "24615.webp",
                 "design": "24615",
                 "annex": "",
                 "variant": "",
@@ -5050,7 +5050,7 @@
         "design": "24620",
         "files": [
             {
-                "name": "24620.jpg",
+                "name": "24620.webp",
                 "design": "24620",
                 "annex": "",
                 "variant": "",
@@ -5063,14 +5063,14 @@
         "design": "24621",
         "files": [
             {
-                "name": "24621-2.jpg",
+                "name": "24621-2.webp",
                 "design": "24621",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24621.jpg",
+                "name": "24621.webp",
                 "design": "24621",
                 "annex": "",
                 "variant": "",
@@ -5083,7 +5083,7 @@
         "design": "24625",
         "files": [
             {
-                "name": "24625.jpg",
+                "name": "24625.webp",
                 "design": "24625",
                 "annex": "",
                 "variant": "",
@@ -5096,7 +5096,7 @@
         "design": "24626",
         "files": [
             {
-                "name": "24626.jpg",
+                "name": "24626.webp",
                 "design": "24626",
                 "annex": "",
                 "variant": "",
@@ -5109,7 +5109,7 @@
         "design": "24627",
         "files": [
             {
-                "name": "24627.jpg",
+                "name": "24627.webp",
                 "design": "24627",
                 "annex": "",
                 "variant": "",
@@ -5122,7 +5122,7 @@
         "design": "24628",
         "files": [
             {
-                "name": "24628.jpg",
+                "name": "24628.webp",
                 "design": "24628",
                 "annex": "",
                 "variant": "",
@@ -5135,14 +5135,14 @@
         "design": "24629",
         "files": [
             {
-                "name": "24629-2.jpg",
+                "name": "24629-2.webp",
                 "design": "24629",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24629.jpg",
+                "name": "24629.webp",
                 "design": "24629",
                 "annex": "",
                 "variant": "",
@@ -5155,14 +5155,14 @@
         "design": "24630",
         "files": [
             {
-                "name": "24630-2.jpg",
+                "name": "24630-2.webp",
                 "design": "24630",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24630.jpg",
+                "name": "24630.webp",
                 "design": "24630",
                 "annex": "",
                 "variant": "",
@@ -5175,7 +5175,7 @@
         "design": "24631",
         "files": [
             {
-                "name": "24631.jpg",
+                "name": "24631.webp",
                 "design": "24631",
                 "annex": "",
                 "variant": "",
@@ -5188,14 +5188,14 @@
         "design": "24632",
         "files": [
             {
-                "name": "24632-2.jpg",
+                "name": "24632-2.webp",
                 "design": "24632",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24632.jpg",
+                "name": "24632.webp",
                 "design": "24632",
                 "annex": "",
                 "variant": "",
@@ -5208,21 +5208,21 @@
         "design": "24633",
         "files": [
             {
-                "name": "24633-2.jpg",
+                "name": "24633-2.webp",
                 "design": "24633",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24633-3.jpg",
+                "name": "24633-3.webp",
                 "design": "24633",
                 "annex": "",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "24633.jpg",
+                "name": "24633.webp",
                 "design": "24633",
                 "annex": "",
                 "variant": "",
@@ -5235,7 +5235,7 @@
         "design": "24635",
         "files": [
             {
-                "name": "24635.jpg",
+                "name": "24635.webp",
                 "design": "24635",
                 "annex": "",
                 "variant": "",
@@ -5248,14 +5248,14 @@
         "design": "24636",
         "files": [
             {
-                "name": "24636-2.jpg",
+                "name": "24636-2.webp",
                 "design": "24636",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24636.jpg",
+                "name": "24636.webp",
                 "design": "24636",
                 "annex": "",
                 "variant": "",
@@ -5268,14 +5268,14 @@
         "design": "24637",
         "files": [
             {
-                "name": "24637-2.jpg",
+                "name": "24637-2.webp",
                 "design": "24637",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24637.jpg",
+                "name": "24637.webp",
                 "design": "24637",
                 "annex": "",
                 "variant": "",
@@ -5288,7 +5288,7 @@
         "design": "24638",
         "files": [
             {
-                "name": "24638.jpg",
+                "name": "24638.webp",
                 "design": "24638",
                 "annex": "",
                 "variant": "",
@@ -5301,7 +5301,7 @@
         "design": "24639",
         "files": [
             {
-                "name": "24639.jpg",
+                "name": "24639.webp",
                 "design": "24639",
                 "annex": "",
                 "variant": "",
@@ -5314,14 +5314,14 @@
         "design": "24640",
         "files": [
             {
-                "name": "24640-2.jpg",
+                "name": "24640-2.webp",
                 "design": "24640",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "24640.jpg",
+                "name": "24640.webp",
                 "design": "24640",
                 "annex": "",
                 "variant": "",
@@ -5334,7 +5334,7 @@
         "design": "24641",
         "files": [
             {
-                "name": "24641.jpg",
+                "name": "24641.webp",
                 "design": "24641",
                 "annex": "",
                 "variant": "",
@@ -5347,7 +5347,7 @@
         "design": "24643",
         "files": [
             {
-                "name": "24643.jpg",
+                "name": "24643.webp",
                 "design": "24643",
                 "annex": "",
                 "variant": "",
@@ -5360,7 +5360,7 @@
         "design": "24644",
         "files": [
             {
-                "name": "24644.jpg",
+                "name": "24644.webp",
                 "design": "24644",
                 "annex": "",
                 "variant": "",
@@ -5373,7 +5373,7 @@
         "design": "24645",
         "files": [
             {
-                "name": "24645.jpg",
+                "name": "24645.webp",
                 "design": "24645",
                 "annex": "",
                 "variant": "",
@@ -5386,7 +5386,7 @@
         "design": "24647",
         "files": [
             {
-                "name": "24647.jpg",
+                "name": "24647.webp",
                 "design": "24647",
                 "annex": "",
                 "variant": "",
@@ -5399,7 +5399,7 @@
         "design": "24650",
         "files": [
             {
-                "name": "24650.jpg",
+                "name": "24650.webp",
                 "design": "24650",
                 "annex": "",
                 "variant": "",
@@ -5412,7 +5412,7 @@
         "design": "24651",
         "files": [
             {
-                "name": "24651.jpg",
+                "name": "24651.webp",
                 "design": "24651",
                 "annex": "",
                 "variant": "",
@@ -5425,7 +5425,7 @@
         "design": "24653",
         "files": [
             {
-                "name": "24653_G07.jpg",
+                "name": "24653_G07.webp",
                 "design": "24653",
                 "annex": "",
                 "variant": "G07",
@@ -5438,7 +5438,7 @@
         "design": "24654",
         "files": [
             {
-                "name": "24654.jpg",
+                "name": "24654.webp",
                 "design": "24654",
                 "annex": "",
                 "variant": "",
@@ -5451,7 +5451,7 @@
         "design": "24658",
         "files": [
             {
-                "name": "24658.jpg",
+                "name": "24658.webp",
                 "design": "24658",
                 "annex": "",
                 "variant": "",
@@ -5464,7 +5464,7 @@
         "design": "24662",
         "files": [
             {
-                "name": "24662.jpg",
+                "name": "24662.webp",
                 "design": "24662",
                 "annex": "",
                 "variant": "",
@@ -5477,7 +5477,7 @@
         "design": "24663",
         "files": [
             {
-                "name": "24663_G07.jpg",
+                "name": "24663_G07.webp",
                 "design": "24663",
                 "annex": "",
                 "variant": "G07",
@@ -5490,7 +5490,7 @@
         "design": "24664",
         "files": [
             {
-                "name": "24664.jpg",
+                "name": "24664.webp",
                 "design": "24664",
                 "annex": "",
                 "variant": "",
@@ -5503,7 +5503,7 @@
         "design": "24666",
         "files": [
             {
-                "name": "24666i.jpg",
+                "name": "24666i.webp",
                 "design": "24666",
                 "annex": "i",
                 "variant": "",
@@ -5516,7 +5516,7 @@
         "design": "24667",
         "files": [
             {
-                "name": "24667.jpg",
+                "name": "24667.webp",
                 "design": "24667",
                 "annex": "",
                 "variant": "",
@@ -5529,7 +5529,7 @@
         "design": "24668",
         "files": [
             {
-                "name": "24668.jpg",
+                "name": "24668.webp",
                 "design": "24668",
                 "annex": "",
                 "variant": "",
@@ -5542,7 +5542,7 @@
         "design": "24669",
         "files": [
             {
-                "name": "24669.jpg",
+                "name": "24669.webp",
                 "design": "24669",
                 "annex": "",
                 "variant": "",
@@ -5555,7 +5555,7 @@
         "design": "24671",
         "files": [
             {
-                "name": "24671.jpg",
+                "name": "24671.webp",
                 "design": "24671",
                 "annex": "",
                 "variant": "",
@@ -5568,7 +5568,7 @@
         "design": "24672",
         "files": [
             {
-                "name": "24672.jpg",
+                "name": "24672.webp",
                 "design": "24672",
                 "annex": "",
                 "variant": "",
@@ -5581,7 +5581,7 @@
         "design": "25030",
         "files": [
             {
-                "name": "25030_D10.jpg",
+                "name": "25030_D10.webp",
                 "design": "25030",
                 "annex": "",
                 "variant": "D10",
@@ -5594,7 +5594,7 @@
         "design": "25213",
         "files": [
             {
-                "name": "25213.jpg",
+                "name": "25213.webp",
                 "design": "25213",
                 "annex": "",
                 "variant": "",
@@ -5607,7 +5607,7 @@
         "design": "25214",
         "files": [
             {
-                "name": "25214_K104.jpg",
+                "name": "25214_K104.webp",
                 "design": "25214",
                 "annex": "",
                 "variant": "K104",
@@ -5620,7 +5620,7 @@
         "design": "25218",
         "files": [
             {
-                "name": "25218.jpg",
+                "name": "25218.webp",
                 "design": "25218",
                 "annex": "",
                 "variant": "",
@@ -5633,14 +5633,14 @@
         "design": "25226",
         "files": [
             {
-                "name": "25226-2.jpg",
+                "name": "25226-2.webp",
                 "design": "25226",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "25226.jpg",
+                "name": "25226.webp",
                 "design": "25226",
                 "annex": "",
                 "variant": "",
@@ -5653,7 +5653,7 @@
         "design": "25237",
         "files": [
             {
-                "name": "25237T_K104.jpg",
+                "name": "25237T_K104.webp",
                 "design": "25237",
                 "annex": "T",
                 "variant": "K104",
@@ -5666,14 +5666,14 @@
         "design": "25250",
         "files": [
             {
-                "name": "25250_G88-2.jpg",
+                "name": "25250_G88-2.webp",
                 "design": "25250",
                 "annex": "",
                 "variant": "G88",
                 "imageNo": "2"
             },
             {
-                "name": "25250_G88.jpg",
+                "name": "25250_G88.webp",
                 "design": "25250",
                 "annex": "",
                 "variant": "G88",
@@ -5686,7 +5686,7 @@
         "design": "25253",
         "files": [
             {
-                "name": "25253_G88.jpg",
+                "name": "25253_G88.webp",
                 "design": "25253",
                 "annex": "",
                 "variant": "G88",
@@ -5699,14 +5699,14 @@
         "design": "25257",
         "files": [
             {
-                "name": "25257_G88-2.jpg",
+                "name": "25257_G88-2.webp",
                 "design": "25257",
                 "annex": "",
                 "variant": "G88",
                 "imageNo": "2"
             },
             {
-                "name": "25257_G88.jpg",
+                "name": "25257_G88.webp",
                 "design": "25257",
                 "annex": "",
                 "variant": "G88",
@@ -5719,14 +5719,14 @@
         "design": "25260",
         "files": [
             {
-                "name": "25260-2.jpg",
+                "name": "25260-2.webp",
                 "design": "25260",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "25260.jpg",
+                "name": "25260.webp",
                 "design": "25260",
                 "annex": "",
                 "variant": "",
@@ -5739,7 +5739,7 @@
         "design": "25261",
         "files": [
             {
-                "name": "25261.jpg",
+                "name": "25261.webp",
                 "design": "25261",
                 "annex": "",
                 "variant": "",
@@ -5752,7 +5752,7 @@
         "design": "25262",
         "files": [
             {
-                "name": "25262.jpg",
+                "name": "25262.webp",
                 "design": "25262",
                 "annex": "",
                 "variant": "",
@@ -5765,7 +5765,7 @@
         "design": "25263",
         "files": [
             {
-                "name": "25263.jpg",
+                "name": "25263.webp",
                 "design": "25263",
                 "annex": "",
                 "variant": "",
@@ -5778,7 +5778,7 @@
         "design": "25264",
         "files": [
             {
-                "name": "25264.jpg",
+                "name": "25264.webp",
                 "design": "25264",
                 "annex": "",
                 "variant": "",
@@ -5791,7 +5791,7 @@
         "design": "25265",
         "files": [
             {
-                "name": "25265.jpg",
+                "name": "25265.webp",
                 "design": "25265",
                 "annex": "",
                 "variant": "",
@@ -5804,14 +5804,14 @@
         "design": "25266",
         "files": [
             {
-                "name": "25266-2.jpg",
+                "name": "25266-2.webp",
                 "design": "25266",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "25266.jpg",
+                "name": "25266.webp",
                 "design": "25266",
                 "annex": "",
                 "variant": "",
@@ -5824,7 +5824,7 @@
         "design": "25268",
         "files": [
             {
-                "name": "25268.jpg",
+                "name": "25268.webp",
                 "design": "25268",
                 "annex": "",
                 "variant": "",
@@ -5837,7 +5837,7 @@
         "design": "25269",
         "files": [
             {
-                "name": "25269.jpg",
+                "name": "25269.webp",
                 "design": "25269",
                 "annex": "",
                 "variant": "",
@@ -5850,7 +5850,7 @@
         "design": "25270",
         "files": [
             {
-                "name": "25270.jpg",
+                "name": "25270.webp",
                 "design": "25270",
                 "annex": "",
                 "variant": "",
@@ -5863,7 +5863,7 @@
         "design": "25272",
         "files": [
             {
-                "name": "25272.jpg",
+                "name": "25272.webp",
                 "design": "25272",
                 "annex": "",
                 "variant": "",
@@ -5876,7 +5876,7 @@
         "design": "25273",
         "files": [
             {
-                "name": "25273.jpg",
+                "name": "25273.webp",
                 "design": "25273",
                 "annex": "",
                 "variant": "",
@@ -5889,7 +5889,7 @@
         "design": "25274",
         "files": [
             {
-                "name": "25274.jpg",
+                "name": "25274.webp",
                 "design": "25274",
                 "annex": "",
                 "variant": "",
@@ -5902,7 +5902,7 @@
         "design": "25275",
         "files": [
             {
-                "name": "25275.jpg",
+                "name": "25275.webp",
                 "design": "25275",
                 "annex": "",
                 "variant": "",
@@ -5915,7 +5915,7 @@
         "design": "25276",
         "files": [
             {
-                "name": "25276.jpg",
+                "name": "25276.webp",
                 "design": "25276",
                 "annex": "",
                 "variant": "",
@@ -5928,7 +5928,7 @@
         "design": "25277",
         "files": [
             {
-                "name": "25277.jpg",
+                "name": "25277.webp",
                 "design": "25277",
                 "annex": "",
                 "variant": "",
@@ -5941,7 +5941,7 @@
         "design": "25278",
         "files": [
             {
-                "name": "25278.jpg",
+                "name": "25278.webp",
                 "design": "25278",
                 "annex": "",
                 "variant": "",
@@ -5954,7 +5954,7 @@
         "design": "25279",
         "files": [
             {
-                "name": "25279.jpg",
+                "name": "25279.webp",
                 "design": "25279",
                 "annex": "",
                 "variant": "",
@@ -5967,7 +5967,7 @@
         "design": "25280",
         "files": [
             {
-                "name": "25280.jpg",
+                "name": "25280.webp",
                 "design": "25280",
                 "annex": "",
                 "variant": "",
@@ -5980,7 +5980,7 @@
         "design": "25281",
         "files": [
             {
-                "name": "25281.jpg",
+                "name": "25281.webp",
                 "design": "25281",
                 "annex": "",
                 "variant": "",
@@ -5993,7 +5993,7 @@
         "design": "25282",
         "files": [
             {
-                "name": "25282.jpg",
+                "name": "25282.webp",
                 "design": "25282",
                 "annex": "",
                 "variant": "",
@@ -6006,7 +6006,7 @@
         "design": "25283",
         "files": [
             {
-                "name": "25283.jpg",
+                "name": "25283.webp",
                 "design": "25283",
                 "annex": "",
                 "variant": "",
@@ -6019,7 +6019,7 @@
         "design": "25284",
         "files": [
             {
-                "name": "25284.jpg",
+                "name": "25284.webp",
                 "design": "25284",
                 "annex": "",
                 "variant": "",
@@ -6032,14 +6032,14 @@
         "design": "25285",
         "files": [
             {
-                "name": "25285-2.jpg",
+                "name": "25285-2.webp",
                 "design": "25285",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "25285.jpg",
+                "name": "25285.webp",
                 "design": "25285",
                 "annex": "",
                 "variant": "",
@@ -6052,14 +6052,14 @@
         "design": "25286",
         "files": [
             {
-                "name": "25286-2.jpg",
+                "name": "25286-2.webp",
                 "design": "25286",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "25286.jpg",
+                "name": "25286.webp",
                 "design": "25286",
                 "annex": "",
                 "variant": "",
@@ -6072,14 +6072,14 @@
         "design": "25287",
         "files": [
             {
-                "name": "25287-2.jpg",
+                "name": "25287-2.webp",
                 "design": "25287",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "25287.jpg",
+                "name": "25287.webp",
                 "design": "25287",
                 "annex": "",
                 "variant": "",
@@ -6092,14 +6092,14 @@
         "design": "25292",
         "files": [
             {
-                "name": "25292-2.jpg",
+                "name": "25292-2.webp",
                 "design": "25292",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "25292.jpg",
+                "name": "25292.webp",
                 "design": "25292",
                 "annex": "",
                 "variant": "",
@@ -6112,14 +6112,14 @@
         "design": "25293",
         "files": [
             {
-                "name": "25293-2.jpg",
+                "name": "25293-2.webp",
                 "design": "25293",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "25293.jpg",
+                "name": "25293.webp",
                 "design": "25293",
                 "annex": "",
                 "variant": "",
@@ -6132,7 +6132,7 @@
         "design": "36008",
         "files": [
             {
-                "name": "36008.jpg",
+                "name": "36008.webp",
                 "design": "36008",
                 "annex": "",
                 "variant": "",
@@ -6145,7 +6145,7 @@
         "design": "36010",
         "files": [
             {
-                "name": "36010.jpg",
+                "name": "36010.webp",
                 "design": "36010",
                 "annex": "",
                 "variant": "",
@@ -6158,21 +6158,21 @@
         "design": "48006",
         "files": [
             {
-                "name": "48006-2.jpg",
+                "name": "48006-2.webp",
                 "design": "48006",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "48006-3.jpg",
+                "name": "48006-3.webp",
                 "design": "48006",
                 "annex": "",
                 "variant": "",
                 "imageNo": "3"
             },
             {
-                "name": "48006.jpg",
+                "name": "48006.webp",
                 "design": "48006",
                 "annex": "",
                 "variant": "",
@@ -6185,14 +6185,14 @@
         "design": "48013",
         "files": [
             {
-                "name": "48013-2.jpg",
+                "name": "48013-2.webp",
                 "design": "48013",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "48013.jpg",
+                "name": "48013.webp",
                 "design": "48013",
                 "annex": "",
                 "variant": "",
@@ -6205,7 +6205,7 @@
         "design": "48039",
         "files": [
             {
-                "name": "48039_K243.jpg",
+                "name": "48039_K243.webp",
                 "design": "48039",
                 "annex": "",
                 "variant": "K243",
@@ -6218,7 +6218,7 @@
         "design": "48043",
         "files": [
             {
-                "name": "48043.jpg",
+                "name": "48043.webp",
                 "design": "48043",
                 "annex": "",
                 "variant": "",
@@ -6231,14 +6231,14 @@
         "design": "48050",
         "files": [
             {
-                "name": "48050.jpg",
+                "name": "48050.webp",
                 "design": "48050",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "48050_G07.jpg",
+                "name": "48050_G07.webp",
                 "design": "48050",
                 "annex": "",
                 "variant": "G07",
@@ -6251,14 +6251,14 @@
         "design": "48051",
         "files": [
             {
-                "name": "48051-2.jpg",
+                "name": "48051-2.webp",
                 "design": "48051",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "48051.jpg",
+                "name": "48051.webp",
                 "design": "48051",
                 "annex": "",
                 "variant": "",
@@ -6271,7 +6271,7 @@
         "design": "48052",
         "files": [
             {
-                "name": "48052.jpg",
+                "name": "48052.webp",
                 "design": "48052",
                 "annex": "",
                 "variant": "",
@@ -6284,14 +6284,14 @@
         "design": "48053",
         "files": [
             {
-                "name": "48053.jpg",
+                "name": "48053.webp",
                 "design": "48053",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "48053_G07.jpg",
+                "name": "48053_G07.webp",
                 "design": "48053",
                 "annex": "",
                 "variant": "G07",
@@ -6304,14 +6304,14 @@
         "design": "48054",
         "files": [
             {
-                "name": "48054-2.jpg",
+                "name": "48054-2.webp",
                 "design": "48054",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "48054.jpg",
+                "name": "48054.webp",
                 "design": "48054",
                 "annex": "",
                 "variant": "",
@@ -6324,14 +6324,14 @@
         "design": "48055",
         "files": [
             {
-                "name": "48055-2.jpg",
+                "name": "48055-2.webp",
                 "design": "48055",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "48055.jpg",
+                "name": "48055.webp",
                 "design": "48055",
                 "annex": "",
                 "variant": "",
@@ -6344,14 +6344,14 @@
         "design": "48056",
         "files": [
             {
-                "name": "48056.jpg",
+                "name": "48056.webp",
                 "design": "48056",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "48056_G07.jpg",
+                "name": "48056_G07.webp",
                 "design": "48056",
                 "annex": "",
                 "variant": "G07",
@@ -6364,7 +6364,7 @@
         "design": "48057",
         "files": [
             {
-                "name": "48057.jpg",
+                "name": "48057.webp",
                 "design": "48057",
                 "annex": "",
                 "variant": "",
@@ -6377,14 +6377,14 @@
         "design": "48058",
         "files": [
             {
-                "name": "48058-2.jpg",
+                "name": "48058-2.webp",
                 "design": "48058",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "48058.jpg",
+                "name": "48058.webp",
                 "design": "48058",
                 "annex": "",
                 "variant": "",
@@ -6397,14 +6397,14 @@
         "design": "48059",
         "files": [
             {
-                "name": "48059.jpg",
+                "name": "48059.webp",
                 "design": "48059",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "48059_G07.jpg",
+                "name": "48059_G07.webp",
                 "design": "48059",
                 "annex": "",
                 "variant": "G07",
@@ -6417,7 +6417,7 @@
         "design": "48060",
         "files": [
             {
-                "name": "48060.jpg",
+                "name": "48060.webp",
                 "design": "48060",
                 "annex": "",
                 "variant": "",
@@ -6430,14 +6430,14 @@
         "design": "48061",
         "files": [
             {
-                "name": "48061-2.jpg",
+                "name": "48061-2.webp",
                 "design": "48061",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "48061.jpg",
+                "name": "48061.webp",
                 "design": "48061",
                 "annex": "",
                 "variant": "",
@@ -6450,7 +6450,7 @@
         "design": "48062",
         "files": [
             {
-                "name": "48062.jpg",
+                "name": "48062.webp",
                 "design": "48062",
                 "annex": "",
                 "variant": "",
@@ -6463,14 +6463,14 @@
         "design": "48063",
         "files": [
             {
-                "name": "48063.jpg",
+                "name": "48063.webp",
                 "design": "48063",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "48063_T04.jpg",
+                "name": "48063_T04.webp",
                 "design": "48063",
                 "annex": "",
                 "variant": "T04",
@@ -6483,7 +6483,7 @@
         "design": "48064",
         "files": [
             {
-                "name": "48064.jpg",
+                "name": "48064.webp",
                 "design": "48064",
                 "annex": "",
                 "variant": "",
@@ -6496,7 +6496,7 @@
         "design": "48065",
         "files": [
             {
-                "name": "48065.jpg",
+                "name": "48065.webp",
                 "design": "48065",
                 "annex": "",
                 "variant": "",
@@ -6509,7 +6509,7 @@
         "design": "48066",
         "files": [
             {
-                "name": "48066.jpg",
+                "name": "48066.webp",
                 "design": "48066",
                 "annex": "",
                 "variant": "",
@@ -6522,14 +6522,14 @@
         "design": "48067",
         "files": [
             {
-                "name": "48067.jpg",
+                "name": "48067.webp",
                 "design": "48067",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "48067T.jpg",
+                "name": "48067T.webp",
                 "design": "48067",
                 "annex": "T",
                 "variant": "",
@@ -6542,14 +6542,14 @@
         "design": "48068",
         "files": [
             {
-                "name": "48068-2.jpg",
+                "name": "48068-2.webp",
                 "design": "48068",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "48068.jpg",
+                "name": "48068.webp",
                 "design": "48068",
                 "annex": "",
                 "variant": "",
@@ -6562,14 +6562,14 @@
         "design": "48072",
         "files": [
             {
-                "name": "48072-2.jpg",
+                "name": "48072-2.webp",
                 "design": "48072",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "48072.jpg",
+                "name": "48072.webp",
                 "design": "48072",
                 "annex": "",
                 "variant": "",
@@ -6582,14 +6582,14 @@
         "design": "49047",
         "files": [
             {
-                "name": "49047-2.jpg",
+                "name": "49047-2.webp",
                 "design": "49047",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "49047.jpg",
+                "name": "49047.webp",
                 "design": "49047",
                 "annex": "",
                 "variant": "",
@@ -6602,7 +6602,7 @@
         "design": "49049",
         "files": [
             {
-                "name": "49049.jpg",
+                "name": "49049.webp",
                 "design": "49049",
                 "annex": "",
                 "variant": "",
@@ -6615,7 +6615,7 @@
         "design": "49051",
         "files": [
             {
-                "name": "49051.jpg",
+                "name": "49051.webp",
                 "design": "49051",
                 "annex": "",
                 "variant": "",
@@ -6628,7 +6628,7 @@
         "design": "49052",
         "files": [
             {
-                "name": "49052.jpg",
+                "name": "49052.webp",
                 "design": "49052",
                 "annex": "",
                 "variant": "",
@@ -6641,7 +6641,7 @@
         "design": "49053",
         "files": [
             {
-                "name": "49053.jpg",
+                "name": "49053.webp",
                 "design": "49053",
                 "annex": "",
                 "variant": "",
@@ -6654,7 +6654,7 @@
         "design": "49054",
         "files": [
             {
-                "name": "49054.jpg",
+                "name": "49054.webp",
                 "design": "49054",
                 "annex": "",
                 "variant": "",
@@ -6667,7 +6667,7 @@
         "design": "49055",
         "files": [
             {
-                "name": "49055.jpg",
+                "name": "49055.webp",
                 "design": "49055",
                 "annex": "",
                 "variant": "",
@@ -6680,14 +6680,14 @@
         "design": "49056",
         "files": [
             {
-                "name": "49056-2.jpg",
+                "name": "49056-2.webp",
                 "design": "49056",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "49056.jpg",
+                "name": "49056.webp",
                 "design": "49056",
                 "annex": "",
                 "variant": "",
@@ -6700,14 +6700,14 @@
         "design": "49057",
         "files": [
             {
-                "name": "49057-2.jpg",
+                "name": "49057-2.webp",
                 "design": "49057",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "49057.jpg",
+                "name": "49057.webp",
                 "design": "49057",
                 "annex": "",
                 "variant": "",
@@ -6720,14 +6720,14 @@
         "design": "49058",
         "files": [
             {
-                "name": "49058-2.jpg",
+                "name": "49058-2.webp",
                 "design": "49058",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "49058.jpg",
+                "name": "49058.webp",
                 "design": "49058",
                 "annex": "",
                 "variant": "",
@@ -6740,14 +6740,14 @@
         "design": "49059",
         "files": [
             {
-                "name": "49059-2.jpg",
+                "name": "49059-2.webp",
                 "design": "49059",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "49059.jpg",
+                "name": "49059.webp",
                 "design": "49059",
                 "annex": "",
                 "variant": "",
@@ -6760,7 +6760,7 @@
         "design": "49060",
         "files": [
             {
-                "name": "49060.jpg",
+                "name": "49060.webp",
                 "design": "49060",
                 "annex": "",
                 "variant": "",
@@ -6773,7 +6773,7 @@
         "design": "49061",
         "files": [
             {
-                "name": "49061.jpg",
+                "name": "49061.webp",
                 "design": "49061",
                 "annex": "",
                 "variant": "",
@@ -6786,7 +6786,7 @@
         "design": "49062",
         "files": [
             {
-                "name": "49062.jpg",
+                "name": "49062.webp",
                 "design": "49062",
                 "annex": "",
                 "variant": "",
@@ -6799,21 +6799,15 @@
         "design": "49063",
         "files": [
             {
-                "name": "49063-2.jpg",
+                "name": "49063-2.webp",
                 "design": "49063",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
-            }
-        ],
-        "length": 300
-    },
-    {
-        "design": "49063.JPG",
-        "files": [
+            },
             {
-                "name": "49063.JPG",
-                "design": "49063.JPG",
+                "name": "49063.webp",
+                "design": "49063",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
@@ -6825,7 +6819,7 @@
         "design": "62005",
         "files": [
             {
-                "name": "62005.jpg",
+                "name": "62005.webp",
                 "design": "62005",
                 "annex": "",
                 "variant": "",
@@ -6838,7 +6832,7 @@
         "design": "72009",
         "files": [
             {
-                "name": "72009.jpg",
+                "name": "72009.webp",
                 "design": "72009",
                 "annex": "",
                 "variant": "",
@@ -6851,7 +6845,7 @@
         "design": "72010",
         "files": [
             {
-                "name": "72010.jpg",
+                "name": "72010.webp",
                 "design": "72010",
                 "annex": "",
                 "variant": "",
@@ -6864,28 +6858,28 @@
         "design": "8015",
         "files": [
             {
-                "name": "8015_Kartela-2.jpg",
+                "name": "8015_Kartela-2.webp",
                 "design": "8015",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "2"
             },
             {
-                "name": "8015_Kartela-3.jpg",
+                "name": "8015_Kartela-3.webp",
                 "design": "8015",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "3"
             },
             {
-                "name": "8015_Kartela.jpg",
+                "name": "8015_Kartela.webp",
                 "design": "8015",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "1"
             },
             {
-                "name": "8015_T16.jpg",
+                "name": "8015_T16.webp",
                 "design": "8015",
                 "annex": "",
                 "variant": "T16",
@@ -6898,14 +6892,14 @@
         "design": "8154",
         "files": [
             {
-                "name": "8154_S02-2.jpg",
+                "name": "8154_S02-2.webp",
                 "design": "8154",
                 "annex": "",
                 "variant": "S02",
                 "imageNo": "2"
             },
             {
-                "name": "8154_S02.jpg",
+                "name": "8154_S02.webp",
                 "design": "8154",
                 "annex": "",
                 "variant": "S02",
@@ -6918,7 +6912,7 @@
         "design": "8590",
         "files": [
             {
-                "name": "8590.jpg",
+                "name": "8590.webp",
                 "design": "8590",
                 "annex": "",
                 "variant": "",
@@ -6931,7 +6925,7 @@
         "design": "8594",
         "files": [
             {
-                "name": "8594.jpg",
+                "name": "8594.webp",
                 "design": "8594",
                 "annex": "",
                 "variant": "",
@@ -6944,14 +6938,14 @@
         "design": "8651",
         "files": [
             {
-                "name": "8651.jpg",
+                "name": "8651.webp",
                 "design": "8651",
                 "annex": "",
                 "variant": "",
                 "imageNo": "1"
             },
             {
-                "name": "8651_K18.jpg",
+                "name": "8651_K18.webp",
                 "design": "8651",
                 "annex": "",
                 "variant": "K18",
@@ -6964,7 +6958,7 @@
         "design": "8664",
         "files": [
             {
-                "name": "8664_K18.jpg",
+                "name": "8664_K18.webp",
                 "design": "8664",
                 "annex": "",
                 "variant": "K18",
@@ -6977,7 +6971,7 @@
         "design": "8665",
         "files": [
             {
-                "name": "8665.jpg",
+                "name": "8665.webp",
                 "design": "8665",
                 "annex": "",
                 "variant": "",
@@ -6990,14 +6984,14 @@
         "design": "8674",
         "files": [
             {
-                "name": "8674_Kartela-2.jpg",
+                "name": "8674_Kartela-2.webp",
                 "design": "8674",
                 "annex": "",
                 "variant": "Kartela",
                 "imageNo": "2"
             },
             {
-                "name": "8674_Kartela.jpg",
+                "name": "8674_Kartela.webp",
                 "design": "8674",
                 "annex": "",
                 "variant": "Kartela",
@@ -7010,7 +7004,7 @@
         "design": "8677",
         "files": [
             {
-                "name": "8677_K18.jpg",
+                "name": "8677_K18.webp",
                 "design": "8677",
                 "annex": "",
                 "variant": "K18",
@@ -7023,7 +7017,7 @@
         "design": "8678",
         "files": [
             {
-                "name": "8678_K18.jpg",
+                "name": "8678_K18.webp",
                 "design": "8678",
                 "annex": "",
                 "variant": "K18",
@@ -7036,14 +7030,14 @@
         "design": "8679",
         "files": [
             {
-                "name": "8679_K18-2.jpg",
+                "name": "8679_K18-2.webp",
                 "design": "8679",
                 "annex": "",
                 "variant": "K18",
                 "imageNo": "2"
             },
             {
-                "name": "8679_K18.jpg",
+                "name": "8679_K18.webp",
                 "design": "8679",
                 "annex": "",
                 "variant": "K18",
@@ -7056,14 +7050,14 @@
         "design": "8687",
         "files": [
             {
-                "name": "8687-2.jpg",
+                "name": "8687-2.webp",
                 "design": "8687",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "8687.jpg",
+                "name": "8687.webp",
                 "design": "8687",
                 "annex": "",
                 "variant": "",
@@ -7076,14 +7070,14 @@
         "design": "8690",
         "files": [
             {
-                "name": "8690-2.jpg",
+                "name": "8690-2.webp",
                 "design": "8690",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "8690.jpg",
+                "name": "8690.webp",
                 "design": "8690",
                 "annex": "",
                 "variant": "",
@@ -7096,7 +7090,7 @@
         "design": "8692",
         "files": [
             {
-                "name": "8692.jpg",
+                "name": "8692.webp",
                 "design": "8692",
                 "annex": "",
                 "variant": "",
@@ -7109,14 +7103,14 @@
         "design": "8693",
         "files": [
             {
-                "name": "8693-2.jpg",
+                "name": "8693-2.webp",
                 "design": "8693",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "8693.jpg",
+                "name": "8693.webp",
                 "design": "8693",
                 "annex": "",
                 "variant": "",
@@ -7129,14 +7123,14 @@
         "design": "8694",
         "files": [
             {
-                "name": "8694-2.jpg",
+                "name": "8694-2.webp",
                 "design": "8694",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "8694.jpg",
+                "name": "8694.webp",
                 "design": "8694",
                 "annex": "",
                 "variant": "",
@@ -7149,14 +7143,14 @@
         "design": "8695",
         "files": [
             {
-                "name": "8695-2.jpg",
+                "name": "8695-2.webp",
                 "design": "8695",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "8695.jpg",
+                "name": "8695.webp",
                 "design": "8695",
                 "annex": "",
                 "variant": "",
@@ -7169,7 +7163,7 @@
         "design": "8696",
         "files": [
             {
-                "name": "8696.jpg",
+                "name": "8696.webp",
                 "design": "8696",
                 "annex": "",
                 "variant": "",
@@ -7182,14 +7176,14 @@
         "design": "8697",
         "files": [
             {
-                "name": "8697-2.jpg",
+                "name": "8697-2.webp",
                 "design": "8697",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "8697.jpg",
+                "name": "8697.webp",
                 "design": "8697",
                 "annex": "",
                 "variant": "",
@@ -7202,14 +7196,14 @@
         "design": "8698",
         "files": [
             {
-                "name": "8698-2.jpg",
+                "name": "8698-2.webp",
                 "design": "8698",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "8698.jpg",
+                "name": "8698.webp",
                 "design": "8698",
                 "annex": "",
                 "variant": "",
@@ -7222,14 +7216,14 @@
         "design": "8699",
         "files": [
             {
-                "name": "8699-2.jpg",
+                "name": "8699-2.webp",
                 "design": "8699",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "8699.jpg",
+                "name": "8699.webp",
                 "design": "8699",
                 "annex": "",
                 "variant": "",
@@ -7242,14 +7236,14 @@
         "design": "8700",
         "files": [
             {
-                "name": "8700-2.jpg",
+                "name": "8700-2.webp",
                 "design": "8700",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "8700.jpg",
+                "name": "8700.webp",
                 "design": "8700",
                 "annex": "",
                 "variant": "",
@@ -7262,7 +7256,7 @@
         "design": "8701",
         "files": [
             {
-                "name": "8701.jpg",
+                "name": "8701.webp",
                 "design": "8701",
                 "annex": "",
                 "variant": "",
@@ -7275,14 +7269,14 @@
         "design": "AP12001",
         "files": [
             {
-                "name": "AP12001-2.jpg",
+                "name": "AP12001-2.webp",
                 "design": "AP12001",
                 "annex": "",
                 "variant": "",
                 "imageNo": "2"
             },
             {
-                "name": "AP12001.jpg",
+                "name": "AP12001.webp",
                 "design": "AP12001",
                 "annex": "",
                 "variant": "",
@@ -7295,7 +7289,7 @@
         "design": "AP24008",
         "files": [
             {
-                "name": "AP24008.jpg",
+                "name": "AP24008.webp",
                 "design": "AP24008",
                 "annex": "",
                 "variant": "",
@@ -7308,7 +7302,7 @@
         "design": "AP25001",
         "files": [
             {
-                "name": "AP25001.jpg",
+                "name": "AP25001.webp",
                 "design": "AP25001",
                 "annex": "",
                 "variant": "",
@@ -7321,7 +7315,7 @@
         "design": "GL8019",
         "files": [
             {
-                "name": "GL8019.jpg",
+                "name": "GL8019.webp",
                 "design": "GL8019",
                 "annex": "",
                 "variant": "",
@@ -7334,7 +7328,7 @@
         "design": "Manolya",
         "files": [
             {
-                "name": "Manolya_1011.jpg",
+                "name": "Manolya_1011.webp",
                 "design": "Manolya",
                 "annex": "",
                 "variant": "1011",
@@ -7347,7 +7341,7 @@
         "design": "Sofya",
         "files": [
             {
-                "name": "Sofya_Krem.jpg",
+                "name": "Sofya_Krem.webp",
                 "design": "Sofya",
                 "annex": "",
                 "variant": "Krem",
@@ -7360,7 +7354,7 @@
         "design": "Turuva",
         "files": [
             {
-                "name": "Turuva_Paris.jpg",
+                "name": "Turuva_Paris.webp",
                 "design": "Turuva",
                 "annex": "",
                 "variant": "Paris",

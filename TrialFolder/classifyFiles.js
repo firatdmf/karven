@@ -35,7 +35,7 @@ let classifyImage = (fileName, products) => {
   // annex stands for T or I, for tasli and incili respectively
   let annex;
   // takeout the file extension from the name of the file and store it in the design variable. This will be altered later on the code
-  let design = fileName.split(".jpg")[0];
+  let design = fileName.split(".")[0];
 
   // Initializing the variable imageNo
   let imageNo;

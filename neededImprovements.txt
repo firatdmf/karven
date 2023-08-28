@@ -1,12 +1,12 @@
-change youtube pp on video to karven logo (or k icon)
+change youtube pp on video to karven logo (or k icon) DONE
 
-next thing to do is to upload from csv through the file fabricData.csv or figure out something else
+next thing to do is to upload from csv through the file fabricData.csv or figure out something else DONE
 ->
 12/18/2022
-next thing to do is to deploy the app and list all embroidery at once
+next thing to do is to deploy the app and list all embroidery at once DONE
 
-Make the contact page look like the about page consisting of multiple locations
+Make the contact page look like the about page consisting of multiple locations DONE
+Fix the scroll up (or view size change) changes the variant issue DONE
 Be more descriptive about your product
-Fix the scroll up (or view size change) changes the variant issue
 add the solid sheers
 provide stock info
