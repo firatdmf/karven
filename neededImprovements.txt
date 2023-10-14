@@ -7,6 +7,7 @@ next thing to do is to deploy the app and list all embroidery at once DONE
 
 Make the contact page look like the about page consisting of multiple locations DONE
 Fix the scroll up (or view size change) changes the variant issue DONE
+add the solid sheers DONE
 Be more descriptive about your product
-add the solid sheers
 provide stock info
+Submit a thumbnail to each product type and feed it from there

@@ -10,8 +10,14 @@ function ProductCategories() {
     // },
     {
       name: "Embroidered Sheer Fabrics",
-      link: "/Products",
+      link: "/Products/fabric",
       imgLink: "/images/kirat/8159.jpg",
+      alt: "Embroidered Sheer Fabrics",
+    },
+    {
+      name: "Ready-made Curtains",
+      link: "/Products/ready-made",
+      imgLink: "\\images\\ready-made\\48061\\K48061-cover-photo.jpg",
       alt: "Embroidered Sheer Fabrics",
     },
     // {
@@ -34,6 +40,7 @@ function ProductCategories() {
       <div className={classes.container}>
         {productCategories.map((item, index) => {
           return (
+            // Below link attributes makes the user start on top of the page when going to the link
             <Link
               to={item.link}
               className={classes.link}
@@ -45,7 +52,7 @@ function ProductCategories() {
               <div className={classes.product}>
                 <img src={item.imgLink} alt={item.alt} />
                 <h3>{item.name}</h3>
-              </div>
+              </div><br />
             </Link>
           );
         })}

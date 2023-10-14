@@ -44,7 +44,8 @@ function App() {
             <Route path="/trial2" element={<Trial2 />} />
             <Route path="/trial3" element={<Trial3 />} />
             <Route path="/ProductLines" element={<ProductLines />} />
-            <Route path="/Products" element={<Products />} />
+            <Route path="/Products/fabric" element={<Products />} />
+            <Route path="/Products/ready-made" element={<Products />} />
 
             {/* If none of the pages is requested but a non-existing page, then bring the below component */}
             <Route path="*" element={<PageDoesNotExist />} />
